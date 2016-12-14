@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+  <div class="query">
+	<a href="/micrograph/{{ query.micrograph_id }}">
+	  <img src="{{ query.micrograph_path }}" alt={{ query.micrograph_path }} title={{ query.micrograph_path }}>
+	</a>
+  </div>
+  <div class="about">
+  <h2>Micrograph {{ query.cambridge_id }}</h2>
+  <em>Added by <b>{{ author.username }}</b> ({{ author.email }})</em><br>
+  on {{ query.upload_date }} <br>
+  <em>Comment</em>: {{ query.comment|safe }} <br>
+  <a href={{ query.url|safe }} target="blank_">Link to original</a>
+  <br>
+  </div>
+  <br>
+  <h2> These micrographs are similar to micrograph {{ query.micrograph_id }}: </h2><br>
+  {% for result, score in results %}
+  <div class="entry">	
+	<a href="/visual_query/{{ result.micrograph_id }}">
+	  <img src="{{ result.micrograph_path }}"
+		   alt={{ result.micrograph_path }}
+		   title="find micrographs like #{{ result.micrograph_id }}" >
+	</a><br>
+	<a href="/micrograph/{{ result.micrograph_id }}" class="titleLink" >
+	  Micrograph {{ result.cambridge_id }}
+	</a><br>
+	<small><em>score: {{ score }}</em></small><br>
+	<a href="/visual_query/{{ result.micrograph_id }}">find similar</a><br>
+	<a href="/micrograph/{{ result.micrograph_id }}">details</a>
+  </div>
+  {% else %}
+    <em>Unbelievable.  No entries here so far</em>
+  {% endfor %}
+  </div>
+{% endblock %}
+  

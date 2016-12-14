@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+  <div class="single">
+	<img class="single" src="{{ entry.micrograph_path }}" alt={{ entry.micrograph_path }} title={{ entry.micrograph_path }}>
+  </div>
+  <div class="about">
+  <h2>Micrograph {{ entry.cambridge_id }}</h2>
+  <em>Added by <b>{{ author.username }}</b> ({{ author.email }})</em><br>
+  on {{ entry.upload_date }} <br>
+  <em>Comment</em>: {{ entry.comment|safe }}<br>
+  <a href={{ entry.url|safe }} target="blank_">Link to original</a>
+  </div>
+</div>
+{% endblock %}
+  

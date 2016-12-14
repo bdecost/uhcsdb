@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block head %}
+
+{% endblock %}
+{% block body %}
+    <div class="bk-root">
+      {{ bokeh_script|safe }}
+    </div>
+    <div class=page>
+      {{ div | safe }}
+      <img src='static/legend.png'>
+    </div>
+  </body>
+{% endblock %}

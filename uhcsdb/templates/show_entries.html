@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <div class="container">
+  {% for entry in entries %}
+  <div class="entry">	
+	<a href="/visual_query/{{ entry.micrograph_id }}">
+	  <img src="{{ entry.micrograph_path }}"
+		   alt={{ entry.micrograph_path }}
+		   title="find micrographs like #{{ entry.micrograph_id }}">
+	</a><br>
+	<a href="/micrograph/{{ entry.micrograph_id }}" class="titleLink" >
+	  Micrograph {{ entry.cambridge_id }}
+	</a><br>
+	<a href="/visual_query/{{ entry.micrograph_id }}">find similar</a><br>
+	<a href="/micrograph/{{ entry.micrograph_id }}">details</a>
+  </div>
+  {% else %}
+    <em>Unbelievable.  No entries here so far</em>
+  {% endfor %}
+	<br>
+	{% if pg.has_prev %}<a href="{{ url_for('.entries', page=pg.prev_num) }}">&lt;&lt; Previous</a>{% else %}&lt;&lt; Previous{% endif %} |
+	<a href='/favorites'>go to favorites</a> |
+	{% if pg.has_next %}<a href="{{ url_for('.entries', page=pg.next_num) }}">More &gt;&gt;</a>{% else %}More &gt;&gt;{% endif %}
+
+  </div>
+{% endblock %}
+  
