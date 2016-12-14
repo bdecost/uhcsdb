@@ -139,6 +139,16 @@ def visual_query(entry_id):
     return render_template('query_results.html', query=query.info(),
                            author=author.info(), results=results)
 
+
+# this should work with flask and ssh-forwarding
+bokeh_process = subprocess.Popen(
+    ['bokeh-3.5', 'serve', '--allow-websocket-origin=localhost:5000',
+     '--log-level=debug', 'visualize.py'], stdout=subprocess.PIPE)
+
+@atexit.register
+def kill_server():
+    bokeh_process.kill()
+
 @app.route('/visualize')
 def bokeh_plot():
     session=pull_session(app_path='/visualize')
@@ -146,15 +156,6 @@ def bokeh_plot():
     return render_template('visualize.html', bokeh_script=bokeh_script)
 
 if __name__ == '__main__':
-    # this should work with flask and ssh-forwarding
-    bokeh_process = subprocess.Popen(
-        ['bokeh-3.5', 'serve', '--allow-websocket-origin=localhost:5000',
-         '--log-level=debug', 'visualize.py'], stdout=subprocess.PIPE)
-
-    @atexit.register
-    def kill_server():
-        bokeh_process.kill()
-
     app.config.from_object('config')
     with app.app_context():
         app.run(debug=False)
