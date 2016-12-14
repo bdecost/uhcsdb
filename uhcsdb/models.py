@@ -1,10 +1,10 @@
 """ Database models for microstructure dataset """
 
 import os
-from sqlalchemy import Column, Float, ForeignKey, Integer, String
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
+from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Float, ForeignKey, Integer, String
 
 from flask import current_app
 

@@ -10,9 +10,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker, contains_eager
 
 from bokeh.layouts import row, widgetbox
-from bokeh.models import Select, ColumnDataSource, HoverTool, OpenURL, TapTool
-from bokeh.palettes import Spectral5
 from bokeh.plotting import curdoc, figure
+from bokeh.models import Select, ColumnDataSource, HoverTool, OpenURL, TapTool
+
 
 print(os.path.join( os.path.dirname(__file__), os.path.pardir ))
 mpath = '/Users/brian/Research/Projects/uhcs/code'

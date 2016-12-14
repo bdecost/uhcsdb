@@ -1,9 +1,9 @@
 import os
-import numpy as np
 import h5py
 import pickle
-from sklearn.neighbors import NearestNeighbors
+import numpy as np
 from sklearn.decomposition import PCA
+from sklearn.neighbors import NearestNeighbors
 
 from flask import current_app
 

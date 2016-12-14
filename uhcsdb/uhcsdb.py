@@ -9,32 +9,26 @@ import atexit
 import subprocess
 import pandas as pd
 import seaborn as sns
-from numpy import array, random
 from datetime import datetime
+from contextlib import closing
+from numpy import array, random
+from os.path import abspath, dirname, join
 
 from bokeh.client import pull_session
 from bokeh.embed import autoload_server
 
-
-from os.path import abspath, dirname, join
-
-from flask import (Flask, Blueprint, request, session, g, redirect, url_for,
+from flask import (Flask, request, session, g, redirect, url_for,
                    abort, render_template, render_template_string, flash, current_app)
-from flask.ext.sqlalchemy import SQLAlchemy, Pagination
-from contextlib import closing
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker, contains_eager
 
-# uhcsdb = Blueprint('app', __name__)
 app = Flask(__name__)
 
 sys.path.append( os.path.join( os.path.dirname(__file__), os.path.pardir ) )
 
-# configuration
-# DATADIR = '/home/brian/Documents/Research/Projects/uhcs'
+# Flask app configuration
 DATADIR = '/Users/brian/Research/projects/uhcs'
-# SQLALCHEMY_DATABASE_URI = join(DATADIR, 'data', 'microstructures.sqlite')
 SQLALCHEMY_DATABASE_URI = 'microstructures.sqlite'
 MICROGRAPH_PATH = 'static/micrographs'
 UPLOAD_FOLDER = join('uhcsdb', MICROGRAPH_PATH)
