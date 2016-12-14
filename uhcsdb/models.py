@@ -78,7 +78,6 @@ class Micrograph(Base):
         return dict(micrograph_id=self.id,
                     author_id=self.contributor,
                     micrograph_path=format_path(self.id),
-                    cambridge_id=self.id,
                     url='',
                     comment=comment,
                     upload_date='today')
