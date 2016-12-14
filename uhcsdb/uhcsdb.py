@@ -87,8 +87,8 @@ def all_entries():
 def favorites():
     db = get_db()
     favs = [73, 357, 137, 156, 223, 290, 354, 359, 363, 372, 379, 394, 404, 422, 450, 452, 472, 696, 785, 830]
-    entries = db.query(Micrograph).filter(Micrograph.id.in_(favs))
-    entries = [entry.info() for entry in entries]
+    results = db.query(Micrograph).filter(Micrograph.id.in_(favs))
+    entries = [entry.info() for entry in results]
     return render_template('all_entries.html', entries=entries)
 
 def paginate(results, page, PER_PAGE):
@@ -106,19 +106,15 @@ def paginate(results, page, PER_PAGE):
   
     return results[start:end], page_data
 
-PER_PAGE = 24
+ENTRIES_PER_PAGE = 24
 @app.route('/')
 @app.route('/index')
 @app.route('/entries/') #, defaults={'page': 1})
 @app.route('/entries/<int:page>')
 def entries(page=1):
     db = get_db()
-    # all_entries = Micrograph.query.paginate(page, PER_PAGE, False)
-    # all_entries = db.query(Micrograph).paginate(page, PER_PAGE, False)
-    res = db.query(Micrograph).all()
-    page_entries, page_data = paginate(res, page, PER_PAGE)
-    page_entries = [entry.info() for entry in page_entries]
-    count = len(page_entries)
+    page_results, page_data = paginate(db.query(Micrograph).all(), page, ENTRIES_PER_PAGE)
+    page_entries = [entry.info() for entry in page_results]
 
     return render_template('show_entries.html', entries=page_entries, pg=page_data)
 
@@ -126,8 +122,7 @@ def entries(page=1):
 def show_entry(entry_id):
     db = get_db()
     entry = db.query(Micrograph).filter(Micrograph.id == entry_id).first()
-    author = entry.user
-    return render_template('show_entry.html', entry=entry.info(), author=author.info())
+    return render_template('show_entry.html', entry=entry.info(), author=entry.user.info())
 
 @app.route('/visual_query/<int:entry_id>')
 def visual_query(entry_id):
@@ -144,66 +139,11 @@ def visual_query(entry_id):
     return render_template('query_results.html', query=query.info(),
                            author=author.info(), results=results)
 
-# @app.route('/visualize')
-# def bokehplot():
-#     db = get_db()
-
-#     # only show micrographs with these class labels
-#     unique_labels = array(['spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
-#                            'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten'])
-
-#     # load metadata for all micrographs
-#     q = (db.query(Micrograph)
-#         .outerjoin(Micrograph.sample)
-#         .options(contains_eager(Micrograph.sample))
-#         .filter(Micrograph.mstructure_class.in_(unique_labels)
-#         )
-#     )
-#     df = pd.read_sql_query(q.statement, con=db.connection())
-#     # drop the id field that results from Micrograph.sample.id
-#     df = df.T.groupby(level=0).last().T
-
-#     # keys, X = features.load_features('static/tsne/vgg16_block5_conv3-vlad-32.h5')
-#     # entries = list(map(db.query(Micrograph).get, keys))
-#     # label = [m.mstructure_class for m in entries]
-
-#     # set thumbnail border colors -- keep consistent with scatter plots
-#     colornames = ["blue", "cerulean", "red", "dusty purple", "saffron", "dandelion", "green"]
-#     rgbmap = {label: sns.xkcd_rgb[c] for label, c in zip(unique_labels, colornames)}
-    
-#     # thumb = ['static/tinythumbs/micrograph{}.png'.format(key) for key in keys]
-#     # print(process[:10])
-#     # plotdata = dict(key=keys, process=process,
-#     #                 label=label, color=color, thumb=thumb)
-#     script, div = scatterplot(df, colormap=rgbmap)
-#     return render_template('bokeh.html', script=script, div=div)
-
-# this works with flask on localhost (no ssh)
-# bokeh_process = subprocess.Popen(
-#     ['bokeh', 'serve', '--allow-websocket-origin=localhost:5000',
-#      '--log-level=debug', 'bokeh-example.py'], stdout=subprocess.PIPE)
 
 # this should work with flask and ssh-forwarding
 bokeh_process = subprocess.Popen(
     ['bokeh-3.5', 'serve', '--allow-websocket-origin=localhost:5000',
      '--log-level=debug', 'visualize.py'], stdout=subprocess.PIPE)
-
-# bokeh_process = subprocess.Popen(
-#     ['bokeh', 'serve', '--allow-websocket-origin=localhost:5000', '--host=*',
-#      '--log-level=debug', 'sliders.py'], stdout=subprocess.PIPE)
-
-app_html="""
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    hello world.
-
-    <div class="bk-root">
-      {{ bokeh_script|safe }}
-    </div>
-  </body>
-</html>
-"""
 
 @atexit.register
 def kill_server():
@@ -213,14 +153,9 @@ def kill_server():
 def bokeh_plot():
     session=pull_session(app_path='/visualize')
     bokeh_script=autoload_server(None,app_path="/visualize",session_id=session.id)
-    # session=pull_session(app_path='/sliders')
-    # bokeh_script=autoload_server(model=None, app_path='/sliders', session_id=session.id)
-    # return render_template_string(app_html, bokeh_script=bokeh_script)
     return render_template('visualize.html', bokeh_script=bokeh_script)
 
 if __name__ == '__main__':
     app.config.from_object('config')
     with app.app_context():
-        # db.metadata.create_all(bind=db.engine)
         app.run(debug=False)
-        # app.run(host='0.0.0.0', debug=False)
