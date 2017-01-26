@@ -130,8 +130,7 @@ def visual_query(entry_id):
 
 @app.route('/visualize')
 def bokeh_plot():
-    session=pull_session(app_path='/visualize')
-    bokeh_script=autoload_server(None,app_path="/visualize",session_id=session.id)
+    bokeh_script=autoload_server(None,app_path="/visualize", url="http://rsfern.materials.cmu.edu")
     return render_template('visualize.html', bokeh_script=bokeh_script)
 
 @app.route('/writeup')
