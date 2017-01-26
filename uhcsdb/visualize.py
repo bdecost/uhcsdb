@@ -13,13 +13,6 @@ from bokeh.layouts import row, widgetbox
 from bokeh.plotting import curdoc, figure
 from bokeh.models import Select, ColumnDataSource, HoverTool, OpenURL, TapTool
 
-
-print(os.path.join( os.path.dirname(__file__), os.path.pardir ))
-mpath = '/Users/brian/Research/Projects/uhcs/code'
-sys.path.append( mpath )
-# sys.path.append( os.path.join( os.path.dirname(__file__), os.path.pardir ) )
-
-# from . import features
 from models import Base, User, Collection, Sample, Micrograph
 
 def load_tsne(featuresfile, keys, perplexity=40):

@@ -75,9 +75,12 @@ class Micrograph(Base):
             annealing_condition = self.sample.label
         else:
             annealing_condition = 'Not available'
+            
+        micrograph_path = format_path(self.id)
         return dict(micrograph_id=self.id,
                     author_id=self.contributor,
-                    micrograph_path=format_path(self.id),
+                    micrograph_path=micrograph_path,
+                    thumb=micrograph_path.replace('micrographs', 'thumbs'),
                     url='',
                     annealing_condition=annealing_condition,
                     upload_date='today',

@@ -6,6 +6,7 @@ import glob
 import time
 import uuid
 import atexit
+import requests
 import subprocess
 import pandas as pd
 import seaborn as sns
@@ -17,33 +18,37 @@ from os.path import abspath, dirname, join
 from bokeh.client import pull_session
 from bokeh.embed import autoload_server
 
-from flask import (Flask, request, session, g, redirect, url_for,
+from werkzeug.contrib.fixers import ProxyFix
+from flask import (Flask, request, session, g, redirect, url_for, send_file,
                    abort, render_template, render_template_string, flash, current_app)
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker, contains_eager
 
 app = Flask(__name__)
-
+app.wsgi_app = ProxyFix(app.wsgi_app)
 sys.path.append( os.path.join( os.path.dirname(__file__), os.path.pardir ) )
 
 # Flask app configuration
-DATADIR = '/Users/brian/Research/projects/uhcs'
-SQLALCHEMY_DATABASE_URI = 'microstructures.sqlite'
+# DATADIR = '/Users/brian/Research/projects/uhcs'
+SQLALCHEMY_DATABASE_URI = 'uhcsdb/microstructures.sqlite'
 MICROGRAPH_PATH = 'static/micrographs'
 UPLOAD_FOLDER = join('uhcsdb', MICROGRAPH_PATH)
 EXTRACT_PATH = join('static', 'pdf_stage')
 PDF_STAGE = join('uhcsdb', EXTRACT_PATH)
 ALLOWED_EXTENSIONS = set(['pdf', 'png', 'jpg', 'jpeg', 'gif', 'tif'])
 
+def load_secret_key():
+    pardir = os.path.dirname(__file__)
+    keyfile = os.path.join(pardir, 'secret_key')
+    with open(keyfile, 'rb') as f:        
+        return f.read()
+
 app.config.update(dict(
-    DATADIR=DATADIR,
     DATABASE=SQLALCHEMY_DATABASE_URI,
     MICROGRAPH_PATH = MICROGRAPH_PATH,
     DEBUG=False,
-    SECRET_KEY='development key',
-    USERNAME='admin',
-    PASSWORD='default'
+    SECRET_KEY=load_secret_key(),
 ))
 
 app.config.from_envvar('UHCSDB_SETTINGS', silent=True)
@@ -53,18 +58,17 @@ _cwd = dirname(abspath(__file__))
 print(app.config)
 
 from . import features
-from .visualization import scatterplot
 from .models import Base, User, Collection, Sample, Micrograph
 
 # from uhcsdb import features
-# from uhcsdb.visualization import scatterplot
 # from uhcsdb.models import Base, User, Collection, Sample, Micrograph
 
-
+features.build_search_tree('uhcsdb/static',
+                           featurename='vgg16_multiscale_block5_conv3-vlad-32.h5'
+)
 # features.build_search_tree(app.config['DATADIR'])
 
 def connect_db(dbpath):
-    print(dbpath)
     engine = create_engine('sqlite:///' + dbpath)
     Base.metadata.bind = engine
     dbSession = sessionmaker(bind=engine)
@@ -75,21 +79,6 @@ def get_db():
     if not hasattr(g, '_database'):
         g._database = connect_db(app.config['DATABASE'])
     return g._database
-
-@app.route('/all/')
-def all_entries():
-    db = get_db()
-    all_entries = db.query(Micrograph).all()
-    entries = [entry.info() for entry in all_entries]
-    return render_template('all_entries.html', entries=entries)
-
-@app.route('/favorites/')
-def favorites():
-    db = get_db()
-    favs = [73, 357, 137, 156, 223, 290, 354, 359, 363, 372, 379, 394, 404, 422, 450, 452, 472, 696, 785, 830]
-    results = db.query(Micrograph).filter(Micrograph.id.in_(favs))
-    entries = [entry.info() for entry in results]
-    return render_template('all_entries.html', entries=entries)
 
 def paginate(results, page, PER_PAGE):
     start = (page-1)*PER_PAGE
@@ -139,21 +128,21 @@ def visual_query(entry_id):
     return render_template('query_results.html', query=query.info(),
                            author=author.info(), results=results)
 
-
-# this should work with flask and ssh-forwarding
-bokeh_process = subprocess.Popen(
-    ['bokeh-3.5', 'serve', '--allow-websocket-origin=localhost:5000',
-     '--log-level=debug', 'visualize.py'], stdout=subprocess.PIPE)
-
-@atexit.register
-def kill_server():
-    bokeh_process.kill()
-
 @app.route('/visualize')
 def bokeh_plot():
     session=pull_session(app_path='/visualize')
     bokeh_script=autoload_server(None,app_path="/visualize",session_id=session.id)
     return render_template('visualize.html', bokeh_script=bokeh_script)
+
+@app.route('/writeup')
+def writeup():
+    return send_file('static/uhcs1.pdf')
+    # return redirect('https://arxiv.org')
+
+@app.route('/onepage')
+def onepage():
+    return send_file('static/uhcs1.pdf')
+
 
 if __name__ == '__main__':
     app.config.from_object('config')

@@ -61,9 +61,7 @@ def reload_features(featuresfile, keys, perplexity=40):
 def build_search_tree(datadir, featurename='vgg16_block5_conv3-vlad-64.h5'):
 
     ndim = 64
-    # features_file = 'vgg_pool5_vlad_64.h5'
-    # features_file = os.path.join('mdb', 'static', 'features', features_file)
-    features_file = os.path.join(datadir, 'data', 'full', 'features', featurename)
+    features_file = os.path.join(datadir, featurename)
     print(features_file)
     
     global keys, features
