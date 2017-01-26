@@ -1,9 +1,17 @@
 {% extends "layout.html" %}
 {% block head %}
+      <link
+       href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css"
+       rel="stylesheet" type="text/css">
+      <link
+       href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.3.min.css"
+       rel="stylesheet" type="text/css">
 
+      <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.js"></script>
+      <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.3.min.js"></script>
 {% endblock %}
 {% block body %}
-    <div class="bk-root">
+  <div class="bk-root">
       {{ bokeh_script|safe }}
     </div>
     <div class=page>

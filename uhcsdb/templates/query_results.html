@@ -1,9 +1,14 @@
 {% extends "layout.html" %}
+
 {% block body %}
 <div class="container">
   <div class="query">
 	<a href="/micrograph/{{ query.micrograph_id }}">
-	  <img src="{{ query.micrograph_path }}" alt={{ query.micrograph_path }} title={{ query.micrograph_path }}>
+	  <img 
+	    src="/static/micrographs-fullsize/micrograph{{ query.micrograph_id }}.png"
+	    alt={{ query.micrograph_path }}
+	    title={{ query.micrograph_path }}
+	    >
 	</a>
   </div>
   <div class="about">
@@ -11,7 +16,9 @@
   <em>Added by <b>{{ author.username }}</b> ({{ author.email }})</em><br>
   on {{ query.upload_date }} <br>
   <em>Comment</em>: {{ query.comment|safe }} <br>
+  <a href="/micrograph/{{ query.micrograph_id }}">Details</a> <br>
   <a href={{ query.url|safe }} target="blank_">Link to original</a>
+
   <br>
   </div>
   <br>

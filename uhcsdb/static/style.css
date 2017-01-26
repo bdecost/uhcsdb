@@ -10,9 +10,17 @@ img.single      { display: block; width: 90%; margin-left: auto; margin-right: a
 				  margin: 10px 10px 10px 10px; padding: 3px; }
 
 .page           { margin: 2em auto; width: 80%; border: 2px solid #ccc;
-				  padding: 0.8em; background: white; }
-.footer         { margin: 2em auto; width: 80%; border: 2px solid #ccc;
-				  padding: 0.8em; background: white; }
+		  padding: 0.8em; background: white; }
+
+section { width: 80%; min-height: 100%; display:table; height:inherit;
+	  margin: 2em auto; border: 2px solid #ccc; padding: 0.8em; background: white; }
+.footer         { display: table-row; }
+/* .footer         { margin: 2em auto; width: 100%; border: 2px solid #ccc;
+		  padding: 0.8em; background: white; display: table-row; }
+*/
+.col-left, .col-right { width: 50%; display: table-cell; vertical-align: bottom; }
+.col-left       { text-align: left; }
+.col-right      { text-align: right; }
 
 .entries        { list-style: none; margin: 0; padding: 0; }
 .entries li     { margin: 0.8em 1.2em; }
@@ -35,6 +43,7 @@ img.single      { display: block; width: 90%; margin-left: auto; margin-right: a
 */
 /* this works in both Firefox and Safari */
 .container      { display: table; margin: 2px auto; align: center; width: 100%; }
+.paginate       { display: inline-block; margin: 2px auto; text-align: right; width: 100%; }
 .entry          { display: inline-block; text-align: left; vertical-align: middle;
 				  width: 23%; height: auto; margin: 0 0 10px 10px; padding: 3px; } /* 17% for 5 images , 23% for 4*/
 
@@ -43,7 +52,7 @@ img.single      { display: block; width: 90%; margin-left: auto; margin-right: a
 .single         { display: inline-block; text-align: left; vertical-align: middle;
 				  width: 40%; height: auto; margin: 0 0 5px 5px; padding: 3px; }
 .query          { display: inline-block; text-align: left; vertical-align: middle;
-				  width: 23%; height: auto; margin: 10px 10px 10px 10px; padding: 10px; }
+				  width: 40%; height: auto; margin: 10px 10px 10px 10px; padding: 10px; }
 
 
 .forms          { display: block; }

@@ -1,23 +1,33 @@
 <!doctype html>
 <head>
-  {% block head %}{% endblock %}
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  {% block head %} {% endblock %}
 </head>
-<title>UHCSDB: a microstructure explorer</title>
+<title>UHCSDB microstructure explorer</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>	 
-  <h1><a class="titleLink" href="/">UHCSDB: a microstructure explorer</a></h1>
+  <h1><a class="titleLink" href="/">UHCSDB microstructure explorer</a></h1>
   {% for message in get_flashed_messages() %}
   <div class=flash>{{ message }}</div>
   {% endfor %}
   {% block body %}{% endblock %}
 </div>
 
-<div class="footer" align="right">
-  &mdash; <a href="https://andrew.cmu.edu/user/bdecost">Brian DeCost</a><br>
-  &mdash; <a href="http://www.cmu.edu/engineering/materials/people/faculty/bios/holm.html">Prof. Liz Holm</a><br>
-  Materials Science <br>
-  Carnegie Mellon University <br>
-  powered by <a href="http://flask.pocoo.org">Flask</a>,
-  <a href="http://www.vlfeat.org">VLFeat</a>,
-  and <a href="http://scikit-learn.org">scikit-learn</a><br>
+<section>
+<div class="footer">
+  <div class="col-left">
+    see our writeup <a href="/writeup">here</a><br>
+    explore the  <a href="/">micrograph dataset</a><br>
+    check out the <a href="/visualize">interactive data visualization</a>
+  </div>
+  <div class="col-right">
+    &mdash; <a href="https://andrew.cmu.edu/user/bdecost">Brian DeCost</a><br>
+    &mdash; <a href="http://www.cmu.edu/engineering/materials/people/faculty/bios/holm.html">Prof. Liz Holm</a><br>
+    Materials Science <br>
+    Carnegie Mellon University <br>
+    powered by <a href="http://flask.pocoo.org">Flask</a>,
+    <a href="http://www.vlfeat.org">VLFeat</a>,
+    and <a href="http://scikit-learn.org">scikit-learn</a><br>
+  </div>
 </div>
+</section>

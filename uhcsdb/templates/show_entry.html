@@ -2,7 +2,17 @@
 {% block body %}
 <div class="container">
   <div class="single">
+    <!--
 	<img class="single" src="{{ entry.micrograph_path }}" alt={{ entry.micrograph_path }} title={{ entry.micrograph_path }}>
+	-->
+    <a href="/visual_query/{{ entry.micrograph_id }}">
+      <img class="single"
+	   src="/static/micrographs-fullsize/micrograph{{ entry.micrograph_id }}.png"
+	   alt={{ entry.micrograph_path }}
+	   title={{ entry.micrograph_path }}
+	   >
+    </a>
+
   </div>
   <div class="about">
   <h2>Micrograph {{ entry.micrograph_id }}</h2>
@@ -11,6 +21,7 @@
   <br>
   <em>Annealing condition:</em> {{ entry.annealing_condition|safe }}<br>
   <em>Primary microconstituent: </em> {{ entry.microconstituent }}<br>
+  <a href="/visual_query/{{ entry.micrograph_id }}">Find similar micrographs</a><br>
   <a href={{ entry.url|safe }} target="blank_">Link to original</a>
   </div>
 </div>
