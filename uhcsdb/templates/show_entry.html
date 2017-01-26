@@ -8,7 +8,9 @@
   <h2>Micrograph {{ entry.micrograph_id }}</h2>
   <em>Added by <b>{{ author.username }}</b> ({{ author.email }})</em><br>
   on {{ entry.upload_date }} <br>
-  <em>Comment</em>: {{ entry.comment|safe }}<br>
+  <br>
+  <em>Annealing condition:</em> {{ entry.annealing_condition|safe }}<br>
+  <em>Primary microconstituent: </em> {{ entry.microconstituent }}<br>
   <a href={{ entry.url|safe }} target="blank_">Link to original</a>
   </div>
 </div>

@@ -72,15 +72,17 @@ class Micrograph(Base):
             return os.path.join(os.sep, current_app.config['MICROGRAPH_PATH'], name)
         # date = self.upload_date.strftime('%d %B %Y at %I:%M %p')
         if self.sample is not None and self.sample.label is not None:
-            comment = self.sample.label
+            annealing_condition = self.sample.label
         else:
-            comment = ''
+            annealing_condition = 'Not available'
         return dict(micrograph_id=self.id,
                     author_id=self.contributor,
                     micrograph_path=format_path(self.id),
                     url='',
-                    comment=comment,
-                    upload_date='today')
+                    annealing_condition=annealing_condition,
+                    upload_date='today',
+                    microconstituent=self.mstructure_class
+        )
 
     
 if __name__ == '__main__':
