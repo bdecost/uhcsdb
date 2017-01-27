@@ -132,31 +132,31 @@ def update_map_points(attr, old, new):
     source.data['x'] = X[:,0]
     source.data['y'] = X[:,1]
         
-def update_marker_color(attr, old, new):
+def update_markercolor(attr, old, new):
     """update marker color metadata."""
     
-    if colorctl.value == 'primary microconstituent':
+    if markercolor.value == 'primary microconstituent':
         col = [rgbmap[cls] for cls in df['mstructure_class']]
         alpha = 0.8 * np.ones(df.index.size)
     else:
-        if colorctl.value == 'log(scale)':
+        if markercolor.value == 'log(scale)':
             col, alpha = assign_color(np.log(np.array(source.data['mag'])))
         else:
-            col, alpha = assign_color(df[colorctl.value].values)
+            col, alpha = assign_color(df[markercolor.value].values)
 
     source.data['c'] = col
     source.data['alpha'] = alpha
 
     
-def update_marker_size(attr, old, new):
+def update_markersize(attr, old, new):
     """update marker size metadata."""
 
     # set sane defaults
-    if size.value == 'None':
+    if markersize.value == 'None':
         sz = 10*np.ones(df.index.size)
         alpha = 0.8 * np.ones(df.index.size)
     else:
-        sz, alpha = assign_scale(df[size.value].values)
+        sz, alpha = assign_scale(df[markersize.value].values)
         
     source.data['size'] = sz
     source.data['alpha'] = alpha
@@ -191,11 +191,19 @@ manifold_methods = ['PCA', 't-SNE', 'MDS', 'LLE', 'Isomap', 'SpectralEmbedding']
 manifold = Select(title='Manifold method', value='t-SNE', options=manifold_methods)
 manifold.on_change('value', update_map_points)
 
-size = Select(title='Marker size', value='None', options=['None'] + ['anneal_temperature', 'anneal_time'])
-size.on_change('value', update_marker_size)
+markersize = Select(
+    title='Marker size',
+    value='None',
+    options=['None', 'anneal_temperature', 'anneal_time']
+)
+markersize.on_change('value', update_markersize)
 
-colorctl = Select(title='Marker color', value='primary microconstituent', options=['primary microconstituent'] + ['anneal_temperature', 'anneal_time', 'log(scale)'])
-colorctl.on_change('value', update_marker_color)
+markercolor = Select(
+    title='Marker color',
+    value='primary microconstituent',
+    options=['primary microconstituent', 'anneal_temperature', 'anneal_time', 'log(scale)']
+)
+markercolor.on_change('value', update_markercolor)
 
 hfile = os.path.join('static', 'tsne', representation.value)
 x = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
@@ -229,6 +237,6 @@ url_for_entry = "micrograph/@key"
 taptool = p.select(type=TapTool)
 taptool.callback = OpenURL(url=url_for_entry)
 
-controls = widgetbox([representation, manifold, colorctl, size], width=256)
+controls = widgetbox([representation, manifold, markercolor, markersize], width=256)
 curdoc().add_root( row(controls, p) )
 curdoc().title = "UHCSDB: a microstructure explorer"
