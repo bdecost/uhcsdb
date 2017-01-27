@@ -95,7 +95,7 @@ def connect_db(dbpath):
 def assign_color(colorvar):
     """masked colormap for quantitative metadata.
 
-    pass bokeh hex strings for marker colors.
+    pass bokeh hex color strings for marker colors.
     """
     m = np.ma.array(colorvar, mask=(colorvar == -9999))
 
@@ -119,16 +119,18 @@ def assign_scale(scalevar):
     return sc, alpha
 
 
-def update(attr, old, new):
+def update_map_points(attr, old, new):
     """update plot data in response to bokeh widget form data."""
+    print(type(attr))
+    print(old)
+    print(new)
     global current_manifold
     global current_representation
     
     if (representation.value != current_representation
         or manifold.value != current_manifold):
-
-        print('reloading {}'.format(representation.value))
-
+        # update marker locations
+        
         if manifold.value == 't-SNE':
             hfile = os.path.join('static', 'tsne', representation.value)
             X = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
@@ -140,29 +142,37 @@ def update(attr, old, new):
         source.data['y'] = X[:,1]
         current_representation = representation.value
         current_manifold = manifold.value
+
         
-    if colorctl.value != 'primary microconstituent':
+def update_marker_color(attr, old, new):
+    """update marker color metadata."""
+    
+    if colorctl.value == 'primary microconstituent':
+        col = [rgbmap[cls] for cls in df['mstructure_class']]
+        alpha = 0.8 * np.ones(df.index.size)
+    else:
         if colorctl.value == 'log(scale)':
             col, alpha = assign_color(np.log(np.array(source.data['mag'])))
         else:
             col, alpha = assign_color(df[colorctl.value].values)
 
-        source.data['c'] = col
-        source.data['alpha'] = alpha
+    source.data['c'] = col
+    source.data['alpha'] = alpha
+
+    
+def update_marker_size(attr, old, new):
+    """update marker size metadata."""
+
+    # set sane defaults
+    if size.value == 'None':
+        sz = 10*np.ones(df.index.size)
+        alpha = 0.8 * np.ones(df.index.size)
     else:
-        source.data['c'] = [rgbmap[cls] for cls in df['mstructure_class']]
-        source.data['alpha'] = 0.8 * np.ones(df.index.size)
-        
-    if size.value != 'None':
         sz, alpha = assign_scale(df[size.value].values)
-        source.data['size'] = sz
-        source.data['alpha'] = alpha
-    else:
-        source.data['size'] = 10*np.ones(df.index.size)
-        source.data['alpha'] = 0.8 * np.ones(df.index.size)
-
-    return
-
+        
+    source.data['size'] = sz
+    source.data['alpha'] = alpha
+    
 
 # load metadata for all micrographs into pandas dataframe
 db = connect_db('microstructures.sqlite')
@@ -187,18 +197,18 @@ df.ix[df.anneal_time_unit=='H', 'anneal_time'] *= 60
 current_representation = 'vgg16_block5_conv3-vlad-32.h5'                        
 representations = list(map(os.path.basename, glob.glob('static/tsne/*.h5')))
 representation = Select(title='Representation', value=current_representation, options=representations)
-representation.on_change('value', update)
+representation.on_change('value', update_map_points)
 
 current_manifold = 't-SNE'
 manifold_methods = ['PCA', 't-SNE', 'MDS', 'LLE', 'Isomap', 'SpectralEmbedding']
 manifold = Select(title='Manifold method', value=current_manifold, options=manifold_methods)
-manifold.on_change('value', update)
+manifold.on_change('value', update_map_points)
 
 size = Select(title='Marker size', value='None', options=['None'] + ['anneal_temperature', 'anneal_time'])
-size.on_change('value', update)
+size.on_change('value', update_marker_size)
 
 colorctl = Select(title='Marker color', value='primary microconstituent', options=['primary microconstituent'] + ['anneal_temperature', 'anneal_time', 'log(scale)'])
-colorctl.on_change('value', update)
+colorctl.on_change('value', update_marker_color)
 
 hfile = os.path.join('static', 'tsne', representation.value)
 x = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
