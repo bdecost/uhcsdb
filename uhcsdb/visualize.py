@@ -38,22 +38,25 @@ def load_embedding(featuresfile, keys, method='PCA'):
 
 
 def connect_db(dbpath):
-    print(dbpath)
+    """ return a sqlalchemy database connection """
     engine = create_engine('sqlite:///' + dbpath)
     Base.metadata.bind = engine
     dbSession = sessionmaker(bind=engine)
-    db = dbSession()
-    return db
+    return dbSession()
 
 db = connect_db('microstructures.sqlite')
 
 # only show micrographs with these class labels
-unique_labels = np.array(['spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
-                       'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten'])
+unique_labels = np.array(
+    ['spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
+     'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten']
+)
 
 # set marker colors -- keep consistent with paper
-colornames = ["blue", "cerulean", "red", "dusty purple", "saffron", "dandelion", "green"]
-rgbmap = {label: sns.xkcd_rgb[c] for label, c in zip(unique_labels, colornames)}
+colornames = ["blue", "cerulean", "red",
+              "dusty purple", "saffron", "dandelion", "green"]
+rgbmap = {label: sns.xkcd_rgb[c]
+          for label, c in zip(unique_labels, colornames)}
 
 # load metadata for all micrographs
 q = (db.query(Micrograph)
@@ -63,11 +66,13 @@ q = (db.query(Micrograph)
      )
 )
 df = pd.read_sql_query(q.statement, con=db.connection())
+# Both Micrograph and Sample tables have an 'id' field...
+# loading the whole dataset into a pandas df yields two 'id' columns
 # drop the id field that results from Micrograph.sample.id
 df = df.T.groupby(level=0).last().T
-df = df.replace(np.nan, -9999) # bokeh/json can't deal with NaN values
+df = df.replace(np.nan, -9999) # bokeh (because json) can't deal with NaN values
 
-# convert time to minutes, in place
+# convert times to minutes, in place
 df.ix[df.anneal_time_unit=='H', 'anneal_time'] *= 60
 
 hover = HoverTool(
@@ -101,7 +106,7 @@ hover = HoverTool(
 )
 
 def assign_color(colorvar):
-    
+    """ masked colormap for quantitative metadata """
     m = np.ma.array(colorvar, mask=(colorvar == -9999))
 
     reds = mpl.cm.Reds
@@ -109,8 +114,6 @@ def assign_color(colorvar):
 
     c = reds(mpl.colors.Normalize(vmin=np.min(m), vmax=np.max(m))(m))
 
-    # col = ["#%02x%02x%02x" % (r, g, b)
-    #        for r, g, b, a in (255*reds(m)).astype(int)]
     col = ["#%02x%02x%02x" % (r, g, b)
            for r, g, b, a in (255*c).astype(int)]
 
@@ -119,6 +122,7 @@ def assign_color(colorvar):
     return col, alpha
 
 def assign_scale(scalevar):
+    """ masked markersize for quantitative metadata """
     m = np.ma.array(scalevar, mask=(scalevar == -9999))
     sc = 30*((m-np.min(m)) / np.max(m)) + 10
     sc[m.mask] = 5
@@ -128,7 +132,7 @@ def assign_scale(scalevar):
 
 
 def update(attr, old, new):
-    
+    """ update plot data in response to bokeh widget form data """
     global current_manifold
     global current_representation
     
