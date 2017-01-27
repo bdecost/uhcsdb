@@ -121,28 +121,16 @@ def assign_scale(scalevar):
 
 def update_map_points(attr, old, new):
     """update plot data in response to bokeh widget form data."""
-    print(type(attr))
-    print(old)
-    print(new)
-    global current_manifold
-    global current_representation
-    
-    if (representation.value != current_representation
-        or manifold.value != current_manifold):
-        # update marker locations
         
-        if manifold.value == 't-SNE':
-            hfile = os.path.join('static', 'tsne', representation.value)
-            X = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
-        else:
-            hfile = os.path.join('static', 'embed', representation.value)
-            X = load_embedding(hfile, keys=df['id'].astype(str), method=manifold.value)
+    if manifold.value == 't-SNE':
+        hfile = os.path.join('static', 'tsne', representation.value)
+        X = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
+    else:
+        hfile = os.path.join('static', 'embed', representation.value)
+        X = load_embedding(hfile, keys=df['id'].astype(str), method=manifold.value)
             
-        source.data['x'] = X[:,0]
-        source.data['y'] = X[:,1]
-        current_representation = representation.value
-        current_manifold = manifold.value
-
+    source.data['x'] = X[:,0]
+    source.data['y'] = X[:,1]
         
 def update_marker_color(attr, old, new):
     """update marker color metadata."""
@@ -194,14 +182,13 @@ df = df.replace(np.nan, -9999) # bokeh (because json) can't deal with NaN values
 df.ix[df.anneal_time_unit=='H', 'anneal_time'] *= 60
 
 # set default form data to draw the default plot
-current_representation = 'vgg16_block5_conv3-vlad-32.h5'                        
+default_representation = 'vgg16_block5_conv3-vlad-32.h5'                        
 representations = list(map(os.path.basename, glob.glob('static/tsne/*.h5')))
-representation = Select(title='Representation', value=current_representation, options=representations)
+representation = Select(title='Representation', value=default_representation, options=representations)
 representation.on_change('value', update_map_points)
 
-current_manifold = 't-SNE'
 manifold_methods = ['PCA', 't-SNE', 'MDS', 'LLE', 'Isomap', 'SpectralEmbedding']
-manifold = Select(title='Manifold method', value=current_manifold, options=manifold_methods)
+manifold = Select(title='Manifold method', value='t-SNE', options=manifold_methods)
 manifold.on_change('value', update_map_points)
 
 size = Select(title='Marker size', value='None', options=['None'] + ['anneal_temperature', 'anneal_time'])
