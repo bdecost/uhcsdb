@@ -1,0 +1,15 @@
+*.sqlite
+secret_key
+.backups/
+__pycache__/
+legend.png
+uhcsdb/static/tsne
+uhcsdb/static/tsne/
+uhcsdb/static/embed
+uhcsdb/static/embed/
+uhcsdb/static/thumbs
+uhcsdb/static/thumbs/
+uhcsdb/static/micrographs
+uhcsdb/static/micrographs/
+
+
