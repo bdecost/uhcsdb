@@ -16,26 +16,23 @@ from bokeh.models import Select, ColumnDataSource, HoverTool, OpenURL, TapTool
 from models import Base, User, Collection, Sample, Micrograph
 
 def load_tsne(featuresfile, keys, perplexity=40):
-    X = []
+    """ load t-SNE map points from hdf5 into a numpy array 
+        ordered by primary keys """
     
     with h5py.File(featuresfile, 'r') as f:        
         g = f['perplexity-{}'.format(perplexity)]
-            
-        for key in keys:
-            xx = g[key][...]
-            X.append(g[key][...])
+        X = [g[key][...] for key in keys]
 
     return np.array(X)
 
+
 def load_embedding(featuresfile, keys, method='PCA'):
-    X = []
+    """ load reduced dimensionality map points from hdf5 into numpy array
+        ordered by primary keys """
     
     with h5py.File(featuresfile, 'r') as f:        
         g = f[method]
-            
-        for key in keys:
-            xx = g[key][...]
-            X.append(g[key][...])
+        X = [g[key][...] for key in keys]
 
     return np.array(X)
 
@@ -54,7 +51,7 @@ db = connect_db('microstructures.sqlite')
 unique_labels = np.array(['spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
                        'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten'])
 
-# set thumbnail border colors -- keep consistent with scatter plots
+# set marker colors -- keep consistent with paper
 colornames = ["blue", "cerulean", "red", "dusty purple", "saffron", "dandelion", "green"]
 rgbmap = {label: sns.xkcd_rgb[c] for label, c in zip(unique_labels, colornames)}
 
