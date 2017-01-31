@@ -170,6 +170,7 @@ q = (db.query(Micrograph)
      .filter(Micrograph.mstructure_class.in_(unique_labels)
      )
 )
+
 df = pd.read_sql_query(q.statement, con=db.connection())
 
 # Both Micrograph and Sample tables have an 'id' field...
