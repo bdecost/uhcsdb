@@ -124,10 +124,10 @@ def update_map_points(attr, old, new):
         
     if manifold.value == 't-SNE':
         hfile = os.path.join('static', 'tsne', representation.value)
-        X = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
+        X = load_tsne(hfile, keys=df['micrograph_id'].astype(str), perplexity=40)
     else:
         hfile = os.path.join('static', 'embed', representation.value)
-        X = load_embedding(hfile, keys=df['id'].astype(str), method=manifold.value)
+        X = load_embedding(hfile, keys=df['micrograph_id'].astype(str), method=manifold.value)
             
     source.data['x'] = X[:,0]
     source.data['y'] = X[:,1]
@@ -136,7 +136,7 @@ def update_markercolor(attr, old, new):
     """update marker color metadata."""
     
     if markercolor.value == 'primary microconstituent':
-        col = [rgbmap[cls] for cls in df['mstructure_class']]
+        col = [rgbmap[cls] for cls in df['primary_microconstituent']]
         alpha = 0.8 * np.ones(df.index.size)
     else:
         if markercolor.value == 'log(scale)':
@@ -167,7 +167,7 @@ db = connect_db('microstructures.sqlite')
 q = (db.query(Micrograph)
      .outerjoin(Micrograph.sample)
      .options(contains_eager(Micrograph.sample))
-     .filter(Micrograph.mstructure_class.in_(unique_labels)
+     .filter(Micrograph.primary_microconstituent.in_(unique_labels)
      )
 )
 
@@ -176,7 +176,7 @@ df = pd.read_sql_query(q.statement, con=db.connection())
 # Both Micrograph and Sample tables have an 'id' field...
 # loading the whole dataset into a pandas df yields two 'id' columns
 # drop the id field that results from Micrograph.sample.id
-df = df.T.groupby(level=0).last().T
+# df = df.T.groupby(level=0).last().T
 df = df.replace(np.nan, -9999) # bokeh (because json) can't deal with NaN values
 
 # convert times to minutes, in place
@@ -207,22 +207,22 @@ markercolor = Select(
 markercolor.on_change('value', update_markercolor)
 
 hfile = os.path.join('static', 'tsne', representation.value)
-x = load_tsne(hfile, keys=df['id'].astype(str), perplexity=40)
+x = load_tsne(hfile, keys=df['micrograph_id'].astype(str), perplexity=40)
 
-thumb = ['static/thumbs/micrograph{}.png'.format(key) for key in df['id']]
+thumb = ['static/thumbs/micrograph{}.png'.format(key) for key in df['micrograph_id']]
 
 source =  ColumnDataSource(
     data=dict(
-        key=df['id'].values,
+        key=df['micrograph_id'].values,
         x=x[:,0],
         y=x[:,1],
         thumb=thumb,
         temperature=df['anneal_temperature'].values,
         time=df['anneal_time'].values,
-        mclass=df['mstructure_class'].values,
+        mclass=df['primary_microconstituent'].values,
         mag=df['micron_bar'].values/df['micron_bar_px'].values, # TODO: convert units!
         size=10*np.ones(df.index.size),
-        c = [rgbmap[cls] for cls in df['mstructure_class']],
+        c = [rgbmap[cls] for cls in df['primary_microconstituent']],
         alpha=0.8*np.ones(df.index.size),
     )
 )

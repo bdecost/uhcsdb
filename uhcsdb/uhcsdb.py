@@ -110,14 +110,14 @@ def entries(page=1):
 @app.route('/micrograph/<int:entry_id>')
 def show_entry(entry_id):
     db = get_db()
-    entry = db.query(Micrograph).filter(Micrograph.id == entry_id).first()
-    return render_template('show_entry.html', entry=entry.info(), author=entry.user.info())
+    entry = db.query(Micrograph).filter(Micrograph.micrograph_id == entry_id).first()
+    return render_template('show_entry.html', entry=entry.info(), author=entry.contributor.info())
 
 @app.route('/visual_query/<int:entry_id>')
 def visual_query(entry_id):
     db = get_db()
-    query = db.query(Micrograph).filter(Micrograph.id == entry_id).first()
-    author = query.user
+    query = db.query(Micrograph).filter(Micrograph.micrograph_id == entry_id).first()
+    author = query.contributor
     scores, nearest = features.query(entry_id)
     # write a single query and sort results on feature-space distance after
     # entries = db.query(Micrograph).filter(Micrograph.id.in_(nearest)).all()
