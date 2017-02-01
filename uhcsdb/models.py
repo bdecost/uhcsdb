@@ -72,7 +72,7 @@ class Micrograph(Base):
             name = 'micrograph{}.png'.format(m_id) 
             # return os.path.join(os.sep, current_app.config['DATADIR'], 'data', 'micrographs', name)
             return os.path.join(os.sep, current_app.config['MICROGRAPH_PATH'], name)
-        # date = self.upload_date.strftime('%d %B %Y at %I:%M %p')
+
         if self.sample is not None and self.sample.label is not None:
             annealing_condition = self.sample.label
         else:

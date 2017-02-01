@@ -15,9 +15,8 @@
   <h2>Micrograph {{ query.micrograph_id }}</h2>
   <em>Added by <b>{{ author.username }}</b> ({{ author.email }})</em><br>
   on {{ query.upload_date }} <br>
-  <em>Comment</em>: {{ query.comment|safe }} <br>
+  <em>Comment</em>: {{ query.annealing_condition|safe }} <br>
   <a href="/micrograph/{{ query.micrograph_id }}">Details</a> <br>
-  <a href={{ query.url|safe }} target="blank_">Link to original</a>
 
   <br>
   </div>
