@@ -79,14 +79,16 @@ def build_search_tree(datadir, featurename='vgg16_block5_conv3-vlad-64.h5'):
     nneighs = nn.fit(features)
     print('ready')
 
-def query(entry_id):
-    n_results = 16
+def query(entry_id, n_results=16):
     scikit_id = keys.index(entry_id)
     query_vector = features[scikit_id]
-    scores, results = nneighs.kneighbors(query_vector, n_results)
-    # result_entries = [keys[result] for result in results.flatten()]
-    result_entries = map(keys.__getitem__, results.flatten())
-    scores = ['{:0.4f}'.format(score) for score in scores.flatten()]
+
+    # nearest neighbor will be a self-match
+    scores, results = nneighs.kneighbors(query_vector, n_results+1)
+    scores, results = scores.flatten()[1:], results.flatten()[1:]
+    
+    result_entries = map(keys.__getitem__, results)
+    scores = ['{:0.4f}'.format(score) for score in scores]
 
     return scores, result_entries
 
