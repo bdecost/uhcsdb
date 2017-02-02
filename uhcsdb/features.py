@@ -11,19 +11,6 @@ keys = None
 features = None
 nneighs = None
 
-# def load_features(featuresfile):
-#     keys, X = [], []
-    
-#     with h5py.File(featuresfile, 'r') as f:
-#         for key in f.keys():
-#             xx = f[key][...]
-#             if np.any(np.isnan(xx)):
-#                 print('{} has NaN values in {}'.format(key, featuresfile))
-#                 continue
-#             keys.append(int(key))
-#             X.append(f[key][...])
-
-#     return keys, np.array(X)
 
 def load_features(featuresfile, perplexity=40):
     keys, X = [], []
