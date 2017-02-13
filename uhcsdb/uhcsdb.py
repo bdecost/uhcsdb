@@ -108,7 +108,7 @@ def entries(page=1):
     )
     db = get_db()
     q = (db.query(Micrograph)
-         .filter(Micrograph.primary_microconstituent.in_(unique_labels)
+         .filter(Micrograph.primary_microconstituent.in_(unique_labels))
          )
     page_results, page_data = paginate(q.all(), page, ENTRIES_PER_PAGE)
     page_entries = [entry.info() for entry in page_results]
