@@ -102,10 +102,10 @@ ENTRIES_PER_PAGE = 24
 @app.route('/entries/<int:page>')
 def entries(page=1):
     # only show micrographs with these class labels
-    unique_labels = np.array(
-        ['spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
-         'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten']
-    )
+    unique_labels = {
+        'spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
+         'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten'
+    }
     db = get_db()
     q = (db.query(Micrograph)
          .filter(Micrograph.primary_microconstituent.in_(unique_labels))
