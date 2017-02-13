@@ -135,8 +135,7 @@ def bokeh_plot():
 
 @app.route('/writeup')
 def writeup():
-    return send_file('static/uhcs1.pdf')
-    # return redirect('https://arxiv.org')
+    return redirect('https://arxiv.org/abs/1702.01117')
 
 @app.route('/onepage')
 def onepage():
