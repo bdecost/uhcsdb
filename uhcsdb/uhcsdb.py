@@ -101,8 +101,16 @@ ENTRIES_PER_PAGE = 24
 @app.route('/entries/') #, defaults={'page': 1})
 @app.route('/entries/<int:page>')
 def entries(page=1):
+    # only show micrographs with these class labels
+    unique_labels = np.array(
+        ['spheroidite', 'spheroidite+widmanstatten', 'martensite', 'network',
+         'pearlite', 'pearlite+spheroidite', 'pearlite+widmanstatten']
+    )
     db = get_db()
-    page_results, page_data = paginate(db.query(Micrograph).all(), page, ENTRIES_PER_PAGE)
+    q = (db.query(Micrograph)
+         .filter(Micrograph.primary_microconstituent.in_(unique_labels)
+         )
+    page_results, page_data = paginate(q.all(), page, ENTRIES_PER_PAGE)
     page_entries = [entry.info() for entry in page_results]
 
     return render_template('show_entries.html', entries=page_entries, pg=page_data)
