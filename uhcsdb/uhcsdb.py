@@ -10,6 +10,7 @@ import requests
 import subprocess
 import pandas as pd
 import seaborn as sns
+import pybtex.database
 from datetime import datetime
 from contextlib import closing
 from numpy import array, random
@@ -60,8 +61,8 @@ print(app.config)
 from . import features
 from .models import Base, User, Collection, Sample, Micrograph
 
-# from uhcsdb import features
-# from uhcsdb.models import Base, User, Collection, Sample, Micrograph
+from uhcsdb import features
+from uhcsdb.models import Base, User, Collection, Sample, Micrograph
 
 features.build_search_tree('uhcsdb/static',
                            featurename='vgg16_multiscale_block5_conv3-vlad-32.h5'
@@ -145,9 +146,39 @@ def bokeh_plot():
 def writeup():
     return redirect('https://arxiv.org/abs/1702.01117')
 
-@app.route('/onepage')
-def onepage():
-    return send_file('static/uhcs1.pdf')
+def format_bib_entry(entry):
+    return markup
+
+def author_list(entry):
+    authors = [' '.join(p.last_names) for p in entry.persons['author']]
+    firstauthors, lastauthor = authors[:-1], authors[-1]
+    alist = ', '.join(firstauthors)
+    alist += ', and {}'.format(lastauthor)
+    return alist
+
+def load_publication_data(path):
+    """ use pybtex to display relevant publications """
+    pub_db = pybtex.database.parse_file(path)
+
+    publication_data = []
+    for key, entry in pub_db.entries.items():
+        pub = dict(entry.fields)
+        pub['authors'] = author_list(entry)
+        publication_data.append(pub)
+        
+    return publication_data
+
+@app.route('/publications')
+def publications():
+
+    documentation = load_publication_data('static/documentation.bib')
+    sources = load_publication_data('static/sources.bib')
+    publications = load_publication_data('static/publications.bib')
+    return render_template('publications.html',
+                           documentation=documentation,
+                           sources=sources,
+                           publications=publications)
+
 
 
 if __name__ == '__main__':

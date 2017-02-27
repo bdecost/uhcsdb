@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container">
+  <p>If you reuse the data or code, please cite our work and contact us so we can add you to our secondary publications list. :)</p>
+  {% for publication in documentation %}
+  <p>
+    {{ publication.authors }}.<br>
+    {{ publication.title }}.<br>
+    <em>{{ publication.journal }}</em>
+    <b>{{ publication.year }}</b>
+    {% if publication.doi %}
+      <a href="https://dx.doi.org/{{ publication.doi }}">doi: {{ publication.doi }}</a>
+    {% elif publication.url %}
+      <a href="{{ publication.url }}">{{ publication.url }}</a>
+    {% endif %}
+  </p>
+  {% endfor %}
+  
+  <h2>Primary publications</h2>
+
+  {% for publication in sources %}
+  <p>
+    {{ publication.authors }}.<br>
+    {{ publication.title }}.<br>
+    <em>{{ publication.journal }}</em>
+    <b>{{ publication.year }}</b>
+    {% if publication.doi %}
+      <a href="https://dx.doi.org/{{ publication.doi }}">doi: {{ publication.doi }}</a>
+    {% elif publication.url %}
+      <a href="{{ publication.url }}">{{ publication.url }}</a>
+    {% endif %}
+  </p>
+  {% endfor %}
+
+  <h2>Secondary publications based on the UHCS dataset</h2>
+
+  {% for publication in publications %}
+  <p>
+    {{ publication.authors }}.<br>
+    {{ publication.title }}.<br>
+    <em>{{ publication.journal }}</em>
+    <b>{{ publication.year }}</b>
+    {% if publication.doi %}
+      <a href="https://dx.doi.org/{{ publication.doi }}">doi: {{ publication.doi }}</a>
+    {% elif publication.url %}
+      <a href="{{ publication.url }}">{{ publication.url }}</a>
+    {% endif %}
+  </p>
+  {% endfor %}
+  
+</div>
+{% endblock %}
+  
