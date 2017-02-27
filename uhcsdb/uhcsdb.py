@@ -171,9 +171,9 @@ def load_publication_data(path):
 @app.route('/publications')
 def publications():
 
-    documentation = load_publication_data('static/documentation.bib')
-    sources = load_publication_data('static/sources.bib')
-    publications = load_publication_data('static/publications.bib')
+    documentation = load_publication_data('uhcsdb/static/documentation.bib')
+    sources = load_publication_data('uhcsdb/static/sources.bib')
+    publications = load_publication_data('uhcsdb/static/publications.bib')
     return render_template('publications.html',
                            documentation=documentation,
                            sources=sources,
