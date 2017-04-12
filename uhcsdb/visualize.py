@@ -58,18 +58,6 @@ hover = HoverTool(
 """
 )
 
-def load_tsne(featuresfile, keys, perplexity=40):
-    """load t-SNE map points from hdf5 into a numpy array.
-
-    ordered by primary keys
-    """
-    
-    with h5py.File(featuresfile, 'r') as f:        
-        g = f['perplexity-{}'.format(perplexity)]
-        X = [g[key][...] for key in keys]
-
-    return np.array(X)
-
 
 def load_embedding(featuresfile, keys, method='PCA'):
     """ load reduced dimensionality map points from hdf5 into numpy array.
@@ -122,12 +110,8 @@ def assign_scale(scalevar):
 def update_map_points(attr, old, new):
     """update plot data in response to bokeh widget form data."""
         
-    if manifold.value == 't-SNE':
-        hfile = os.path.join('static', 'tsne', representation.value)
-        X = load_tsne(hfile, keys=df['micrograph_id'].astype(str), perplexity=40)
-    else:
-        hfile = os.path.join('static', 'embed', representation.value)
-        X = load_embedding(hfile, keys=df['micrograph_id'].astype(str), method=manifold.value)
+    hfile = os.path.join('static', 'embed', representation.value)
+    X = load_embedding(hfile, keys=df['micrograph_id'].astype(str), method=manifold.value)
             
     source.data['x'] = X[:,0]
     source.data['y'] = X[:,1]
@@ -184,7 +168,7 @@ df.ix[df.anneal_time_unit=='H', 'anneal_time'] *= 60
 
 # set default form data to draw the default plot
 default_representation = 'vgg16_block5_conv3-vlad-32.h5'                        
-representations = list(map(os.path.basename, glob.glob('static/tsne/*.h5')))
+representations = list(map(os.path.basename, glob.glob('static/embed/*.h5')))
 representation = Select(title='Representation', value=default_representation, options=representations)
 representation.on_change('value', update_map_points)
 
@@ -206,8 +190,8 @@ markercolor = Select(
 )
 markercolor.on_change('value', update_markercolor)
 
-hfile = os.path.join('static', 'tsne', representation.value)
-x = load_tsne(hfile, keys=df['micrograph_id'].astype(str), perplexity=40)
+hfile = os.path.join('static', 'embed', representation.value)
+x = load_embedding(hfile, keys=df['micrograph_id'].astype(str), method='t-SNE')
 
 thumb = ['static/thumbs/micrograph{}.png'.format(key) for key in df['micrograph_id']]
 

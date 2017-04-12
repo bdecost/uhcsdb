@@ -64,7 +64,7 @@ from .models import Base, User, Collection, Sample, Micrograph
 from uhcsdb import features
 from uhcsdb.models import Base, User, Collection, Sample, Micrograph
 
-features.build_search_tree('uhcsdb/static',
+features.build_search_tree('uhcsdb/static/representations',
                            featurename='vgg16_multiscale_block5_conv3-vlad-32.h5'
 )
 # features.build_search_tree(app.config['DATADIR'])
