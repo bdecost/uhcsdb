@@ -8,7 +8,7 @@ Please cite use of the UHCS microstructure data as:
 ```TeX
 @misc{uhcsdata,
   title={Ultrahigh Carbon Steel Micrographs},
-  author = {Hecht, Matthew D. and DeCost, Brian L. and Francis, Toby and Holm, Elizabeth A. and Picard, Yoosuf N. and Webler, Bryan A.},
+  author={Hecht, Matthew D. and DeCost, Brian L. and Francis, Toby and Holm, Elizabeth A. and Picard, Yoosuf N. and Webler, Bryan A.},
   howpublished={\url{https://hdl.handle.net/11256/940}}
 }
 ```	
@@ -18,7 +18,7 @@ For work that builds on these data visualization tools, please cite our forthcom
 ```TeX
 @article{uhcsimmi,
   title={UHCSDB (Ultrahigh Carbon Steel micrograph DataBase): tools for exploring large heterogeneous microstructure datasets},
-  author = {DeCost, Brian L. and Hecht, Matthew D. and Francis, Toby  and Picard, Yoosuf N. and Webler, Bryan A. and Holm, Elizabeth A.},
+  author={DeCost, Brian L. and Hecht, Matthew D. and Francis, Toby  and Picard, Yoosuf N. and Webler, Bryan A. and Holm, Elizabeth A.},
   year={submitted for review},
   journal={IMMI}
 }
