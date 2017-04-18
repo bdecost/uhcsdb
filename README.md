@@ -8,9 +8,9 @@ Please cite use of the UHCS microstructure data as:
 ```TeX
 @misc{uhcsdata,
   title={Ultrahigh Carbon Steel Micrographs},
-    author = {Hecht, Matthew D. and DeCost, Brian L. and Francis, Toby and Holm, Elizabeth A. and Picard, Yoosuf N. and Webler, Bryan A.},
-      howpublished={\url{https://hdl.handle.net/11256/940}}
-      }
+  author = {Hecht, Matthew D. and DeCost, Brian L. and Francis, Toby and Holm, Elizabeth A. and Picard, Yoosuf N. and Webler, Bryan A.},
+  howpublished={\url{https://hdl.handle.net/11256/940}}
+}
 ```	
 
 The UHCS dataset will be documented by an [IMMI](https://immijournal.springeropen.com/) manuscript (submitted 14 April 2017).
