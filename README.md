@@ -24,8 +24,45 @@ For work that builds on these data visualization tools, please cite our forthcom
 }
 ```	
 
+## Check out the data
+
+```sh
+git clone https://github.com/bdecost/uhcsdb
+cd uhcsdb
+```
 
 Store microstructure metadata in uhcsdb/microstructures.sqlite
+```sh
+# get data from NIST for this project
+# http://hdl.handle.net/11256/940
+NIST_DATASET=11256/940
+NIST_DATASET_URL=https://materialsdata.nist.gov/dspace/xmlui/bitstream/handle/${NIST_DATASET}
+
+DATADIR=uhcsdata
+
+echo "download data files into DATADIR=${DATADIR}"
+
+# download metadata
+curl ${NIST_DATASET_URL}/microstructures.sqlite -o ${DATADIR}/microstructures.sqlite
+```
+
 Store image files under uhcsdb/static/micrographs.
+
 Store image representations in HDF5 under uhcsdb/static/representations.
+
 Store reduced-dimensionality representations in HDF5 under uhcsdb/static/embed.
+```sh
+for archivefile in micrographs.zip representations.zip embed.zip; do
+    curl ${NIST_DATASET_URL}/${archivefile} -o ${DATADIR}/${archivefile}
+    unzip ${DATADIR}/${archivefile} -d ${DATADIR}
+done
+```
+
+Link data files into web app /static
+
+```sh
+curl ${NIST_DATASET_URL}/setup.sh -o ${DATADIR}/setup.sh
+bash setup.sh
+```
+
+
