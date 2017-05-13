@@ -13,14 +13,16 @@ Please cite use of the UHCS microstructure data as:
 }
 ```	
 
-The UHCS dataset will be documented by an [IMMI](https://immijournal.springeropen.com/) manuscript (submitted 14 April 2017).
+The UHCS dataset is be documented by a data descriptor published in IMMI (doi: [10.1007/s40192-017-0097-0](https://dx.doi.org/10.1007/s40192-017-0097-0)).
+You can read our preprint version [here (pdf)](https://holmgroup.github.io/publications/uhcs-data.pdf].
 For work that builds on these data visualization tools, please cite our forthcoming IMMI manuscript:
 ```TeX
 @article{uhcsimmi,
   title={UHCSDB (Ultrahigh Carbon Steel micrograph DataBase): tools for exploring large heterogeneous microstructure datasets},
   author={DeCost, Brian L. and Hecht, Matthew D. and Francis, Toby  and Picard, Yoosuf N. and Webler, Bryan A. and Holm, Elizabeth A.},
-  year={submitted for review},
-  journal={IMMI}
+  year={2017},
+  journal={Accepted for publication in IMMI},
+  doi={10.1007/s40192-017-0097-0}
 }
 ```	
 
