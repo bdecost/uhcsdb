@@ -13,7 +13,7 @@ Please cite use of the UHCS microstructure data as:
 }
 ```	
 
-The UHCS dataset is be documented by a data descriptor published in IMMI (doi: [10.1007/s40192-017-0097-0](https://dx.doi.org/10.1007/s40192-017-0097-0)).
+The UHCS dataset is be documented by a data descriptor published in *Integrating Materials and Manufacturing Innovation* (doi: [10.1007/s40192-017-0097-0](https://dx.doi.org/10.1007/s40192-017-0097-0)).
 You can read our preprint version [here (pdf)](https://holmgroup.github.io/publications/uhcs-data.pdf).
 For work that builds on these data visualization tools, please cite our forthcoming IMMI manuscript:
 ```TeX
