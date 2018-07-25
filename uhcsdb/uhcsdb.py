@@ -42,7 +42,7 @@ ALLOWED_EXTENSIONS = set(['pdf', 'png', 'jpg', 'jpeg', 'gif', 'tif'])
 def load_secret_key():
     pardir = os.path.dirname(__file__)
     keyfile = os.path.join(pardir, 'secret_key')
-    with open(keyfile, 'rb') as f:        
+    with open(keyfile, 'rb') as f:
         return f.read()
 
 app.config.update(dict(
@@ -64,10 +64,13 @@ from .models import Base, User, Collection, Sample, Micrograph
 from uhcsdb import features
 from uhcsdb.models import Base, User, Collection, Sample, Micrograph
 
-features.build_search_tree('uhcsdb/static/representations',
-                           featurename='vgg16_multiscale_block5_conv3-vlad-32.h5'
-)
-# features.build_search_tree(app.config['DATADIR'])
+@app.before_first_request
+def build_search_tree():
+    print('building search tree...')
+    features.build_search_tree('uhcsdb/static/representations',
+                               featurename='vgg16_multiscale_block5_conv3-vlad-32.h5'
+    )
+    # features.build_search_tree(app.config['DATADIR'])
 
 def connect_db(dbpath):
     engine = create_engine('sqlite:///' + dbpath)
@@ -93,7 +96,7 @@ def paginate(results, page, PER_PAGE):
         page_data['has_prev'] = False
     if end >= len(results):
         page_data['has_next'] = False
-  
+
     return results[start:end], page_data
 
 ENTRIES_PER_PAGE = 24
@@ -165,7 +168,7 @@ def load_publication_data(path):
         pub = dict(entry.fields)
         pub['authors'] = author_list(entry)
         publication_data.append(pub)
-        
+
     return publication_data
 
 @app.route('/publications')
@@ -183,5 +186,6 @@ def publications():
 
 if __name__ == '__main__':
     app.config.from_object('config')
+
     with app.app_context():
         app.run(debug=False)
