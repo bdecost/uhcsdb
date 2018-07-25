@@ -38,4 +38,4 @@ if __name__ == '__main__':
     df = df.T.groupby(level=0).last().T
 
     print(df.head())
-    df.to_csv('uhcs-metadata.csv')
+    df.to_csv('data/uhcs-metadata.csv')
