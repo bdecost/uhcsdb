@@ -1,0 +1,1733 @@
+,anneal_temp_unit,anneal_temperature,anneal_time,anneal_time_unit,contributor_key,cool_method,detector,label,magnification,micrograph_id,micron_bar,micron_bar_px,micron_bar_units,path,primary_microconstituent,sample_id,sample_key
+0,,,,,2,,SE,ET Gyro,4910x,1,5.0,129,um,micrograph1.tif,pearlite,42.0,42.0
+1,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,2,10.0,103,um,micrograph2.tif,spheroidite,18.0,18.0
+2,,,,,2,,SE,SIS_XL.TIF,65x,3,200.0,69,um,micrograph3.tif,quality,47.0,47.0
+3,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,,4,10.0,129,um,micrograph4.tif,pearlite+spheroidite,35.0,35.0
+4,C,750.0,5.0,M,2,Q,SE,AC1 750C 5M Q,4910X,5,5.0,129,um,micrograph5.tif,pearlite,10.0,10.0
+5,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,1178X,6,20.0,124,um,micrograph6.tif,spheroidite,29.0,29.0
+6,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,7,20.0,103,um,micrograph7.tif,spheroidite+widmanstatten,40.0,40.0
+7,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,,8,100.0,103,um,micrograph8.tif,network,31.0,31.0
+8,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98x,9,200.0,103,um,micrograph9.tif,network,31.0,31.0
+9,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,10,10.0,103,um,micrograph10.png,spheroidite,39.0,39.0
+10,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,11,10.0,103,um,micrograph11.tif,spheroidite,18.0,18.0
+11,,,,,2,,SE,,982x,12,20.0,103,um,micrograph12.tif,pearlite+spheroidite,,
+12,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,98x,13,200.0,103,um,micrograph13.tif,network,8.0,8.0
+13,,,,,2,,SE,AC1 IS1010H 35X etched,98X,14,200.0,103,um,micrograph14.tif,network,41.0,41.0
+14,,,,,2,,SE,,786x,15,20.0,83,um,micrograph15.tif,pearlite+spheroidite,,
+15,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,4910x,16,5.0,129,um,micrograph16.tif,,24.0,24.0
+16,,,,,2,,SE,IN3 Unetched,35x,17,500.0,93,um,micrograph17.tif,quality,45.0,45.0
+17,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,98X,18,200.0,103,um,micrograph18.png,network,39.0,39.0
+18,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,982x,19,20.0,103,um,micrograph19.tif,crack,14.0,14.0
+19,,,,,2,,SE,AC1 IS1010H 35X etched,1964X,20,10.0,103,um,micrograph20.tif,martensite,41.0,41.0
+20,,,,,2,,SE,AC1 + vickers mark,98x,21,200.0,103,um,micrograph21.tif,network,3.0,3.0
+21,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,22,20.0,103,um,micrograph22.tif,,36.0,36.0
+22,,,,,2,,SE,IN1 Etched Sample,9820X,23,2.0,103,um,micrograph23.jpg,figure,44.0,44.0
+23,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98x,24,200.0,103,um,micrograph24.tif,network,33.0,33.0
+24,,,,,2,,SE,,3437x,25,5.0,90,um,micrograph25.tif,hole,,
+25,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,1964X,26,10.0,103,um,micrograph26.tif,spheroidite+widmanstatten,4.0,4.0
+26,,,,,2,,BSE,,491x,27,50.0,129,um,micrograph27.tif,,,
+27,,,,,2,,SE,,49X,28,500.0,129,um,micrograph28.tif,network,,
+28,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,1473X,29,20.0,154,um,micrograph29.tif,spheroidite,35.0,35.0
+29,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,30,20.0,103,um,micrograph30.tif,spheroidite,20.0,20.0
+30,,,,,2,,SE,,49X,31,500.0,129,um,micrograph31.tif,network,,
+31,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,32,20.0,103,um,micrograph32.tif,spheroidite,25.0,25.0
+32,,,,,2,,SE,,,33,500.0,129,um,micrograph33.tif,network,,
+33,,,,,2,,SE,IN1 Etched Sample,491x,34,50.0,129,um,micrograph34.tif,,44.0,44.0
+34,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,98x,35,200.0,103,um,micrograph35.tif,network,34.0,34.0
+35,,,,,2,,SE,ET Gyro,98x,36,200.0,103,um,micrograph36.tif,network,42.0,42.0
+36,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,982x,37,20.0,103,um,micrograph37.tif,spheroidite+widmanstatten,38.0,38.0
+37,,,,,2,,BSE,SIS_XL.TIF,491x,38,50.0,129,um,micrograph38.bmp,indent,47.0,47.0
+38,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,982x,39,20.0,103,um,micrograph39.tif,spheroidite,34.0,34.0
+39,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98X,40,200.0,103,um,micrograph40.tif,sample,31.0,31.0
+40,,,,,2,,BSE,AC1 IS1010H 35X etched,98x,41,200.0,103,um,micrograph41.tif,martensite,41.0,41.0
+41,C,800.0,3.0,H,2,Q,BSE,AC1 800C 3H Q,98X,42,200.0,103,um,micrograph42.tif,network,7.0,7.0
+42,,,,,2,,SE,IN1 Etched Sample,9820X,43,2.0,103,um,micrograph43.jpg,figure,44.0,44.0
+43,,,,,2,,SE,SIS_XL.TIF,491x,44,50.0,129,um,micrograph44.tif,martensite,47.0,47.0
+44,,,,,2,,,ET Gyro,,45,200.0,103,um,micrograph45.tif,figure,42.0,42.0
+45,,,,,2,,SE,,,46,500.0,129,um,micrograph46.tif,network,,
+46,,,,,2,,SE,,49X,47,500.0,129,um,micrograph47.tif,network,,
+47,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,1964X,48,10.0,103,um,micrograph48.tif,spheroidite,11.0,11.0
+48,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,49,20.0,103,um,micrograph49.tif,spheroidite,36.0,36.0
+49,,,,,2,,SE,SIS_XL.TIF,9820X,50,2.0,103,um,micrograph50.tif,quality,47.0,47.0
+50,,,,,2,,SE,SIS_XL.TIF,98X,51,200.0,103,um,micrograph51.tif,network,47.0,47.0
+51,,,,,2,,SE,,,52,10.0,129,um,micrograph52.tif,pearlite,,
+52,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,53,10.0,103,um,micrograph53.tif,spheroidite,32.0,32.0
+53,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,54,20.0,103,um,micrograph54.tif,,24.0,24.0
+54,,,,,2,,SE,SIS_XL.TIF,638x,55,20.0,67,um,micrograph55.jpg,sample,47.0,47.0
+55,,,,,2,,BSE,,4910x,56,5.0,129,um,micrograph56.tif,,,
+56,,,,,2,,BSE,,4910X,57,5.0,129,um,micrograph57.tif,crack,,
+57,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,982x,58,20.0,103,um,micrograph58.tif,spheroidite+widmanstatten,23.0,23.0
+58,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,11785x,59,2.0,124,um,micrograph59.tif,pearlite,9.0,9.0
+59,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98X,60,200.0,103,um,micrograph60.tif,network,35.0,35.0
+60,,,,,2,,SE,AC1 + vickers mark,246x,61,100.0,129,um,micrograph61.tif,indent,3.0,3.0
+61,,,,,2,,SE,,4910x,62,5.0,129,um,micrograph62.tif,pearlite+spheroidite,,
+62,,,,,2,,BSE,SIS_XL.TIF,6383x,63,2.0,67,um,micrograph63.tif,,47.0,47.0
+63,,,,,2,,SE,,982x,64,20.0,103,um,micrograph64.tif,,,
+64,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,98x,65,200.0,103,um,micrograph65.tif,network,12.0,12.0
+65,,,,,2,,BSE,,,66,500.0,129,um,micrograph66.tif,quality,,
+66,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,67,5.0,129,um,micrograph67.tif,spheroidite,2.0,2.0
+67,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,68,5.0,129,um,micrograph68.tif,spheroidite,7.0,7.0
+68,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,982x,69,20.0,103,um,micrograph69.tif,spheroidite,35.0,35.0
+69,C,800.0,3.0,H,2,Q,BSE,AC1 800C 3H Q,98x,70,200.0,103,um,micrograph70.tif,network,7.0,7.0
+70,,,,,2,,SE,IN1 Etched Sample,982x,71,20.0,103,um,micrograph71.tif,pearlite+spheroidite,44.0,44.0
+71,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,72,200.0,103,um,micrograph72.tif,network,37.0,37.0
+72,,,,,2,,SE,SIS_XL.TIF,4910X,73,5.0,129,um,micrograph73.tif,,47.0,47.0
+73,,,,,2,,SE,IN1 Etched Sample,11785x,74,2.0,124,um,micrograph74.tif,pearlite,44.0,44.0
+74,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,75,20.0,103,um,micrograph75.tif,spheroidite,37.0,37.0
+75,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,76,10.0,103,um,micrograph76.tif,spheroidite,6.0,6.0
+76,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,1178X,77,20.0,124,um,micrograph77.tif,sample,31.0,31.0
+77,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,982x,78,20.0,103,um,micrograph78.tif,,22.0,22.0
+78,,,,,2,,BSE,IN3 Unetched,79x,79,200.0,83,um,micrograph79.tif,sample,45.0,45.0
+79,,,,,2,,BSE,SIS_XL.TIF,98x,80,200.0,103,um,micrograph80.tif,network,47.0,47.0
+80,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,81,50.0,129,um,micrograph81.tif,,40.0,40.0
+81,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,82,10.0,103,um,micrograph82.tif,spheroidite,6.0,6.0
+82,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,246x,83,100.0,129,um,micrograph83.tif,,5.0,5.0
+83,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,84,5.0,129,um,micrograph84.tif,crack,38.0,38.0
+84,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,491x,85,50.0,129,um,micrograph85.tif,,24.0,24.0
+85,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,118x,86,200.0,124,um,micrograph86.tif,network,37.0,37.0
+86,,,,,2,,BSE,SIS_XL.TIF,1964X,87,10.0,103,um,micrograph87.tif,hole,47.0,47.0
+87,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,118x,88,200.0,124,um,micrograph88.tif,network,24.0,24.0
+88,,,,,2,,SE,SIS_XL.TIF,98X,89,200.0,103,um,micrograph89.tif,network,47.0,47.0
+89,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,982x,90,20.0,103,um,micrograph90.tif,spheroidite,24.0,24.0
+90,,,,,2,,SE,SIS_XL.TIF,14731x,91,2.0,154,um,micrograph91.tif,pearlite,47.0,47.0
+91,,,,,2,,SE,SIS_XL.TIF,1964X,92,10.0,103,um,micrograph92.tif,,47.0,47.0
+92,,,,,2,,SE,ET Gyro,,93,2.0,103,um,micrograph93.tif,quality,42.0,42.0
+93,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,491x,94,50.0,129,um,micrograph94.tif,sample,33.0,33.0
+94,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,118x,95,200.0,124,um,micrograph95.tif,network,19.0,19.0
+95,,,,,2,,SE,AC1 + vickers mark,2455X,96,10.0,129,um,micrograph96.tif,sample,3.0,3.0
+96,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,98x,97,200.0,103,um,micrograph97.tif,network,6.0,6.0
+97,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,1964X,98,10.0,103,um,micrograph98.tif,spheroidite,20.0,20.0
+98,,,,,2,,BSE,AC1 IS1010H 35X etched,,99,10.0,129,um,micrograph99.tif,martensite,41.0,41.0
+99,,,,,2,,SE,,63833X,100,200.0,67,nm,micrograph100.tif,quality,,
+100,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,117x,101,200.0,123,um,micrograph101.tif,,43.0,43.0
+101,,,,,2,,SE,ET Gyro,19641x,102,1.0,103,um,micrograph102.tif,quality,42.0,42.0
+102,,,,,2,,SE,SIS_XL.TIF,982x,103,20.0,103,um,micrograph103.tif,,47.0,47.0
+103,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,982x,104,20.0,103,um,micrograph104.tif,spheroidite,29.0,29.0
+104,,,,,2,,BSE,IN3 Unetched,4910X,105,5.0,129,um,micrograph105.tif,crack,45.0,45.0
+105,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,106,10.0,103,um,micrograph106.png,spheroidite,37.0,37.0
+106,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,107,10.0,103,um,micrograph107.png,spheroidite,40.0,40.0
+107,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,108,10.0,103,um,micrograph108.tif,crack,14.0,14.0
+108,,,,,2,,SE,,4910X,109,5.0,129,um,micrograph109.tif,pearlite+spheroidite,,
+109,,,,,2,,BSE,ET Gyro,3437x,110,5.0,90,um,micrograph110.tif,quality,42.0,42.0
+110,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,4910X,111,5.0,129,um,micrograph111.tif,pearlite+spheroidite,35.0,35.0
+111,,,,,2,,SE,,49X,112,500.0,129,um,micrograph112.tif,network,,
+112,C,800.0,3.0,H,2,Q,BSE,AC1 800C 3H Q,98X,113,200.0,103,um,micrograph113.tif,network,7.0,7.0
+113,,,,,2,,SE,SIS_XL.TIF,491x,114,50.0,129,um,micrograph114.tif,martensite,47.0,47.0
+114,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,491x,115,50.0,129,um,micrograph115.tif,,35.0,35.0
+115,,,,,2,,SE,SIS_XL.TIF,1473X,116,20.0,154,um,micrograph116.tif,,47.0,47.0
+116,,,,,2,,SE,,982x,117,20.0,103,um,micrograph117.tif,hole,,
+117,,,,,2,,SE,SIS_XL.TIF,49X,118,500.0,129,um,micrograph118.tif,,47.0,47.0
+118,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,,119,10.0,129,um,micrograph119.tif,pearlite+spheroidite,35.0,35.0
+119,,,,,2,,SE,,982x,120,20.0,103,um,micrograph120.tif,,,
+120,,,,,2,,SE,ET Gyro,,121,200.0,103,nm,micrograph121.tif,pearlite,42.0,42.0
+121,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,122,10.0,103,um,micrograph122.tif,spheroidite,17.0,17.0
+122,,,,,2,,BSE,SIS_XL.TIF,246x,123,100.0,129,um,micrograph123.bmp,indent,47.0,47.0
+123,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,124,10.0,103,um,micrograph124.tif,spheroidite,14.0,14.0
+124,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,982x,125,20.0,103,um,micrograph125.tif,,30.0,30.0
+125,,,,,2,,SE,,,126,10.0,129,um,micrograph126.tif,pearlite,,
+126,,,,,2,,SE,,49X,127,500.0,129,um,micrograph127.tif,network,,
+127,,,,,2,,SE,,49X,128,500.0,129,um,micrograph128.tif,network,,
+128,,,,,2,,BSE,SIS_XL.TIF,,129,10.0,129,um,micrograph129.bmp,crack,47.0,47.0
+129,,,,,2,,SE,SIS_XL.TIF,24551X,130,1.0,129,um,micrograph130.tif,pearlite,47.0,47.0
+130,,,,,2,,SE,,786x,131,20.0,83,um,micrograph131.tif,pearlite+spheroidite,,
+131,,,,,2,,SE,IN1 Etched Sample,491x,132,50.0,129,um,micrograph132.tif,,44.0,44.0
+132,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,98X,133,200.0,103,um,micrograph133.tif,network,4.0,4.0
+133,,,,,2,,SE,SIS_XL.TIF,3437X,134,5.0,90,um,micrograph134.tif,hole,47.0,47.0
+134,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1473X,135,20.0,154,um,micrograph135.tif,spheroidite,26.0,26.0
+135,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,491x,136,50.0,129,um,micrograph136.tif,,9.0,9.0
+136,,,,,2,,SE,,4910x,137,5.0,129,um,micrograph137.tif,pearlite+spheroidite,,
+137,C,970.0,48.0,H,2,Q,SE,AC1 970C 48H Q,491x,138,50.0,129,um,micrograph138.tif,spheroidite,27.0,27.0
+138,,,,,2,,SE,SIS_XL.TIF,982x,139,20.0,103,um,micrograph139.tif,hole,47.0,47.0
+139,,,,,2,,BSE,SIS_XL.TIF,246x,140,100.0,129,um,micrograph140.bmp,indent,47.0,47.0
+140,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,141,2.0,83,um,micrograph141.tif,quality,6.0,6.0
+141,,,,,2,,BSE,,,142,100.0,103,um,micrograph142.tif,,,
+142,,,,,2,,SE,,4910X,143,5.0,129,um,micrograph143.tif,,,
+143,,,,,2,,BSE,,982x,144,20.0,103,um,micrograph144.tif,,,
+144,,,,,2,,BSE,SIS_XL.TIF,246x,145,100.0,129,um,micrograph145.bmp,indent,47.0,47.0
+145,,,,,2,,SE,,,146,2.0,103,um,micrograph146.tif,,,
+146,,,,,2,,SE,SIS_XL.TIF,246x,147,100.0,129,um,micrograph147.bmp,indent,47.0,47.0
+147,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,3437x,148,5.0,90,um,micrograph148.tif,spheroidite,19.0,19.0
+148,,,,,2,,SE,IN1 Etched Sample,11785x,149,2.0,124,um,micrograph149.tif,hole,44.0,44.0
+149,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98X,150,200.0,103,um,micrograph150.tif,network,35.0,35.0
+150,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,638x,151,20.0,67,um,micrograph151.tif,,30.0,30.0
+151,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,152,10.0,103,um,micrograph152.png,spheroidite,37.0,37.0
+152,,,,,2,,BSE,IN3 Unetched,35x,153,500.0,93,um,micrograph153.tif,sample,45.0,45.0
+153,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,1473X,154,20.0,154,um,micrograph154.tif,spheroidite,24.0,24.0
+154,,,,,2,,BSE,,1964X,155,10.0,103,um,micrograph155.tif,,,
+155,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,156,10.0,103,um,micrograph156.png,spheroidite,36.0,36.0
+156,,,,,2,,SE,ET Gyro,,157,500.0,129,um,micrograph157.tif,network,42.0,42.0
+157,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,,158,100.0,103,um,micrograph158.tif,,5.0,5.0
+158,,,,,2,,SE,,,159,500.0,129,um,micrograph159.tif,,,
+159,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,160,20.0,154,um,micrograph160.tif,spheroidite,28.0,28.0
+160,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,161,10.0,103,um,micrograph161.tif,spheroidite,21.0,21.0
+161,C,970.0,48.0,H,2,Q,SE,AC1 970C 48H Q,491x,162,50.0,129,um,micrograph162.tif,spheroidite,27.0,27.0
+162,,,,,2,,SE,Gaunt - Utah 1.5 yr explant M,,163,200.0,105,um,micrograph163.tif,,43.0,43.0
+163,,,,,2,,SE,AC1 + vickers mark,638x,164,20.0,67,um,micrograph164.tif,,3.0,3.0
+164,,,,,2,,SE,,,165,100.0,103,um,micrograph165.tif,,,
+165,,,,,2,,SE,,4910X,166,5.0,129,um,micrograph166.tif,pearlite+spheroidite,,
+166,,,,,2,,SE,,491x,167,50.0,129,um,micrograph167.tif,,,
+167,,,,,2,,BSE,AC1 IS1010H 35X etched,98x,168,200.0,103,um,micrograph168.tif,martensite,41.0,41.0
+168,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,169,10.0,103,um,micrograph169.tif,spheroidite,17.0,17.0
+169,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,170,10.0,103,um,micrograph170.tif,spheroidite,6.0,6.0
+170,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,491x,171,50.0,129,um,micrograph171.tif,spheroidite,24.0,24.0
+171,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,1964X,172,10.0,103,um,micrograph172.tif,spheroidite,20.0,20.0
+172,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,98x,173,200.0,103,um,micrograph173.png,network,37.0,37.0
+173,,,,,2,,SE,,491x,174,50.0,129,um,micrograph174.tif,,,
+174,,,,,2,,SE,,147x,175,200.0,154,um,micrograph175.tif,,,
+175,,,,,2,,BSE,SIS_XL.TIF,4910X,176,5.0,129,um,micrograph176.tif,pearlite,47.0,47.0
+176,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,177,10.0,103,um,micrograph177.png,spheroidite,36.0,36.0
+177,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,178,10.0,103,um,micrograph178.tif,spheroidite,25.0,25.0
+178,,,,,2,,SE,IN3 Unetched,19641x,179,1.0,103,um,micrograph179.tif,sample,45.0,45.0
+179,,,,,2,,SE,SIS_XL.TIF,24551X,180,1.0,129,um,micrograph180.tif,pearlite,47.0,47.0
+180,C,970.0,90.0,M,2,FC,,AC1 970C 90M FC,,181,20.0,103,um,micrograph181.tif,figure,35.0,35.0
+181,,,,,2,,SE,IN1 Etched Sample,3437x,182,5.0,90,um,micrograph182.jpg,figure,44.0,44.0
+182,,,,,2,,BSE,SIS_XL.TIF,491x,183,50.0,129,um,micrograph183.bmp,indent,47.0,47.0
+183,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,4910X,184,5.0,129,um,micrograph184.tif,spheroidite,16.0,16.0
+184,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,,185,2.0,103,um,micrograph185.tif,spheroidite,2.0,2.0
+185,,,,,2,,SE,,4910X,186,5.0,129,um,micrograph186.tif,pearlite+spheroidite,,
+186,,,,,2,,SE,,,187,100.0,103,um,micrograph187.tif,,,
+187,,,,,2,,SE,IN1 Etched Sample,34X,188,500.0,90,um,micrograph188.tif,network,44.0,44.0
+188,,,,,2,,BSE,SIS_XL.TIF,98X,189,200.0,103,um,micrograph189.tif,network,47.0,47.0
+189,,,,,2,,SE,,491x,190,50.0,129,um,micrograph190.tif,,,
+190,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,1178X,191,20.0,124,um,micrograph191.tif,spheroidite+widmanstatten,4.0,4.0
+191,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,192,10.0,103,um,micrograph192.tif,spheroidite,6.0,6.0
+192,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,4910X,193,5.0,129,um,micrograph193.tif,pearlite+spheroidite,5.0,5.0
+193,,,,,2,,SE,ET Gyro,,194,2.0,103,um,micrograph194.tif,pearlite,42.0,42.0
+194,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,4910X,195,5.0,129,um,micrograph195.tif,spheroidite,29.0,29.0
+195,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,196,5.0,129,um,micrograph196.tif,spheroidite,33.0,33.0
+196,,,,,2,,BSE,SIS_XL.TIF,491x,197,50.0,129,um,micrograph197.bmp,indent,47.0,47.0
+197,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,19641x,198,1.0,103,um,micrograph198.tif,pearlite,9.0,9.0
+198,,,,,2,,SE,,246x,199,100.0,129,um,micrograph199.tif,,,
+199,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,246x,200,100.0,129,um,micrograph200.tif,spheroidite+widmanstatten,25.0,25.0
+200,,,,,2,,SE,IN1 Etched Sample,982x,201,20.0,103,um,micrograph201.tif,pearlite+spheroidite,44.0,44.0
+201,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,202,20.0,103,um,micrograph202.tif,spheroidite,25.0,25.0
+202,,,,,2,,BSE,AC1 + vickers mark,98x,203,200.0,103,um,micrograph203.tif,indent,3.0,3.0
+203,,,,,2,,SE,,,204,500.0,129,um,micrograph204.tif,network,,
+204,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,,205,2.0,103,um,micrograph205.tif,spheroidite,19.0,19.0
+205,,,,,2,,SE,,147x,206,200.0,154,um,micrograph206.tif,,,
+206,,,,,2,,SE,,1178X,207,20.0,124,um,micrograph207.tif,hole,,
+207,,,,,2,,,,,208,100.0,92,mm,micrograph208.tif,hole,,
+208,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,4910X,209,5.0,129,um,micrograph209.tif,spheroidite,29.0,29.0
+209,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,210,10.0,103,um,micrograph210.tif,spheroidite,21.0,21.0
+210,,,,,2,,SE,IN1 Etched Sample,1964X,211,10.0,103,um,micrograph211.tif,pearlite+spheroidite,44.0,44.0
+211,,,,,2,,SE,ET Gyro,,212,2.0,103,um,micrograph212.tif,pearlite,42.0,42.0
+212,,,,,2,,SE,,49X,213,500.0,129,um,micrograph213.tif,,,
+213,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1964X,214,10.0,103,um,micrograph214.tif,spheroidite+widmanstatten,34.0,34.0
+214,,,,,2,,BSE,,3437x,215,5.0,90,um,micrograph215.tif,,,
+215,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,1964X,216,10.0,103,um,micrograph216.tif,,22.0,22.0
+216,,,,,2,,SE,,49102x,217,500.0,129,nm,micrograph217.tif,quality,,
+217,C,750.0,5.0,M,2,Q,SE,AC1 750C 5M Q,,218,2.0,83,um,micrograph218.tif,pearlite,10.0,10.0
+218,,,,,2,,SE,SIS_XL.TIF,118x,219,200.0,124,um,micrograph219.tif,sample,47.0,47.0
+219,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,982x,220,20.0,103,um,micrograph220.tif,spheroidite,16.0,16.0
+220,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1473X,221,20.0,154,um,micrograph221.tif,spheroidite+widmanstatten,34.0,34.0
+221,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1473X,222,20.0,154,um,micrograph222.tif,spheroidite+widmanstatten,34.0,34.0
+222,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,223,10.0,103,um,micrograph223.png,spheroidite,37.0,37.0
+223,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,1964X,224,10.0,103,um,micrograph224.tif,pearlite+spheroidite,35.0,35.0
+224,,,,,2,,SE,SIS_XL.TIF,491x,225,50.0,129,um,micrograph225.bmp,indent,47.0,47.0
+225,,,,,2,,SE,SIS_XL.TIF,98X,226,200.0,103,um,micrograph226.tif,hole,47.0,47.0
+226,,,,,2,,BSE,IN3 Unetched,246x,227,100.0,129,um,micrograph227.tif,crack,45.0,45.0
+227,,,,,2,,SE,SIS_XL.TIF,98X,228,200.0,103,um,micrograph228.tif,,47.0,47.0
+228,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,229,200.0,103,um,micrograph229.tif,network,37.0,37.0
+229,,,,,2,,BSE,,,230,500.0,129,um,micrograph230.tif,crack,,
+230,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,982x,231,20.0,103,um,micrograph231.tif,spheroidite,21.0,21.0
+231,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,246x,232,100.0,129,um,micrograph232.tif,,31.0,31.0
+232,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,982x,233,20.0,103,um,micrograph233.tif,spheroidite+widmanstatten,14.0,14.0
+233,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,234,20.0,103,um,micrograph234.tif,spheroidite,20.0,20.0
+234,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,982x,235,20.0,103,um,micrograph235.tif,spheroidite,29.0,29.0
+235,,,,,2,,SE,SIS_XL.TIF,4910X,236,5.0,129,um,micrograph236.tif,,47.0,47.0
+236,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,237,10.0,103,um,micrograph237.tif,spheroidite,13.0,13.0
+237,,,,,2,,SE,,11785x,238,2.0,124,um,micrograph238.tif,quality,,
+238,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,982x,239,20.0,103,um,micrograph239.tif,,22.0,22.0
+239,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,240,5.0,129,um,micrograph240.tif,crack,38.0,38.0
+240,,,,,2,,SE,,98X,241,200.0,103,um,micrograph241.tif,,,
+241,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,98X,242,200.0,103,um,micrograph242.tif,network,4.0,4.0
+242,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,243,10.0,103,um,micrograph243.png,spheroidite,37.0,37.0
+243,,,,,2,,SE,SIS_XL.TIF,491x,244,50.0,129,um,micrograph244.bmp,indent,47.0,47.0
+244,,,,,2,,BSE,,3437x,245,5.0,90,um,micrograph245.tif,pearlite+spheroidite,,
+245,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,98x,246,200.0,103,um,micrograph246.tif,sample,35.0,35.0
+246,C,750.0,5.0,M,2,Q,SE,AC1 750C 5M Q,,247,2.0,103,um,micrograph247.tif,pearlite,10.0,10.0
+247,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,248,20.0,103,um,micrograph248.tif,spheroidite,39.0,39.0
+248,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,,249,2.0,103,um,micrograph249.tif,quality,43.0,43.0
+249,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,982x,250,20.0,103,um,micrograph250.tif,,22.0,22.0
+250,,,,,2,,SE,AC1 + vickers mark,98x,251,200.0,103,um,micrograph251.tif,network,3.0,3.0
+251,,,,,2,,SE,SIS_XL.TIF,9820X,252,2.0,103,um,micrograph252.tif,pearlite,47.0,47.0
+252,,,,,2,,SE,AC1 + vickers mark,98x,253,200.0,103,um,micrograph253.tif,network,3.0,3.0
+253,,,,,2,,BSE,SIS_XL.TIF,98x,254,200.0,103,um,micrograph254.tif,,47.0,47.0
+254,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,98X,255,200.0,103,um,micrograph255.tif,network,28.0,28.0
+255,,,,,2,,SE,,1964X,256,10.0,103,um,micrograph256.tif,,,
+256,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,638x,257,20.0,67,um,micrograph257.tif,spheroidite,24.0,24.0
+257,,,,,2,,,,,258,100.0,92,mm,micrograph258.tif,quality,,
+258,,,,,2,,SE,IN3 Unetched,,259,100.0,103,um,micrograph259.tif,crack,45.0,45.0
+259,,,,,2,,SE,,1473X,260,20.0,154,um,micrograph260.tif,quality,,
+260,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,261,10.0,103,um,micrograph261.tif,spheroidite,2.0,2.0
+261,,,,,2,,SE,SIS_XL.TIF,6383X,262,2.0,67,um,micrograph262.tif,,47.0,47.0
+262,,,,,2,,,,,263,100.0,92,mm,micrograph263.tif,quality,,
+263,,,,,2,,BSE,,,264,500.0,129,um,micrograph264.tif,quality,,
+264,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,265,10.0,103,um,micrograph265.tif,spheroidite,6.0,6.0
+265,,,,,2,,SE,,344x,266,50.0,90,um,micrograph266.tif,quality,,
+266,,,,,2,,SE,IN3 Unetched,491x,267,50.0,129,um,micrograph267.tif,sample,45.0,45.0
+267,,,,,2,,BSE,IN3 Unetched,638x,268,20.0,67,um,micrograph268.tif,crack,45.0,45.0
+268,,,,,2,,SE,SIS_XL.TIF,98x,269,200.0,103,um,micrograph269.tif,network,47.0,47.0
+269,,,,,2,,SE,SIS_XL.TIF,98X,270,200.0,103,um,micrograph270.tif,sample,47.0,47.0
+270,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,271,10.0,103,um,micrograph271.tif,spheroidite,23.0,23.0
+271,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,272,5.0,129,um,micrograph272.tif,spheroidite,38.0,38.0
+272,,,,,2,,SE,SIS_XL.TIF,1964X,273,10.0,103,um,micrograph273.tif,pearlite,47.0,47.0
+273,,,,,2,,BSE,IN3 Unetched,982x,274,20.0,103,um,micrograph274.tif,hole,45.0,45.0
+274,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,275,2.0,83,um,micrograph275.tif,quality,6.0,6.0
+275,,,,,2,,BSE,IN3 Unetched,,276,2.0,83,um,micrograph276.tif,quality,45.0,45.0
+276,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,2455X,277,10.0,129,um,micrograph277.tif,,40.0,40.0
+277,,,,,2,,BSE,,4910x,278,5.0,129,um,micrograph278.tif,quality,,
+278,,,,,2,,SE,,34372X,279,500.0,90,nm,micrograph279.tif,quality,,
+279,,,,,2,,BSE,SIS_XL.TIF,98X,280,200.0,103,um,micrograph280.tif,network,47.0,47.0
+280,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,281,5.0,129,um,micrograph281.tif,crack,38.0,38.0
+281,,,,,2,,SE,,49X,282,500.0,129,um,micrograph282.tif,,,
+282,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,,283,2.0,103,um,micrograph283.tif,spheroidite,2.0,2.0
+283,,,,,2,,SE,,34372X,284,500.0,90,nm,micrograph284.tif,pearlite,,
+284,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,285,200.0,103,um,micrograph285.tif,network,37.0,37.0
+285,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,286,5.0,129,um,micrograph286.tif,spheroidite,38.0,38.0
+286,,,,,2,,SE,SIS_XL.TIF,65x,287,200.0,69,um,micrograph287.tif,,47.0,47.0
+287,,,,,2,,BSE,,,288,10.0,129,um,micrograph288.tif,pearlite+spheroidite,,
+288,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,,289,100.0,103,um,micrograph289.tif,,28.0,28.0
+289,C,970.0,24.0,H,2,FC,,AC1 970C 24H FC,25x,290,1.0,129,mm,micrograph290.tif,sample,30.0,30.0
+290,,,,,2,,,,,291,100.0,92,mm,micrograph291.tif,quality,,
+291,,,,,2,,SE,SIS_XL.TIF,1178X,292,20.0,124,um,micrograph292.tif,,47.0,47.0
+292,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,35x,293,500.0,92,um,micrograph293.tif,sample,33.0,33.0
+293,,,,,2,,SE,,,294,100.0,103,um,micrograph294.tif,,,
+294,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,295,20.0,103,um,micrograph295.tif,spheroidite+widmanstatten,40.0,40.0
+295,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,4910X,296,5.0,129,um,micrograph296.tif,spheroidite,16.0,16.0
+296,,,,,2,,SE,SIS_XL.TIF,49X,297,500.0,129,um,micrograph297.tif,network,47.0,47.0
+297,,,,,2,,BSE,IN3 Unetched,98x,298,200.0,103,um,micrograph298.tif,quality,45.0,45.0
+298,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,982x,299,20.0,103,um,micrograph299.tif,,12.0,12.0
+299,,,,,2,,BSE,ET Gyro,491x,300,50.0,129,um,micrograph300.tif,quality,42.0,42.0
+300,C,750.0,5.0,M,2,Q,SE,AC1 750C 5M Q,98X,301,200.0,103,um,micrograph301.tif,network,10.0,10.0
+301,,,,,2,,SE,IN3 Unetched,982x,302,20.0,103,um,micrograph302.tif,hole,45.0,45.0
+302,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,982x,303,20.0,103,um,micrograph303.tif,,35.0,35.0
+303,,,,,2,,SE,,,304,2.0,103,um,micrograph304.tif,quality,,
+304,,,,,2,,SE,SIS_XL.TIF,118x,305,200.0,124,um,micrograph305.tif,network,47.0,47.0
+305,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,98X,306,200.0,103,um,micrograph306.tif,network,9.0,9.0
+306,,,,,2,,BSE,,,307,500.0,129,um,micrograph307.tif,quality,,
+307,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,1964X,308,10.0,103,um,micrograph308.tif,spheroidite,20.0,20.0
+308,,,,,2,,SE,SIS_XL.TIF,24551X,309,1.0,129,um,micrograph309.tif,pearlite,47.0,47.0
+309,,,,,2,,SE,SIS_XL.TIF,,310,100.0,103,um,micrograph310.tif,hole,47.0,47.0
+310,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,4910x,311,5.0,129,um,micrograph311.tif,spheroidite,12.0,12.0
+311,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,982x,312,20.0,103,um,micrograph312.tif,spheroidite,16.0,16.0
+312,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,7856X,313,2.0,83,um,micrograph313.tif,spheroidite+widmanstatten,34.0,34.0
+313,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,2455X,314,10.0,129,um,micrograph314.tif,spheroidite+widmanstatten,34.0,34.0
+314,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,315,50.0,90,um,micrograph315.tif,sample,30.0,30.0
+315,,,,,2,,SE,AC1 IS1010H 35X etched,98X,316,200.0,103,um,micrograph316.tif,network,41.0,41.0
+316,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,,317,500.0,129,um,micrograph317.tif,sample,30.0,30.0
+317,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,318,10.0,103,um,micrograph318.png,spheroidite,39.0,39.0
+318,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,319,10.0,103,um,micrograph319.png,spheroidite,37.0,37.0
+319,,,,,2,,SE,SIS_XL.TIF,1473X,320,20.0,154,um,micrograph320.tif,hole,47.0,47.0
+320,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,321,10.0,103,um,micrograph321.tif,spheroidite,7.0,7.0
+321,,,,,2,,SE,SIS_XL.TIF,24551X,322,1.0,129,um,micrograph322.tif,pearlite,47.0,47.0
+322,,,,,2,,BSE,SIS_XL.TIF,,323,100.0,103,um,micrograph323.tif,crack,47.0,47.0
+323,,,,,2,,BSE,IN3 Unetched,1964X,324,10.0,103,um,micrograph324.tif,hole,45.0,45.0
+324,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,34372X,325,500.0,90,nm,micrograph325.tif,pearlite,9.0,9.0
+325,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,3437X,326,5.0,90,um,micrograph326.tif,spheroidite,28.0,28.0
+326,,,,,2,,SE,SIS_XL.TIF,11785x,327,2.0,124,um,micrograph327.tif,quality,47.0,47.0
+327,,,,,2,,SE,IN3 Unetched,982x,328,20.0,103,um,micrograph328.tif,crack,45.0,45.0
+328,,,,,2,,SE,SIS_XL.TIF,982x,329,20.0,103,um,micrograph329.tif,pearlite,47.0,47.0
+329,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,4910X,330,5.0,129,um,micrograph330.tif,spheroidite,16.0,16.0
+330,C,1000.0,5.0,M,2,Q,,AC1 1000C 5M Q,64X,331,200.0,67,um,micrograph331.tif,sample,4.0,4.0
+331,,,,,2,,BSE,,,332,10.0,129,um,micrograph332.tif,crack,,
+332,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,333,10.0,129,um,micrograph333.tif,spheroidite+widmanstatten,40.0,40.0
+333,,,,,2,,BSE,,786x,334,20.0,83,um,micrograph334.tif,,,
+334,,,,,2,,BSE,,98x,335,200.0,103,um,micrograph335.tif,,,
+335,,,,,2,,SE,,982x,336,20.0,103,um,micrograph336.tif,,,
+336,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1473X,337,20.0,154,um,micrograph337.tif,spheroidite,26.0,26.0
+337,,,,,2,,SE,SIS_XL.TIF,1473X,338,20.0,154,um,micrograph338.tif,hole,47.0,47.0
+338,,,,,2,,SE,,982x,339,20.0,103,um,micrograph339.tif,,,
+339,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,786x,340,20.0,83,um,micrograph340.tif,sample,30.0,30.0
+340,,,,,2,,SE,IN1 Etched Sample,,341,500.0,129,um,micrograph341.tif,sample,44.0,44.0
+341,,,,,2,,SE,,4910X,342,5.0,129,um,micrograph342.tif,pearlite+spheroidite,,
+342,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98X,343,200.0,103,um,micrograph343.png,network,40.0,40.0
+343,,,,,2,,SE,SIS_XL.TIF,344x,344,50.0,90,um,micrograph344.tif,hole,47.0,47.0
+344,,,,,2,,BSE,AC1 IS1010H 35X etched,1964X,345,10.0,103,um,micrograph345.tif,martensite,41.0,41.0
+345,,,,,2,,SE,,1964X,346,10.0,103,um,micrograph346.tif,pearlite+widmanstatten,,
+346,,,,,2,,SE,ET Gyro,98x,347,200.0,103,um,micrograph347.tif,network,42.0,42.0
+347,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,348,50.0,129,um,micrograph348.tif,sample,33.0,33.0
+348,,,,,2,,SE,SIS_XL.TIF,,349,2.0,103,um,micrograph349.tif,pearlite,47.0,47.0
+349,,,,,2,,BSE,SIS_XL.TIF,,350,500.0,129,um,micrograph350.tif,crack,47.0,47.0
+350,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,982x,351,20.0,103,um,micrograph351.tif,spheroidite,16.0,16.0
+351,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,352,5.0,129,um,micrograph352.tif,spheroidite,32.0,32.0
+352,,,,,2,,SE,ET Gyro,,353,2.0,103,um,micrograph353.tif,pearlite,42.0,42.0
+353,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,354,50.0,129,um,micrograph354.tif,spheroidite+widmanstatten,32.0,32.0
+354,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,982x,355,20.0,103,um,micrograph355.tif,,38.0,38.0
+355,,,,,2,,SE,SIS_XL.TIF,491x,356,50.0,129,um,micrograph356.tif,crack,47.0,47.0
+356,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,491x,357,50.0,129,um,micrograph357.tif,spheroidite,25.0,25.0
+357,,,,,2,,BSE,IN3 Unetched,98x,358,200.0,103,um,micrograph358.tif,quality,45.0,45.0
+358,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,982x,359,20.0,103,um,micrograph359.tif,spheroidite+widmanstatten,34.0,34.0
+359,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,360,10.0,103,um,micrograph360.tif,spheroidite,14.0,14.0
+360,,,,,2,,SE,,7218X,361,2.0,76,um,micrograph361.tif,crack,,
+361,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,362,50.0,90,um,micrograph362.tif,sample,30.0,30.0
+362,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,786x,363,20.0,83,um,micrograph363.tif,spheroidite,24.0,24.0
+363,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,364,5.0,129,um,micrograph364.tif,spheroidite,2.0,2.0
+364,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,491x,365,50.0,129,um,micrograph365.tif,,12.0,12.0
+365,,,,,2,,SE,SIS_XL.TIF,786x,366,20.0,83,um,micrograph366.tif,martensite,47.0,47.0
+366,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,367,10.0,103,um,micrograph367.tif,spheroidite,18.0,18.0
+367,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,147x,368,200.0,154,um,micrograph368.tif,network,37.0,37.0
+368,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910x,369,5.0,129,um,micrograph369.tif,spheroidite,19.0,19.0
+369,,,,,2,,SE,IN1 Etched Sample,,370,2.0,103,um,micrograph370.tif,,44.0,44.0
+370,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,98x,371,200.0,103,um,micrograph371.tif,network,12.0,12.0
+371,,,,,2,,BSE,IN3 Unetched,1964X,372,10.0,103,um,micrograph372.tif,crack,45.0,45.0
+372,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,4910x,373,5.0,129,um,micrograph373.tif,spheroidite,12.0,12.0
+373,,,,,2,,SE,SIS_XL.TIF,982x,374,20.0,103,um,micrograph374.tif,,47.0,47.0
+374,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,9820X,375,2.0,103,um,micrograph375.tif,spheroidite,34.0,34.0
+375,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,376,5.0,129,um,micrograph376.tif,spheroidite,2.0,2.0
+376,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,638x,377,20.0,67,um,micrograph377.tif,sample,34.0,34.0
+377,,,,,2,,BSE,,,378,500.0,129,um,micrograph378.tif,,,
+378,,,,,2,,SE,,49102x,379,500.0,129,nm,micrograph379.tif,quality,,
+379,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,1964X,380,10.0,103,um,micrograph380.tif,pearlite+spheroidite,35.0,35.0
+380,,,,,2,,BSE,AC1 IS1010H 35X etched,491x,381,50.0,129,um,micrograph381.tif,martensite,41.0,41.0
+381,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,382,10.0,103,um,micrograph382.tif,spheroidite,6.0,6.0
+382,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,98X,383,200.0,103,um,micrograph383.tif,network,29.0,29.0
+383,C,1000.0,5.0,M,2,Q,,AC1 1000C 5M Q,49X,384,500.0,129,um,micrograph384.tif,network,4.0,4.0
+384,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,982x,385,20.0,103,um,micrograph385.tif,,38.0,38.0
+385,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,3437X,386,5.0,90,um,micrograph386.tif,spheroidite,28.0,28.0
+386,,,,,2,,SE,SIS_XL.TIF,4910X,387,5.0,129,um,micrograph387.tif,pearlite,47.0,47.0
+387,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,388,10.0,103,um,micrograph388.png,spheroidite,40.0,40.0
+388,,,,,2,,BSE,,1473X,389,20.0,154,um,micrograph389.tif,,,
+389,,,,,2,,SE,,63833X,390,200.0,67,nm,micrograph390.tif,,,
+390,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,391,10.0,103,um,micrograph391.tif,spheroidite,7.0,7.0
+391,,,,,2,,SE,,7856X,392,2.0,83,um,micrograph392.tif,pearlite,,
+392,,,,,2,,BSE,IN3 Unetched,3437x,393,5.0,90,um,micrograph393.tif,quality,45.0,45.0
+393,,,,,2,,SE,SIS_XL.TIF,,394,10.0,129,um,micrograph394.tif,,47.0,47.0
+394,,,,,2,,SE,,4910x,395,5.0,129,um,micrograph395.tif,quality,,
+395,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98X,396,200.0,103,um,micrograph396.tif,network,25.0,25.0
+396,,,,,2,,SE,ET Gyro,,397,10.0,129,um,micrograph397.tif,pearlite,42.0,42.0
+397,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,398,20.0,103,um,micrograph398.tif,spheroidite,36.0,36.0
+398,,,,,2,,SE,IN3 Unetched,982x,399,20.0,103,um,micrograph399.tif,crack,45.0,45.0
+399,,,,,2,,BSE,,1473X,400,20.0,154,um,micrograph400.tif,quality,,
+400,,,,,2,,SE,IN1 Etched Sample,14731x,401,2.0,154,um,micrograph401.tif,pearlite,44.0,44.0
+401,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,402,10.0,103,um,micrograph402.tif,spheroidite,36.0,36.0
+402,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,64x,403,200.0,67,um,micrograph403.tif,network,9.0,9.0
+403,,,,,2,,SE,,638x,404,20.0,67,um,micrograph404.tif,pearlite+spheroidite,,
+404,,,,,2,,SE,SIS_XL.TIF,98X,405,200.0,103,um,micrograph405.bmp,indent,47.0,47.0
+405,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,406,5.0,90,um,micrograph406.tif,spheroidite,40.0,40.0
+406,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,407,10.0,103,um,micrograph407.tif,spheroidite,21.0,21.0
+407,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1473X,408,20.0,154,um,micrograph408.tif,spheroidite,24.0,24.0
+408,,,,,2,,BSE,SIS_XL.TIF,,409,100.0,103,um,micrograph409.tif,crack,47.0,47.0
+409,,,,,2,,BSE,SIS_XL.TIF,491x,410,50.0,129,um,micrograph410.bmp,indent,47.0,47.0
+410,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,411,5.0,90,um,micrograph411.tif,spheroidite,33.0,33.0
+411,,,,,2,,SE,SIS_XL.TIF,491x,412,50.0,129,um,micrograph412.tif,crack,47.0,47.0
+412,,,,,2,,BSE,SIS_XL.TIF,246x,413,100.0,129,um,micrograph413.bmp,indent,47.0,47.0
+413,,,,,2,,SE,,3437X,414,5.0,90,um,micrograph414.tif,quality,,
+414,,,,,2,,BSE,,344x,415,50.0,90,um,micrograph415.tif,,,
+415,,,,,2,,SE,,,416,2.0,103,um,micrograph416.tif,,,
+416,,,,,2,,BSE,,,417,100.0,103,um,micrograph417.tif,crack,,
+417,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,418,10.0,103,um,micrograph418.tif,spheroidite,36.0,36.0
+418,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,491x,419,50.0,129,um,micrograph419.tif,spheroidite,11.0,11.0
+419,,,,,2,,BSE,IN3 Unetched,,420,100.0,103,um,micrograph420.tif,crack,45.0,45.0
+420,,,,,2,,SE,SIS_XL.TIF,49X,421,500.0,129,um,micrograph421.tif,network,47.0,47.0
+421,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,4910x,422,5.0,129,um,micrograph422.tif,spheroidite,11.0,11.0
+422,,,,,2,,BSE,IN3 Unetched,491x,423,50.0,129,um,micrograph423.tif,quality,45.0,45.0
+423,,,,,2,,SE,ET Gyro,94x,424,200.0,99,um,micrograph424.tif,,42.0,42.0
+424,,,,,2,,SE,IN3 Unetched,98X,425,200.0,103,um,micrograph425.tif,quality,45.0,45.0
+425,,,,,2,,BSE,,,426,500.0,129,um,micrograph426.tif,,,
+426,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,427,10.0,103,um,micrograph427.png,spheroidite,36.0,36.0
+427,,,,,2,,SE,SIS_XL.TIF,,428,2.0,103,um,micrograph428.tif,,47.0,47.0
+428,,,,,2,,BSE,,,429,100.0,103,um,micrograph429.tif,crack,,
+429,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,430,2.0,103,um,micrograph430.tif,spheroidite,18.0,18.0
+430,,,,,2,,SE,,1473X,431,20.0,154,um,micrograph431.tif,pearlite+spheroidite,,
+431,,,,,2,,BSE,SIS_XL.TIF,1178X,432,20.0,124,um,micrograph432.tif,hole,47.0,47.0
+432,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,491x,433,50.0,129,um,micrograph433.tif,spheroidite+widmanstatten,29.0,29.0
+433,,,,,2,,,SIS_XL.TIF,982x,434,20.0,103,um,micrograph434.tif,,47.0,47.0
+434,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,435,10.0,103,um,micrograph435.png,spheroidite,37.0,37.0
+435,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,436,10.0,103,um,micrograph436.png,spheroidite,37.0,37.0
+436,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,437,10.0,103,um,micrograph437.tif,spheroidite,2.0,2.0
+437,,,,,2,,BSE,IN3 Unetched,3437x,438,5.0,90,um,micrograph438.tif,quality,45.0,45.0
+438,,,,,2,,SE,IN3 Unetched,246x,439,100.0,129,um,micrograph439.tif,crack,45.0,45.0
+439,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,440,10.0,103,um,micrograph440.png,spheroidite,37.0,37.0
+440,,,,,2,,BSE,SIS_XL.TIF,98X,441,200.0,103,um,micrograph441.tif,network,47.0,47.0
+441,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,,442,2.0,103,um,micrograph442.tif,spheroidite,19.0,19.0
+442,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,443,10.0,103,um,micrograph443.tif,spheroidite,32.0,32.0
+443,,,,,2,,SE,,491x,444,50.0,129,um,micrograph444.tif,,,
+444,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,445,50.0,90,um,micrograph445.tif,sample,30.0,30.0
+445,,,,,2,,BSE,SIS_XL.TIF,491x,446,50.0,129,um,micrograph446.tif,,47.0,47.0
+446,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98x,447,200.0,103,um,micrograph447.tif,network,35.0,35.0
+447,,,,,2,,BSE,,491x,448,50.0,129,um,micrograph448.tif,,,
+448,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,4910X,449,5.0,129,um,micrograph449.tif,spheroidite,33.0,33.0
+449,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,1473X,450,20.0,154,um,micrograph450.tif,,35.0,35.0
+450,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,786x,451,20.0,83,um,micrograph451.tif,spheroidite,24.0,24.0
+451,,,,,2,,SE,SIS_XL.TIF,,452,10.0,129,um,micrograph452.tif,spheroidite,47.0,47.0
+452,,,,,2,,SE,,,453,10.0,129,um,micrograph453.tif,pearlite+spheroidite,,
+453,,,,,2,,SE,SIS_XL.TIF,98X,454,200.0,103,um,micrograph454.tif,network,47.0,47.0
+454,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,1964X,455,10.0,103,um,micrograph455.tif,,22.0,22.0
+455,,,,,2,,SE,IN3 Unetched,1473X,456,20.0,154,um,micrograph456.tif,crack,45.0,45.0
+456,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,457,10.0,103,um,micrograph457.png,spheroidite,36.0,36.0
+457,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1473X,458,20.0,154,um,micrograph458.tif,spheroidite,33.0,33.0
+458,,,,,2,,BSE,AC1 IS1010H 35X etched,246x,459,100.0,129,um,micrograph459.tif,martensite,41.0,41.0
+459,,,,,2,,SE,,98X,460,200.0,103,um,micrograph460.tif,,,
+460,,,,,2,,SE,,1473X,461,20.0,154,um,micrograph461.tif,,,
+461,,,,,2,,BSE,SIS_XL.TIF,491x,462,50.0,129,um,micrograph462.bmp,indent,47.0,47.0
+462,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,,463,2.0,103,um,micrograph463.tif,spheroidite,19.0,19.0
+463,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910x,464,5.0,129,um,micrograph464.tif,spheroidite,19.0,19.0
+464,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,465,2.0,103,um,micrograph465.tif,spheroidite,18.0,18.0
+465,,,,,2,,SE,ET Gyro,4910x,466,5.0,129,um,micrograph466.tif,pearlite+spheroidite,42.0,42.0
+466,,,,,2,,SE,SIS_XL.TIF,1178X,467,20.0,124,um,micrograph467.tif,,47.0,47.0
+467,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,468,10.0,103,um,micrograph468.png,spheroidite,37.0,37.0
+468,,,,,2,,SE,,49X,469,500.0,129,um,micrograph469.tif,quality,,
+469,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,470,10.0,103,um,micrograph470.tif,spheroidite,19.0,19.0
+470,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1178X,471,20.0,124,um,micrograph471.tif,spheroidite+widmanstatten,32.0,32.0
+471,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,786x,472,20.0,83,um,micrograph472.tif,spheroidite,24.0,24.0
+472,,,,,2,,SE,,14731x,473,2.0,154,um,micrograph473.tif,quality,,
+473,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,474,10.0,103,um,micrograph474.png,spheroidite,39.0,39.0
+474,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,982x,475,20.0,103,um,micrograph475.tif,spheroidite+widmanstatten,34.0,34.0
+475,,,,,2,,SE,SIS_XL.TIF,98X,476,200.0,103,um,micrograph476.bmp,indent,47.0,47.0
+476,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,786x,477,20.0,83,um,micrograph477.tif,spheroidite+widmanstatten,4.0,4.0
+477,,,,,2,,BSE,SIS_XL.TIF,1473X,478,20.0,154,um,micrograph478.tif,hole,47.0,47.0
+478,,,,,2,,SE,SIS_XL.TIF,9820X,479,2.0,103,um,micrograph479.tif,pearlite,47.0,47.0
+479,,,,,2,,SE,SIS_XL.TIF,,480,500.0,129,um,micrograph480.tif,network,47.0,47.0
+480,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,1964X,481,10.0,103,um,micrograph481.tif,pearlite+spheroidite,5.0,5.0
+481,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,1178X,482,20.0,124,um,micrograph482.tif,sample,30.0,30.0
+482,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,491x,483,50.0,129,um,micrograph483.tif,pearlite+spheroidite,5.0,5.0
+483,,,,,2,,SE,SIS_XL.TIF,49X,484,500.0,129,um,micrograph484.tif,network,47.0,47.0
+484,,,,,2,,SE,IN1 Etched Sample,4910x,485,5.0,129,um,micrograph485.jpg,figure,44.0,44.0
+485,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,4910x,486,5.0,129,um,micrograph486.tif,spheroidite,12.0,12.0
+486,,,,,2,,SE,IN1 Etched Sample,4910x,487,5.0,129,um,micrograph487.tif,pearlite,44.0,44.0
+487,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,982x,488,20.0,103,um,micrograph488.tif,spheroidite+widmanstatten,17.0,17.0
+488,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,489,10.0,129,um,micrograph489.tif,spheroidite,33.0,33.0
+489,,,,,2,,SE,AC1 + vickers mark,638x,490,20.0,67,um,micrograph490.tif,pearlite+widmanstatten,3.0,3.0
+490,,,,,2,,SE,Gaunt - Utah 1.5 yr explant M,117x,491,200.0,123,um,micrograph491.tif,quality,43.0,43.0
+491,,,,,2,,SE,SIS_XL.TIF,246x,492,100.0,129,um,micrograph492.tif,martensite,47.0,47.0
+492,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,4910X,493,5.0,129,um,micrograph493.tif,spheroidite,18.0,18.0
+493,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,,494,100.0,103,um,micrograph494.tif,sample,30.0,30.0
+494,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,495,20.0,103,um,micrograph495.tif,spheroidite,37.0,37.0
+495,,,,,2,,SE,,3437X,496,5.0,90,um,micrograph496.tif,pearlite+widmanstatten,,
+496,,,,,2,,BSE,SIS_XL.TIF,118x,497,200.0,124,um,micrograph497.tif,,47.0,47.0
+497,,,,,2,,SE,,11785x,498,2.0,124,um,micrograph498.tif,,,
+498,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,982x,499,20.0,103,um,micrograph499.tif,pearlite+spheroidite,5.0,5.0
+499,,,,,2,,SE,,49X,500,500.0,129,um,micrograph500.tif,network,,
+500,,,,,2,,SE,,9820X,501,2.0,103,um,micrograph501.tif,pearlite,,
+501,,,,,2,,SE,SIS_XL.TIF,1964X,502,10.0,103,um,micrograph502.tif,martensite,47.0,47.0
+502,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98X,503,200.0,103,um,micrograph503.tif,sample,35.0,35.0
+503,,,,,2,,SE,,344x,504,50.0,90,um,micrograph504.tif,,,
+504,,,,,2,,SE,SIS_XL.TIF,491x,505,50.0,129,um,micrograph505.bmp,indent,47.0,47.0
+505,,,,,2,,SE,SIS_XL.TIF,4910x,506,5.0,129,um,micrograph506.tif,,47.0,47.0
+506,,,,,2,,BSE,,491x,507,50.0,129,um,micrograph507.tif,spheroidite+widmanstatten,,
+507,,,,,2,,BSE,,246x,508,100.0,129,um,micrograph508.tif,,,
+508,,,,,2,,BSE,,,509,500.0,129,um,micrograph509.tif,,,
+509,,,,,2,,SE,,,510,100.0,103,um,micrograph510.tif,,,
+510,,,,,2,,SE,,11785x,511,2.0,124,um,micrograph511.tif,,,
+511,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,3437X,512,5.0,90,um,micrograph512.tif,spheroidite,29.0,29.0
+512,,,,,2,,SE,SIS_XL.TIF,,513,10.0,129,um,micrograph513.tif,crack,47.0,47.0
+513,,,,,2,,SE,AC1 + vickers mark,49X,514,500.0,129,um,micrograph514.tif,network,3.0,3.0
+514,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,1964X,515,10.0,103,um,micrograph515.tif,pearlite+spheroidite,5.0,5.0
+515,,,,,2,,SE,IN1 Etched Sample,11785x,516,2.0,124,um,micrograph516.tif,quality,44.0,44.0
+516,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,517,10.0,103,um,micrograph517.tif,spheroidite,33.0,33.0
+517,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,49X,518,500.0,129,um,micrograph518.tif,network,37.0,37.0
+518,,,,,2,,BSE,SIS_XL.TIF,98x,519,200.0,103,um,micrograph519.bmp,indent,47.0,47.0
+519,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,98X,520,200.0,103,um,micrograph520.tif,network,29.0,29.0
+520,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,3437x,521,5.0,90,um,micrograph521.tif,quality,43.0,43.0
+521,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,1178X,522,20.0,124,um,micrograph522.tif,pearlite+spheroidite,5.0,5.0
+522,,,,,2,,SE,SIS_XL.TIF,1178X,523,20.0,124,um,micrograph523.tif,pearlite+widmanstatten,47.0,47.0
+523,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,982x,524,20.0,103,um,micrograph524.tif,spheroidite,19.0,19.0
+524,,,,,2,,BSE,SIS_XL.TIF,246x,525,100.0,129,um,micrograph525.bmp,indent,47.0,47.0
+525,,,,,2,,SE,,1473X,526,20.0,154,um,micrograph526.tif,,,
+526,,,,,2,,SE,SIS_XL.TIF,98X,527,200.0,103,um,micrograph527.tif,hole,47.0,47.0
+527,,,,,2,,SE,SIS_XL.TIF,97x,528,200.0,102,um,micrograph528.tif,network,47.0,47.0
+528,,,,,2,,BSE,,,529,10.0,129,um,micrograph529.tif,,,
+529,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,530,20.0,103,um,micrograph530.tif,spheroidite,36.0,36.0
+530,,,,,2,,BSE,SIS_XL.TIF,1178X,531,20.0,124,um,micrograph531.tif,hole,47.0,47.0
+531,,,,,2,,SE,IN1 Etched Sample,491x,532,50.0,129,um,micrograph532.tif,pearlite+spheroidite,44.0,44.0
+532,,,,,2,,SE,SIS_XL.TIF,,533,100.0,103,um,micrograph533.tif,,47.0,47.0
+533,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,982x,534,20.0,103,um,micrograph534.tif,spheroidite,24.0,24.0
+534,,,,,2,,BSE,SIS_XL.TIF,1964X,535,10.0,103,um,micrograph535.tif,pearlite,47.0,47.0
+535,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,536,10.0,103,um,micrograph536.png,spheroidite,40.0,40.0
+536,,,,,2,,BSE,SIS_XL.TIF,98x,537,200.0,103,um,micrograph537.tif,network,47.0,47.0
+537,,,,,2,,BSE,,982x,538,20.0,103,um,micrograph538.tif,,,
+538,,,,,2,,SE,,982x,539,20.0,103,um,micrograph539.tif,,,
+539,,,,,2,,SE,,1964X,540,10.0,103,um,micrograph540.tif,hole,,
+540,,,,,2,,SE,,4910x,541,5.0,129,um,micrograph541.tif,pearlite+spheroidite,,
+541,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,542,100.0,103,um,micrograph542.tif,sample,40.0,40.0
+542,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,982x,543,20.0,103,um,micrograph543.tif,spheroidite,21.0,21.0
+543,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,982x,544,20.0,103,um,micrograph544.tif,pearlite+spheroidite,5.0,5.0
+544,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,118x,545,200.0,124,um,micrograph545.tif,network,19.0,19.0
+545,,,,,2,,SE,,49X,546,500.0,129,um,micrograph546.tif,network,,
+546,,,,,2,,BSE,,786x,547,20.0,83,um,micrograph547.tif,,,
+547,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,548,5.0,90,um,micrograph548.tif,spheroidite,33.0,33.0
+548,,,,,2,,BSE,SIS_XL.TIF,98x,549,200.0,103,um,micrograph549.bmp,indent,47.0,47.0
+549,,,,,2,,SE,SIS_XL.TIF,491x,550,50.0,129,um,micrograph550.tif,sample,47.0,47.0
+550,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,982x,551,20.0,103,um,micrograph551.tif,spheroidite+widmanstatten,13.0,13.0
+551,,,,,2,,SE,,98X,552,200.0,103,um,micrograph552.tif,,,
+552,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,982x,553,20.0,103,um,micrograph553.tif,pearlite+widmanstatten,22.0,22.0
+553,,,,,2,,,SIS_XL.TIF,,554,2.0,103,um,micrograph554.tif,pearlite,47.0,47.0
+554,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,555,20.0,103,um,micrograph555.tif,spheroidite,36.0,36.0
+555,,,,,2,,BSE,,98x,556,200.0,103,um,micrograph556.tif,crack,,
+556,,,,,2,,SE,,246x,557,100.0,129,um,micrograph557.tif,hole,,
+557,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,558,2.0,103,um,micrograph558.tif,spheroidite,18.0,18.0
+558,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,491x,559,50.0,129,um,micrograph559.tif,sample,35.0,35.0
+559,,,,,2,,BSE,SIS_XL.TIF,344x,560,50.0,90,um,micrograph560.tif,,47.0,47.0
+560,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,1964X,561,10.0,103,um,micrograph561.tif,spheroidite,37.0,37.0
+561,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,562,50.0,90,um,micrograph562.tif,sample,30.0,30.0
+562,,,,,2,,BSE,IN3 Unetched,4910X,563,5.0,129,um,micrograph563.tif,quality,45.0,45.0
+563,,,,,2,,SE,ET Gyro,491x,564,50.0,129,um,micrograph564.tif,quality,42.0,42.0
+564,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,565,5.0,129,um,micrograph565.tif,spheroidite,7.0,7.0
+565,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,566,10.0,103,um,micrograph566.png,spheroidite,37.0,37.0
+566,,,,,2,,SE,,4910X,567,5.0,129,um,micrograph567.tif,pearlite+spheroidite,,
+567,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,4910X,568,5.0,129,um,micrograph568.tif,spheroidite,18.0,18.0
+568,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1964X,569,10.0,103,um,micrograph569.tif,spheroidite,16.0,16.0
+569,,,,,2,,BSE,IN3 Unetched,982x,570,20.0,103,um,micrograph570.tif,hole,45.0,45.0
+570,,,,,2,,SE,,,571,100.0,103,um,micrograph571.tif,,,
+571,,,,,2,,SE,,1178X,572,20.0,124,um,micrograph572.tif,pearlite+spheroidite,,
+572,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,4910X,573,5.0,129,um,micrograph573.tif,spheroidite,6.0,6.0
+573,,,,,2,,BSE,,6383x,574,2.0,67,um,micrograph574.tif,quality,,
+574,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,575,100.0,103,um,micrograph575.tif,,32.0,32.0
+575,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,1964X,576,10.0,103,um,micrograph576.tif,pearlite+spheroidite,31.0,31.0
+576,,,,,2,,SE,SIS_XL.TIF,491x,577,50.0,129,um,micrograph577.bmp,indent,47.0,47.0
+577,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,491x,578,50.0,129,um,micrograph578.tif,sample,35.0,35.0
+578,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,579,20.0,103,um,micrograph579.tif,spheroidite+widmanstatten,37.0,37.0
+579,,,,,2,,BSE,SIS_XL.TIF,32x,580,500.0,85,um,micrograph580.tif,hole,47.0,47.0
+580,,,,,2,,BSE,,4910x,581,5.0,129,um,micrograph581.tif,quality,,
+581,,,,,2,,BSE,SIS_XL.TIF,98x,582,200.0,103,um,micrograph582.bmp,indent,47.0,47.0
+582,,,,,2,,BSE,,982x,583,20.0,103,um,micrograph583.tif,hole,,
+583,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,118x,584,200.0,124,um,micrograph584.tif,network,12.0,12.0
+584,,,,,2,,BSE,,98x,585,200.0,103,um,micrograph585.tif,crack,,
+585,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,7856X,586,2.0,83,um,micrograph586.tif,spheroidite+widmanstatten,34.0,34.0
+586,,,,,2,,BSE,IN3 Unetched,1964X,587,10.0,103,um,micrograph587.tif,crack,45.0,45.0
+587,,,,,2,,BSE,IN3 Unetched,4910x,588,5.0,129,um,micrograph588.tif,crack,45.0,45.0
+588,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1964X,589,10.0,103,um,micrograph589.tif,spheroidite,16.0,16.0
+589,,,,,2,,SE,ET Gyro,19641x,590,1.0,103,um,micrograph590.tif,quality,42.0,42.0
+590,,,,,2,,,Gaunt - Utah 1.5 yr explant M,64X,591,200.0,67,um,micrograph591.tif,quality,43.0,43.0
+591,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,98x,592,200.0,103,um,micrograph592.tif,network,34.0,34.0
+592,,,,,2,,BSE,,3437x,593,5.0,90,um,micrograph593.tif,,,
+593,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,594,2.0,103,um,micrograph594.tif,spheroidite,18.0,18.0
+594,,,,,2,,SE,SIS_XL.TIF,982x,595,20.0,103,um,micrograph595.tif,,47.0,47.0
+595,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,596,5.0,129,um,micrograph596.tif,spheroidite,38.0,38.0
+596,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98x,597,200.0,103,um,micrograph597.tif,network,26.0,26.0
+597,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,982x,598,20.0,103,um,micrograph598.tif,spheroidite,23.0,23.0
+598,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,599,20.0,103,um,micrograph599.tif,spheroidite+widmanstatten,40.0,40.0
+599,,,,,2,,BSE,,,600,500.0,129,um,micrograph600.tif,,,
+600,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,601,10.0,103,um,micrograph601.tif,spheroidite,13.0,13.0
+601,,,,,2,,BSE,,982x,602,20.0,103,um,micrograph602.tif,pearlite+spheroidite,,
+602,,,,,2,,SE,IN3 Unetched,24551X,603,1.0,129,um,micrograph603.tif,crack,45.0,45.0
+603,,,,,2,,SE,IN1 Etched Sample,14731x,604,2.0,154,um,micrograph604.tif,pearlite,44.0,44.0
+604,,,,,2,,SE,SIS_XL.TIF,63833X,605,200.0,67,nm,micrograph605.tif,quality,47.0,47.0
+605,,,,,2,,SE,,491x,606,50.0,129,um,micrograph606.tif,,,
+606,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1178X,607,20.0,124,um,micrograph607.tif,spheroidite,34.0,34.0
+607,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,246x,608,100.0,129,um,micrograph608.tif,network,24.0,24.0
+608,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,982x,609,20.0,103,um,micrograph609.tif,pearlite+spheroidite,31.0,31.0
+609,,,,,2,,SE,IN1 Etched Sample,48X,610,500.0,125,um,micrograph610.tif,network,44.0,44.0
+610,C,970.0,48.0,H,2,Q,SE,AC1 970C 48H Q,1964X,611,10.0,103,um,micrograph611.tif,spheroidite,27.0,27.0
+611,,,,,2,,BSE,,,612,500.0,129,um,micrograph612.tif,,,
+612,,,,,2,,BSE,IN3 Unetched,246x,613,100.0,129,um,micrograph613.tif,crack,45.0,45.0
+613,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,,614,10.0,129,um,micrograph614.tif,,8.0,8.0
+614,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,,615,500.0,129,um,micrograph615.tif,network,29.0,29.0
+615,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,786x,616,20.0,83,um,micrograph616.tif,spheroidite,24.0,24.0
+616,,,,,2,,SE,IN3 Unetched,1964X,617,10.0,103,um,micrograph617.tif,crack,45.0,45.0
+617,,,,,2,,SE,SIS_XL.TIF,4910x,618,5.0,129,um,micrograph618.tif,quality,47.0,47.0
+618,,,,,2,,SE,,1473X,619,20.0,154,um,micrograph619.tif,,,
+619,,,,,2,,SE,SIS_XL.TIF,1178X,620,20.0,124,um,micrograph620.tif,,47.0,47.0
+620,,,,,2,,SE,SIS_XL.TIF,1473X,621,20.0,154,um,micrograph621.tif,,47.0,47.0
+621,,,,,2,,SE,SIS_XL.TIF,982x,622,20.0,103,um,micrograph622.tif,crack,47.0,47.0
+622,,,,,2,,BSE,SIS_XL.TIF,,623,10.0,129,um,micrograph623.tif,crack,47.0,47.0
+623,,,,,2,,BSE,,,624,500.0,129,um,micrograph624.tif,,,
+624,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,49X,625,500.0,129,um,micrograph625.tif,network,29.0,29.0
+625,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98X,626,200.0,103,um,micrograph626.tif,network,31.0,31.0
+626,,,,,2,,BSE,SIS_XL.TIF,147x,627,200.0,154,um,micrograph627.tif,,47.0,47.0
+627,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,628,20.0,103,um,micrograph628.tif,spheroidite+widmanstatten,40.0,40.0
+628,,,,,2,,BSE,,,629,500.0,129,um,micrograph629.tif,,,
+629,,,,,2,,SE,SIS_XL.TIF,,630,100.0,103,um,micrograph630.tif,indent,47.0,47.0
+630,,,,,2,,SE,IN1 Etched Sample,11785x,631,2.0,124,um,micrograph631.tif,quality,44.0,44.0
+631,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910X,632,5.0,129,um,micrograph632.tif,spheroidite,23.0,23.0
+632,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,633,10.0,103,um,micrograph633.tif,spheroidite,7.0,7.0
+633,,,,,2,,BSE,Midrex DRI,491x,634,50.0,129,um,micrograph634.tif,hole,46.0,46.0
+634,,,,,2,,SE,SIS_XL.TIF,118x,635,200.0,124,um,micrograph635.tif,sample,47.0,47.0
+635,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,3437x,636,5.0,90,um,micrograph636.tif,,40.0,40.0
+636,,,,,2,,SE,,4910x,637,5.0,129,um,micrograph637.tif,pearlite+spheroidite,,
+637,,,,,2,,SE,SIS_XL.TIF,491x,638,50.0,129,um,micrograph638.tif,,47.0,47.0
+638,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,3437x,639,5.0,90,um,micrograph639.tif,spheroidite,19.0,19.0
+639,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,640,20.0,154,um,micrograph640.tif,spheroidite+widmanstatten,28.0,28.0
+640,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,641,10.0,103,um,micrograph641.tif,spheroidite,2.0,2.0
+641,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98x,642,200.0,103,um,micrograph642.tif,network,31.0,31.0
+642,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1964X,643,10.0,103,um,micrograph643.tif,spheroidite+widmanstatten,16.0,16.0
+643,,,,,2,,SE,,4910x,644,5.0,129,um,micrograph644.tif,pearlite+spheroidite,,
+644,,,,,2,,SE,SIS_XL.TIF,49X,645,500.0,129,um,micrograph645.tif,sample,47.0,47.0
+645,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,646,200.0,103,um,micrograph646.tif,network,37.0,37.0
+646,,,,,2,,BSE,SIS_XL.TIF,491x,647,50.0,129,um,micrograph647.tif,,47.0,47.0
+647,,,,,2,,SE,,,648,10.0,129,um,micrograph648.tif,pearlite+spheroidite,,
+648,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98x,649,200.0,103,um,micrograph649.tif,network,31.0,31.0
+649,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,786x,650,20.0,83,um,micrograph650.tif,spheroidite+widmanstatten,25.0,25.0
+650,,,,,2,,SE,IN3 Unetched,246x,651,100.0,129,um,micrograph651.tif,crack,45.0,45.0
+651,,,,,2,,BSE,,,652,10.0,129,um,micrograph652.tif,pearlite,,
+652,,,,,2,,SE,,49X,653,500.0,129,um,micrograph653.tif,,,
+653,,,,,2,,SE,IN1 Etched Sample,11785x,654,2.0,124,um,micrograph654.tif,quality,44.0,44.0
+654,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,1473X,655,20.0,154,um,micrograph655.tif,spheroidite,24.0,24.0
+655,,,,,2,,SE,,,656,10.0,129,um,micrograph656.tif,pearlite+spheroidite,,
+656,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,4910X,657,5.0,129,um,micrograph657.tif,quality,34.0,34.0
+657,,,,,2,,SE,SIS_XL.TIF,3437X,658,5.0,90,um,micrograph658.tif,hole,47.0,47.0
+658,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,98x,659,200.0,103,um,micrograph659.tif,network,8.0,8.0
+659,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,982x,660,20.0,103,um,micrograph660.tif,pearlite+spheroidite,5.0,5.0
+660,,,,,2,,SE,,49102x,661,500.0,129,nm,micrograph661.tif,quality,,
+661,,,,,2,,BSE,,4910x,662,5.0,129,um,micrograph662.tif,quality,,
+662,,,,,2,,SE,SIS_XL.TIF,98x,663,200.0,103,um,micrograph663.bmp,indent,47.0,47.0
+663,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,4910X,664,5.0,129,um,micrograph664.tif,spheroidite,26.0,26.0
+664,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,246x,665,100.0,129,um,micrograph665.tif,sample,35.0,35.0
+665,,,,,2,,SE,SIS_XL.TIF,,666,500.0,129,um,micrograph666.tif,quality,47.0,47.0
+666,,,,,2,,BSE,,1964X,667,10.0,103,um,micrograph667.tif,,,
+667,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,1964X,668,10.0,103,um,micrograph668.tif,,22.0,22.0
+668,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,4910X,669,5.0,129,um,micrograph669.tif,,35.0,35.0
+669,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,670,10.0,103,um,micrograph670.tif,spheroidite,2.0,2.0
+670,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,671,10.0,103,um,micrograph671.tif,spheroidite,13.0,13.0
+671,,,,,2,,BSE,,1178X,672,20.0,124,um,micrograph672.tif,pearlite+spheroidite,,
+672,,,,,2,,BSE,SIS_XL.TIF,491x,673,50.0,129,um,micrograph673.bmp,indent,47.0,47.0
+673,,,,,2,,SE,,,674,2.0,103,um,micrograph674.tif,quality,,
+674,,,,,2,,SE,IN3 Unetched,,675,2.0,83,um,micrograph675.tif,quality,45.0,45.0
+675,,,,,2,,SE,,4910x,676,5.0,129,um,micrograph676.tif,pearlite+spheroidite,,
+676,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,,677,2.0,103,um,micrograph677.tif,pearlite+spheroidite,5.0,5.0
+677,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,678,10.0,103,um,micrograph678.tif,spheroidite,18.0,18.0
+678,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910X,679,5.0,129,um,micrograph679.tif,spheroidite,23.0,23.0
+679,,,,,2,,SE,,49102x,680,500.0,129,nm,micrograph680.tif,quality,,
+680,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,681,10.0,103,um,micrograph681.png,spheroidite,39.0,39.0
+681,,,,,2,,SE,SIS_XL.TIF,46X,682,500.0,122,um,micrograph682.tif,network,47.0,47.0
+682,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,4910X,683,5.0,129,um,micrograph683.tif,spheroidite,18.0,18.0
+683,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1473X,684,20.0,154,um,micrograph684.tif,spheroidite,24.0,24.0
+684,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,1473X,685,20.0,154,um,micrograph685.tif,spheroidite,24.0,24.0
+685,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,982x,686,20.0,103,um,micrograph686.tif,,35.0,35.0
+686,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98X,687,200.0,103,um,micrograph687.tif,network,25.0,25.0
+687,,,,,2,,SE,IN3 Unetched,982x,688,20.0,103,um,micrograph688.tif,quality,45.0,45.0
+688,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,689,10.0,103,um,micrograph689.png,spheroidite,39.0,39.0
+689,,,,,2,,SE,,49X,690,500.0,129,um,micrograph690.tif,network,,
+690,,,,,2,,SE,SIS_XL.TIF,4910X,691,5.0,129,um,micrograph691.tif,pearlite,47.0,47.0
+691,,,,,2,,SE,,491x,692,50.0,129,um,micrograph692.tif,,,
+692,,,,,2,,SE,,1964X,693,10.0,103,um,micrograph693.tif,,,
+693,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,694,20.0,103,um,micrograph694.tif,spheroidite,25.0,25.0
+694,,,,,2,,SE,ET Gyro,98205x,695,,115,,micrograph695.jpg,figure,42.0,42.0
+695,,,,,2,,SE,,98x,696,200.0,103,um,micrograph696.tif,,,
+696,,,,,2,,SE,SIS_XL.TIF,,697,10.0,129,um,micrograph697.tif,,47.0,47.0
+697,,,,,2,,SE,,491x,698,50.0,129,um,micrograph698.tif,,,
+698,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,699,10.0,103,um,micrograph699.tif,spheroidite,2.0,2.0
+699,,,,,2,,SE,IN1 Etched Sample,49102x,700,500.0,129,nm,micrograph700.tif,quality,44.0,44.0
+700,,,,,2,,BSE,,147x,701,200.0,154,um,micrograph701.tif,,,
+701,,,,,2,,SE,ET Gyro,98x,702,200.0,103,um,micrograph702.tif,network,42.0,42.0
+702,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,49X,703,500.0,129,um,micrograph703.tif,sample,30.0,30.0
+703,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,3437X,704,5.0,90,um,micrograph704.tif,pearlite+spheroidite,35.0,35.0
+704,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,982x,705,20.0,103,um,micrograph705.tif,spheroidite,17.0,17.0
+705,,,,,2,,SE,,19641x,706,1.0,103,um,micrograph706.tif,pearlite,,
+706,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,638x,707,20.0,67,um,micrograph707.tif,spheroidite+widmanstatten,32.0,32.0
+707,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,708,20.0,103,um,micrograph708.tif,spheroidite,33.0,33.0
+708,,,,,2,,SE,SIS_XL.TIF,246x,709,100.0,129,um,micrograph709.tif,quality,47.0,47.0
+709,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,982x,710,20.0,103,um,micrograph710.tif,spheroidite+widmanstatten,16.0,16.0
+710,C,970.0,5.0,M,2,FC,BSE,AC1 970 5M FC,1178X,711,20.0,124,um,micrograph711.tif,quality,34.0,34.0
+711,,,,,2,,BSE,SIS_XL.TIF,491x,712,50.0,129,um,micrograph712.tif,crack,47.0,47.0
+712,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,638x,713,20.0,67,um,micrograph713.tif,sample,34.0,34.0
+713,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,714,10.0,103,um,micrograph714.tif,spheroidite,33.0,33.0
+714,,,,,2,,SE,SIS_XL.TIF,491x,715,50.0,129,um,micrograph715.tif,,47.0,47.0
+715,,,,,2,,SE,,1473X,716,20.0,154,um,micrograph716.tif,pearlite+spheroidite,,
+716,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,717,50.0,129,um,micrograph717.tif,spheroidite+widmanstatten,32.0,32.0
+717,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,,718,10.0,129,um,micrograph718.tif,spheroidite,24.0,24.0
+718,,,,,2,,SE,SIS_XL.TIF,491x,719,50.0,129,um,micrograph719.bmp,indent,47.0,47.0
+719,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,720,2.0,103,um,micrograph720.tif,quality,6.0,6.0
+720,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,98X,721,200.0,103,um,micrograph721.tif,network,5.0,5.0
+721,,,,,2,,SE,SIS_XL.TIF,98x,722,200.0,103,um,micrograph722.bmp,indent,47.0,47.0
+722,,,,,2,,BSE,SIS_XL.TIF,491x,723,50.0,129,um,micrograph723.bmp,indent,47.0,47.0
+723,,,,,2,,SE,,491x,724,50.0,129,um,micrograph724.tif,,,
+724,,,,,2,,SE,ET Gyro,,725,2.0,103,um,micrograph725.tif,pearlite,42.0,42.0
+725,,,,,2,,SE,SIS_XL.TIF,,726,10.0,129,um,micrograph726.tif,,47.0,47.0
+726,,,,,2,,SE,IN1 Etched Sample,,727,5.0,90,um,micrograph727.tif,pearlite+spheroidite,44.0,44.0
+727,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,49X,728,500.0,129,um,micrograph728.tif,network,9.0,9.0
+728,,,,,2,,SE,IN1 Etched Sample,24551X,729,1.0,129,um,micrograph729.tif,quality,44.0,44.0
+729,,,,,2,,SE,,11785x,730,2.0,124,um,micrograph730.tif,,,
+730,,,,,2,,SE,IN3 Unetched,19641x,731,1.0,103,um,micrograph731.tif,quality,45.0,45.0
+731,,,,,2,,SE,IN1 Etched Sample,,732,500.0,129,um,micrograph732.tif,network,44.0,44.0
+732,,,,,2,,BSE,,,733,100.0,103,um,micrograph733.tif,,,
+733,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,734,20.0,103,um,micrograph734.tif,spheroidite,20.0,20.0
+734,,,,,2,,BSE,,98x,735,200.0,103,um,micrograph735.tif,crack,,
+735,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,736,10.0,103,um,micrograph736.tif,spheroidite,36.0,36.0
+736,,,,,2,,SE,,49X,737,500.0,129,um,micrograph737.tif,network,,
+737,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98X,738,200.0,103,um,micrograph738.tif,network,33.0,33.0
+738,,,,,2,,BSE,,,739,500.0,129,um,micrograph739.tif,quality,,
+739,,,,,2,,SE,,49102x,740,500.0,129,nm,micrograph740.tif,quality,,
+740,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98X,741,200.0,103,um,micrograph741.tif,network,31.0,31.0
+741,,,,,2,,SE,IN1 Etched Sample,982x,742,20.0,103,um,micrograph742.tif,pearlite+spheroidite,44.0,44.0
+742,,,,,2,,BSE,IN3 Unetched,982x,743,20.0,103,um,micrograph743.tif,quality,45.0,45.0
+743,,,,,2,,SE,SIS_XL.TIF,,744,2.0,103,um,micrograph744.tif,pearlite,47.0,47.0
+744,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,1473X,745,20.0,154,um,micrograph745.tif,spheroidite,29.0,29.0
+745,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,746,20.0,154,um,micrograph746.tif,spheroidite,39.0,39.0
+746,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,747,2.0,103,um,micrograph747.tif,spheroidite,18.0,18.0
+747,,,,,2,,SE,SIS_XL.TIF,1178X,748,20.0,124,um,micrograph748.tif,crack,47.0,47.0
+748,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,982x,749,20.0,103,um,micrograph749.tif,pearlite+spheroidite,31.0,31.0
+749,,,,,2,,SE,SIS_XL.TIF,,750,100.0,103,um,micrograph750.tif,crack,47.0,47.0
+750,,,,,2,,SE,,344x,751,50.0,90,um,micrograph751.tif,,,
+751,,,,,2,,BSE,SIS_XL.TIF,638x,752,20.0,67,um,micrograph752.jpg,,47.0,47.0
+752,,,,,2,,SE,,6383X,753,2.0,67,um,micrograph753.tif,pearlite+widmanstatten,,
+753,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,754,50.0,90,um,micrograph754.tif,sample,30.0,30.0
+754,,,,,2,,BSE,SIS_XL.TIF,98X,755,200.0,103,um,micrograph755.tif,network,47.0,47.0
+755,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,,756,2.0,83,um,micrograph756.tif,spheroidite,33.0,33.0
+756,,,,,2,,SE,,9820X,757,2.0,103,um,micrograph757.tif,pearlite,,
+757,,,,,2,,SE,,4910x,758,5.0,129,um,micrograph758.tif,pearlite+spheroidite,,
+758,,,,,2,,SE,,49X,759,500.0,129,um,micrograph759.tif,quality,,
+759,,,,,2,,SE,IN3 Unetched,35x,760,500.0,92,um,micrograph760.tif,quality,45.0,45.0
+760,,,,,2,,SE,,6383X,761,2.0,67,um,micrograph761.tif,quality,,
+761,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,762,2.0,103,um,micrograph762.tif,spheroidite,6.0,6.0
+762,,,,,2,,SE,,98X,763,200.0,103,um,micrograph763.tif,quality,,
+763,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,764,20.0,103,um,micrograph764.tif,spheroidite,39.0,39.0
+764,,,,,2,,SE,,,765,2.0,103,um,micrograph765.tif,pearlite+spheroidite,,
+765,,,,,2,,SE,SIS_XL.TIF,64x,766,200.0,67,um,micrograph766.tif,sample,47.0,47.0
+766,,,,,2,,BSE,ET Gyro,94x,767,200.0,99,um,micrograph767.tif,quality,42.0,42.0
+767,,,,,2,,SE,,3437x,768,5.0,90,um,micrograph768.tif,pearlite,,
+768,,,,,2,,SE,IN1 Etched Sample,11785x,769,2.0,124,um,micrograph769.tif,hole,44.0,44.0
+769,,,,,2,,SE,SIS_XL.TIF,491x,770,50.0,129,um,micrograph770.bmp,indent,47.0,47.0
+770,,,,,2,,SE,,,771,10.0,129,um,micrograph771.tif,pearlite+spheroidite,,
+771,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,772,10.0,103,um,micrograph772.tif,spheroidite,18.0,18.0
+772,,,,,2,,SE,,,773,10.0,129,um,micrograph773.tif,pearlite,,
+773,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,786x,774,20.0,83,um,micrograph774.tif,,24.0,24.0
+774,,,,,2,,SE,SIS_XL.TIF,3437x,775,5.0,90,um,micrograph775.tif,pearlite,47.0,47.0
+775,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,776,5.0,129,um,micrograph776.tif,spheroidite,33.0,33.0
+776,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98X,777,200.0,103,um,micrograph777.png,,40.0,40.0
+777,,,,,2,,SE,,,778,20.0,124,um,micrograph778.tif,,,
+778,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,491x,779,50.0,129,um,micrograph779.tif,pearlite+spheroidite,5.0,5.0
+779,,,,,2,,BSE,,1473X,780,20.0,154,um,micrograph780.tif,hole,,
+780,,,,,2,,SE,IN1 Etched Sample,49102x,781,500.0,129,nm,micrograph781.tif,quality,44.0,44.0
+781,,,,,2,,SE,,49X,782,500.0,129,um,micrograph782.tif,,,
+782,,,,,2,,SE,,1473X,783,20.0,154,um,micrograph783.tif,hole,,
+783,,,,,2,,SE,,6383X,784,2.0,67,um,micrograph784.tif,pearlite,,
+784,,,,,2,,BSE,AC1 IS1010H 35X etched,786x,785,20.0,83,um,micrograph785.tif,martensite,41.0,41.0
+785,,,,,2,,SE,SIS_XL.TIF,,786,100.0,103,um,micrograph786.tif,,47.0,47.0
+786,,,,,2,,SE,SIS_XL.TIF,35x,787,500.0,92,um,micrograph787.bmp,crack,47.0,47.0
+787,,,,,2,,SE,ET Gyro,491x,788,50.0,129,um,micrograph788.tif,quality,42.0,42.0
+788,,,,,2,,BSE,,491x,789,50.0,129,um,micrograph789.tif,crack,,
+789,,,,,2,,SE,SIS_XL.TIF,3437X,790,5.0,90,um,micrograph790.tif,hole,47.0,47.0
+790,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,98x,791,200.0,103,um,micrograph791.tif,network,40.0,40.0
+791,,,,,2,,BSE,SIS_XL.TIF,246x,792,100.0,129,um,micrograph792.tif,,47.0,47.0
+792,,,,,2,,SE,SIS_XL.TIF,,793,2.0,103,um,micrograph793.tif,,47.0,47.0
+793,,,,,2,,SE,SIS_XL.TIF,638x,794,20.0,67,um,micrograph794.tif,hole,47.0,47.0
+794,,,,,2,,SE,IN1 Etched Sample,,795,500.0,129,um,micrograph795.tif,network,44.0,44.0
+795,,,,,2,,SE,SIS_XL.TIF,19641x,796,1.0,103,um,micrograph796.tif,pearlite,47.0,47.0
+796,,,,,2,,SE,,19641x,797,1.0,103,um,micrograph797.tif,,,
+797,,,,,2,,SE,SIS_XL.TIF,9820X,798,2.0,103,um,micrograph798.tif,pearlite,47.0,47.0
+798,,,,,2,,SE,SIS_XL.TIF,49X,799,500.0,129,um,micrograph799.tif,network,47.0,47.0
+799,,,,,2,,SE,SIS_XL.TIF,1964X,800,10.0,103,um,micrograph800.tif,,47.0,47.0
+800,,,,,2,,SE,,64x,801,200.0,67,um,micrograph801.tif,,,
+801,,,,,2,,SE,,3437x,802,5.0,90,um,micrograph802.tif,,,
+802,,,,,2,,SE,,7856X,803,2.0,83,um,micrograph803.tif,pearlite,,
+803,,,,,2,,SE,SIS_XL.TIF,49X,804,500.0,129,um,micrograph804.tif,sample,47.0,47.0
+804,,,,,2,,SE,ET Gyro,,805,500.0,129,um,micrograph805.tif,network,42.0,42.0
+805,,,,,2,,SE,IN1 Etched Sample,102x,806,200.0,107,um,micrograph806.tif,network,44.0,44.0
+806,,,,,2,,SE,,35x,807,500.0,92,um,micrograph807.tif,network,,
+807,,,,,2,,SE,,1178X,808,20.0,124,um,micrograph808.tif,pearlite+spheroidite,,
+808,,,,,2,,SE,IN3 Unetched,95x,809,200.0,100,um,micrograph809.tif,crack,45.0,45.0
+809,,,,,2,,SE,,49102x,810,500.0,129,nm,micrograph810.tif,quality,,
+810,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,491x,811,50.0,129,um,micrograph811.tif,spheroidite+widmanstatten,19.0,19.0
+811,,,,,2,,BSE,,638x,812,20.0,67,um,micrograph812.tif,crack,,
+812,,,,,2,,SE,IN1 Etched Sample,,813,500.0,129,um,micrograph813.tif,network,44.0,44.0
+813,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,4910X,814,5.0,129,um,micrograph814.tif,pearlite,15.0,15.0
+814,,,,,2,,SE,,98x,815,200.0,103,um,micrograph815.tif,network,,
+815,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,344x,816,50.0,90,um,micrograph816.tif,spheroidite+widmanstatten,4.0,4.0
+816,,,,,2,,SE,,49X,817,500.0,129,um,micrograph817.tif,,,
+817,,,,,2,,BSE,,4910x,818,5.0,129,um,micrograph818.tif,,,
+818,,,,,2,,SE,IN3 Unetched,98x,819,200.0,103,um,micrograph819.tif,quality,45.0,45.0
+819,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,98x,820,200.0,103,um,micrograph820.tif,network,12.0,12.0
+820,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,821,2.0,67,um,micrograph821.tif,spheroidite+widmanstatten,32.0,32.0
+821,,,,,2,,SE,SIS_XL.TIF,982x,822,20.0,103,um,micrograph822.tif,,47.0,47.0
+822,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,147x,823,200.0,154,um,micrograph823.tif,sample,34.0,34.0
+823,,,,,2,,BSE,IN3 Unetched,1964X,824,10.0,103,um,micrograph824.tif,hole,45.0,45.0
+824,,,,,2,,SE,,1964X,825,10.0,103,um,micrograph825.tif,pearlite+spheroidite,,
+825,,,,,2,,BSE,SIS_XL.TIF,3437x,826,5.0,90,um,micrograph826.tif,,47.0,47.0
+826,,,,,2,,SE,Gaunt - Utah 1.5 yr explant M,,827,2.0,103,um,micrograph827.tif,quality,43.0,43.0
+827,,,,,2,,,SIS_XL.TIF,,828,2.0,103,um,micrograph828.tif,pearlite,47.0,47.0
+828,,,,,2,,SE,SIS_XL.TIF,982x,829,20.0,103,um,micrograph829.tif,,47.0,47.0
+829,,,,,2,,SE,SIS_XL.TIF,4910x,830,5.0,129,um,micrograph830.tif,,47.0,47.0
+830,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,831,2.0,103,um,micrograph831.tif,spheroidite,18.0,18.0
+831,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,832,20.0,103,um,micrograph832.tif,spheroidite+widmanstatten,40.0,40.0
+832,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,7856X,833,2.0,83,um,micrograph833.tif,pearlite,8.0,8.0
+833,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,98x,834,200.0,103,um,micrograph834.tif,sample,35.0,35.0
+834,,,,,2,,SE,,49X,835,500.0,129,um,micrograph835.tif,network,,
+835,,,,,2,,SE,,1964X,836,10.0,103,um,micrograph836.tif,pearlite+widmanstatten,,
+836,,,,,2,,BSE,,,837,500.0,129,um,micrograph837.tif,,,
+837,,,,,2,,SE,SIS_XL.TIF,98X,838,200.0,103,um,micrograph838.tif,,47.0,47.0
+838,,,,,2,,SE,IN1 Etched Sample,,839,500.0,129,um,micrograph839.tif,sample,44.0,44.0
+839,,,,,2,,SE,SIS_XL.TIF,982x,840,20.0,103,um,micrograph840.tif,,47.0,47.0
+840,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,98X,841,200.0,103,um,micrograph841.tif,network,29.0,29.0
+841,,,,,2,,SE,SIS_XL.TIF,98X,842,200.0,103,um,micrograph842.bmp,indent,47.0,47.0
+842,,,,,2,,SE,,98X,843,200.0,103,um,micrograph843.tif,network,,
+843,,,,,2,,SE,SIS_XL.TIF,49X,844,500.0,129,um,micrograph844.tif,network,47.0,47.0
+844,,,,,2,,SE,,98X,845,200.0,103,um,micrograph845.tif,network,,
+845,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,982x,846,20.0,103,um,micrograph846.tif,quality,31.0,31.0
+846,,,,,2,,SE,AC1 + vickers mark,98x,847,200.0,103,um,micrograph847.tif,network,3.0,3.0
+847,,,,,2,,SE,,491x,848,50.0,129,um,micrograph848.tif,hole,,
+848,,,,,2,,SE,SIS_XL.TIF,98X,849,200.0,103,um,micrograph849.tif,,47.0,47.0
+849,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,,850,2.0,83,um,micrograph850.tif,pearlite,9.0,9.0
+850,,,,,2,,BSE,,491x,851,50.0,129,um,micrograph851.tif,,,
+851,,,,,2,,SE,SIS_XL.TIF,,852,2.0,103,um,micrograph852.tif,pearlite,47.0,47.0
+852,,,,,2,,SE,,19641x,853,1.0,103,um,micrograph853.tif,quality,,
+853,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,3437x,854,5.0,90,um,micrograph854.tif,spheroidite,24.0,24.0
+854,,,,,2,,BSE,SIS_XL.TIF,98X,855,200.0,103,um,micrograph855.tif,network,47.0,47.0
+855,,,,,2,,BSE,ET Gyro,96x,856,200.0,100,um,micrograph856.tif,quality,42.0,42.0
+856,,,,,2,,SE,,982x,857,20.0,103,um,micrograph857.tif,pearlite+widmanstatten,,
+857,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,4910X,858,5.0,129,um,micrograph858.tif,spheroidite,16.0,16.0
+858,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,859,2.0,103,um,micrograph859.tif,spheroidite,6.0,6.0
+859,,,,,2,,SE,IN3 Unetched,,860,10.0,129,um,micrograph860.tif,hole,45.0,45.0
+860,,,,,2,,BSE,SIS_XL.TIF,98X,861,200.0,103,um,micrograph861.tif,network,47.0,47.0
+861,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1964X,862,10.0,103,um,micrograph862.tif,spheroidite+widmanstatten,34.0,34.0
+862,,,,,2,,SE,,63833X,863,200.0,67,nm,micrograph863.tif,quality,,
+863,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,864,10.0,103,um,micrograph864.tif,spheroidite,40.0,40.0
+864,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,246x,865,100.0,129,um,micrograph865.tif,network,35.0,35.0
+865,,,,,2,,SE,SIS_XL.TIF,9820X,866,2.0,103,um,micrograph866.tif,pearlite+spheroidite,47.0,47.0
+866,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,982x,867,20.0,103,um,micrograph867.tif,spheroidite,21.0,21.0
+867,,,,,2,,SE,,49X,868,500.0,129,um,micrograph868.tif,,,
+868,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,869,2.0,103,um,micrograph869.tif,quality,6.0,6.0
+869,,,,,2,,SE,SIS_XL.TIF,,870,2.0,103,um,micrograph870.tif,,47.0,47.0
+870,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,982x,871,20.0,103,um,micrograph871.tif,pearlite+spheroidite,5.0,5.0
+871,,,,,2,,BSE,,35x,872,500.0,92,um,micrograph872.tif,crack,,
+872,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,982x,873,20.0,103,um,micrograph873.tif,spheroidite+widmanstatten,23.0,23.0
+873,,,,,2,,BSE,,3437x,874,5.0,90,um,micrograph874.tif,hole,,
+874,,,,,2,,SE,,1473X,875,20.0,154,um,micrograph875.tif,pearlite+widmanstatten,,
+875,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,638x,876,20.0,67,um,micrograph876.tif,,40.0,40.0
+876,,,,,2,,SE,SIS_XL.TIF,49X,877,500.0,129,um,micrograph877.tif,network,47.0,47.0
+877,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,4910X,878,5.0,129,um,micrograph878.tif,quality,35.0,35.0
+878,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,,879,200.0,105,um,micrograph879.tif,quality,43.0,43.0
+879,,,,,2,,,SIS_XL.TIF,,880,2.0,103,um,micrograph880.tif,pearlite,47.0,47.0
+880,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1473X,881,20.0,154,um,micrograph881.tif,spheroidite+widmanstatten,32.0,32.0
+881,,,,,2,,SE,,491x,882,50.0,129,um,micrograph882.tif,pearlite+widmanstatten,,
+882,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,883,10.0,103,um,micrograph883.tif,spheroidite,21.0,21.0
+883,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,491x,884,50.0,129,um,micrograph884.tif,spheroidite+widmanstatten,4.0,4.0
+884,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,,885,2.0,103,um,micrograph885.tif,spheroidite,2.0,2.0
+885,,,,,2,,BSE,,,886,500.0,129,um,micrograph886.tif,,,
+886,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1178X,887,20.0,124,um,micrograph887.tif,spheroidite,16.0,16.0
+887,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,888,5.0,129,um,micrograph888.tif,spheroidite,40.0,40.0
+888,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,786x,889,20.0,83,um,micrograph889.tif,spheroidite,24.0,24.0
+889,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,2455X,890,10.0,129,um,micrograph890.tif,spheroidite+widmanstatten,34.0,34.0
+890,,,,,2,,SE,,9820X,891,2.0,103,um,micrograph891.tif,pearlite,,
+891,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,1178X,892,20.0,124,um,micrograph892.tif,quality,35.0,35.0
+892,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,1964X,893,10.0,103,um,micrograph893.tif,spheroidite+widmanstatten,4.0,4.0
+893,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,894,10.0,103,um,micrograph894.tif,spheroidite,23.0,23.0
+894,,,,,2,,SE,IN1 Etched Sample,24551X,895,1.0,129,um,micrograph895.tif,hole,44.0,44.0
+895,,,,,2,,SE,ET Gyro,,896,2.0,103,um,micrograph896.tif,pearlite,42.0,42.0
+896,,,,,2,,SE,AC1 + vickers mark,147x,897,200.0,154,um,micrograph897.tif,network,3.0,3.0
+897,,,,,2,,SE,SIS_XL.TIF,98x,898,200.0,103,um,micrograph898.bmp,indent,47.0,47.0
+898,,,,,2,,SE,,246x,899,100.0,129,um,micrograph899.tif,,,
+899,,,,,2,,,,,900,100.0,92,mm,micrograph900.tif,,,
+900,,,,,2,,BSE,,98x,901,200.0,103,um,micrograph901.tif,,,
+901,,,,,2,,SE,,9820X,902,2.0,103,um,micrograph902.tif,,,
+902,,,,,2,,SE,SIS_XL.TIF,491x,903,50.0,129,um,micrograph903.bmp,indent,47.0,47.0
+903,,,,,2,,SE,IN3 Unetched,4910X,904,5.0,129,um,micrograph904.tif,quality,45.0,45.0
+904,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,491x,905,50.0,129,um,micrograph905.tif,spheroidite+widmanstatten,25.0,25.0
+905,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,906,20.0,103,um,micrograph906.tif,spheroidite,20.0,20.0
+906,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,907,20.0,103,um,micrograph907.tif,spheroidite,28.0,28.0
+907,,,,,2,,SE,,1473X,908,20.0,154,um,micrograph908.tif,pearlite+spheroidite,,
+908,,,,,2,,SE,AC1 IS1010H 35X etched,98X,909,200.0,103,um,micrograph909.tif,network,41.0,41.0
+909,,,,,2,,SE,,1964X,910,10.0,103,um,micrograph910.tif,pearlite+spheroidite,,
+910,,,,,2,,SE,,,911,10.0,129,um,micrograph911.tif,pearlite+widmanstatten,,
+911,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,982x,912,20.0,103,um,micrograph912.tif,spheroidite,23.0,23.0
+912,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,7856X,913,2.0,83,um,micrograph913.tif,,8.0,8.0
+913,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,914,20.0,103,um,micrograph914.tif,spheroidite,39.0,39.0
+914,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,915,20.0,154,um,micrograph915.tif,spheroidite+widmanstatten,28.0,28.0
+915,,,,,2,,SE,,4910X,916,5.0,129,um,micrograph916.tif,pearlite+spheroidite,,
+916,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,917,20.0,103,um,micrograph917.tif,spheroidite,37.0,37.0
+917,,,,,2,,SE,SIS_XL.TIF,1964X,918,10.0,103,um,micrograph918.tif,spheroidite+widmanstatten,47.0,47.0
+918,,,,,2,,SE,IN3 Unetched,19641x,919,1.0,103,um,micrograph919.tif,quality,45.0,45.0
+919,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,1964X,920,10.0,103,um,micrograph920.tif,pearlite,15.0,15.0
+920,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,98x,921,200.0,103,um,micrograph921.tif,network,29.0,29.0
+921,,,,,2,,SE,,24551X,922,1.0,129,um,micrograph922.tif,pearlite,,
+922,,,,,2,,BSE,SIS_XL.TIF,491x,923,50.0,129,um,micrograph923.bmp,indent,47.0,47.0
+923,,,,,2,,SE,SIS_XL.TIF,98x,924,200.0,103,um,micrograph924.bmp,indent,47.0,47.0
+924,,,,,2,,SE,SIS_XL.TIF,98X,925,200.0,103,um,micrograph925.tif,network,47.0,47.0
+925,,,,,2,,BSE,,982x,926,20.0,103,um,micrograph926.tif,pearlite+spheroidite,,
+926,,,,,2,,SE,,49X,927,500.0,129,um,micrograph927.tif,network,,
+927,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,928,5.0,129,um,micrograph928.tif,pearlite,40.0,40.0
+928,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,491x,929,50.0,129,um,micrograph929.tif,sample,34.0,34.0
+929,,,,,2,,SE,,,930,2.0,103,um,micrograph930.tif,crack,,
+930,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,931,20.0,103,um,micrograph931.tif,spheroidite,36.0,36.0
+931,,,,,2,,SE,,982x,932,20.0,103,um,micrograph932.tif,pearlite+widmanstatten,,
+932,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,933,10.0,103,um,micrograph933.tif,spheroidite,7.0,7.0
+933,,,,,2,,SE,AC1 IS1010H 35X etched,98X,934,200.0,103,um,micrograph934.tif,network,41.0,41.0
+934,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,982x,935,20.0,103,um,micrograph935.tif,spheroidite+widmanstatten,23.0,23.0
+935,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,936,5.0,129,um,micrograph936.tif,spheroidite,14.0,14.0
+936,,,,,2,,BSE,SIS_XL.TIF,147x,937,200.0,154,um,micrograph937.bmp,indent,47.0,47.0
+937,,,,,2,,SE,,491x,938,50.0,129,um,micrograph938.tif,,,
+938,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,939,10.0,103,um,micrograph939.tif,spheroidite,2.0,2.0
+939,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,35x,940,500.0,92,um,micrograph940.tif,sample,33.0,33.0
+940,,,,,2,,BSE,SIS_XL.TIF,98X,941,200.0,103,um,micrograph941.tif,network,47.0,47.0
+941,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,982x,942,20.0,103,um,micrograph942.tif,,22.0,22.0
+942,,,,,2,,SE,,491x,943,50.0,129,um,micrograph943.tif,,,
+943,,,,,2,,SE,,34372X,944,500.0,90,nm,micrograph944.tif,quality,,
+944,,,,,2,,BSE,Midrex DRI,98x,945,200.0,103,um,micrograph945.tif,sample,46.0,46.0
+945,,,,,2,,SE,,3437x,946,5.0,90,um,micrograph946.tif,,,
+946,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,947,20.0,103,um,micrograph947.tif,spheroidite,39.0,39.0
+947,,,,,2,,SE,IN3 Unetched,1964X,948,10.0,103,um,micrograph948.tif,quality,45.0,45.0
+948,,,,,2,,SE,,49X,949,500.0,129,um,micrograph949.tif,network,,
+949,,,,,2,,SE,SIS_XL.TIF,491x,950,50.0,129,um,micrograph950.bmp,indent,47.0,47.0
+950,,,,,2,,BSE,SIS_XL.TIF,1178X,951,20.0,124,um,micrograph951.tif,martensite,47.0,47.0
+951,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,952,10.0,103,um,micrograph952.tif,spheroidite,21.0,21.0
+952,,,,,2,,SE,,11785x,953,2.0,124,um,micrograph953.tif,pearlite,,
+953,,,,,2,,SE,AC1 IS1010H 35X etched,786x,954,20.0,83,um,micrograph954.tif,martensite,41.0,41.0
+954,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,3437X,955,5.0,90,um,micrograph955.tif,spheroidite+widmanstatten,34.0,34.0
+955,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,956,10.0,103,um,micrograph956.png,spheroidite,36.0,36.0
+956,,,,,2,,SE,,786x,957,20.0,83,um,micrograph957.tif,crack,,
+957,,,,,2,,BSE,Midrex DRI,,958,2.0,103,um,micrograph958.tif,quality,46.0,46.0
+958,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,98x,959,200.0,103,um,micrograph959.tif,network,34.0,34.0
+959,,,,,2,,SE,SIS_XL.TIF,,960,10.0,129,um,micrograph960.tif,hole,47.0,47.0
+960,,,,,2,,SE,,49X,961,500.0,129,um,micrograph961.tif,network,,
+961,,,,,2,,SE,ET Gyro,,962,200.0,103,nm,micrograph962.tif,quality,42.0,42.0
+962,,,,,2,,SE,SIS_XL.TIF,1178X,963,20.0,124,um,micrograph963.tif,martensite,47.0,47.0
+963,,,,,2,,BSE,SIS_XL.TIF,98x,964,200.0,103,um,micrograph964.bmp,indent,47.0,47.0
+964,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,246x,965,100.0,129,um,micrograph965.tif,network,34.0,34.0
+965,,,,,2,,SE,IN3 Unetched,79x,966,200.0,83,um,micrograph966.tif,sample,45.0,45.0
+966,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,11785x,967,2.0,124,um,micrograph967.tif,spheroidite+widmanstatten,4.0,4.0
+967,,,,,2,,BSE,SIS_XL.TIF,98X,968,200.0,103,um,micrograph968.tif,network,47.0,47.0
+968,,,,,2,,,,,969,100.0,92,mm,micrograph969.tif,hole,,
+969,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,970,20.0,103,um,micrograph970.tif,spheroidite,20.0,20.0
+970,,,,,2,,SE,SIS_XL.TIF,98X,971,200.0,103,um,micrograph971.tif,network,47.0,47.0
+971,,,,,2,,BSE,SIS_XL.TIF,246x,972,100.0,129,um,micrograph972.bmp,indent,47.0,47.0
+972,,,,,2,,SE,AC1 + vickers mark,98x,973,200.0,103,um,micrograph973.tif,network,3.0,3.0
+973,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1473X,974,20.0,154,um,micrograph974.tif,spheroidite+widmanstatten,25.0,25.0
+974,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,1964X,975,10.0,103,um,micrograph975.tif,crack,38.0,38.0
+975,,,,,2,,SE,SIS_XL.TIF,35x,976,500.0,92,um,micrograph976.bmp,sample,47.0,47.0
+976,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,491x,977,50.0,129,um,micrograph977.tif,quality,31.0,31.0
+977,,,,,2,,SE,IN3 Unetched,491x,978,50.0,129,um,micrograph978.tif,crack,45.0,45.0
+978,,,,,2,,SE,IN3 Unetched,638x,979,20.0,67,um,micrograph979.tif,hole,45.0,45.0
+979,,,,,2,,BSE,IN3 Unetched,1964X,980,10.0,103,um,micrograph980.tif,sample,45.0,45.0
+980,,,,,2,,SE,SIS_XL.TIF,491x,981,50.0,129,um,micrograph981.bmp,indent,47.0,47.0
+981,,,,,2,,SE,SIS_XL.TIF,49X,982,500.0,129,um,micrograph982.tif,quality,47.0,47.0
+982,,,,,2,,SE,SIS_XL.TIF,35x,983,500.0,92,um,micrograph983.bmp,quality,47.0,47.0
+983,,,,,2,,SE,AC1 IS1010H 35X etched,1178X,984,20.0,124,um,micrograph984.tif,martensite,41.0,41.0
+984,,,,,2,,SE,SIS_XL.TIF,,985,10.0,129,um,micrograph985.tif,pearlite,47.0,47.0
+985,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,986,20.0,154,um,micrograph986.tif,spheroidite,28.0,28.0
+986,,,,,2,,SE,SIS_XL.TIF,246x,987,100.0,129,um,micrograph987.bmp,indent,47.0,47.0
+987,,,,,2,,SE,IN3 Unetched,19641x,988,1.0,103,um,micrograph988.tif,crack,45.0,45.0
+988,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,491x,989,50.0,129,um,micrograph989.tif,spheroidite+widmanstatten,28.0,28.0
+989,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910X,990,5.0,129,um,micrograph990.tif,spheroidite,23.0,23.0
+990,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,1964X,991,10.0,103,um,micrograph991.tif,spheroidite,14.0,14.0
+991,,,,,2,,SE,IN3 Unetched,11785x,992,2.0,124,um,micrograph992.tif,crack,45.0,45.0
+992,,,,,2,,BSE,,982x,993,20.0,103,um,micrograph993.tif,,,
+993,,,,,2,,SE,,,994,2.0,83,um,micrograph994.tif,pearlite+spheroidite,,
+994,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,3437X,995,5.0,90,um,micrograph995.tif,spheroidite,34.0,34.0
+995,,,,,2,,SE,SIS_XL.TIF,1178X,996,20.0,124,um,micrograph996.tif,hole,47.0,47.0
+996,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,1964X,997,10.0,103,um,micrograph997.tif,pearlite+spheroidite,5.0,5.0
+997,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,,998,2.0,103,um,micrograph998.tif,spheroidite,2.0,2.0
+998,C,970.0,48.0,H,2,Q,SE,AC1 970C 48H Q,98x,999,200.0,103,um,micrograph999.tif,network,27.0,27.0
+999,,,,,2,,SE,,9820X,1000,2.0,103,um,micrograph1000.tif,quality,,
+1000,,,,,2,,SE,ET Gyro,98x,1001,200.0,103,um,micrograph1001.tif,network,42.0,42.0
+1001,,,,,2,,SE,SIS_XL.TIF,14731x,1002,2.0,154,um,micrograph1002.tif,quality,47.0,47.0
+1002,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,1964X,1003,10.0,103,um,micrograph1003.tif,spheroidite+widmanstatten,38.0,38.0
+1003,,,,,2,,SE,IN3 Unetched,49102x,1004,500.0,129,nm,micrograph1004.tif,quality,45.0,45.0
+1004,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,982x,1005,20.0,103,um,micrograph1005.tif,spheroidite+widmanstatten,34.0,34.0
+1005,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910X,1006,5.0,129,um,micrograph1006.tif,spheroidite,23.0,23.0
+1006,C,970.0,5.0,M,2,FC,BSE,AC1 970 5M FC,4910X,1007,5.0,129,um,micrograph1007.tif,quality,34.0,34.0
+1007,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,982x,1008,20.0,103,um,micrograph1008.tif,spheroidite,33.0,33.0
+1008,,,,,2,,SE,SIS_XL.TIF,982x,1009,20.0,103,um,micrograph1009.tif,martensite,47.0,47.0
+1009,,,,,2,,SE,,49X,1010,500.0,129,um,micrograph1010.tif,network,,
+1010,,,,,2,,SE,ET Gyro,,1011,2.0,103,um,micrograph1011.tif,pearlite,42.0,42.0
+1011,,,,,2,,SE,AC1 IS1010H 35X etched,1964X,1012,10.0,103,um,micrograph1012.tif,martensite,41.0,41.0
+1012,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,1013,5.0,129,um,micrograph1013.tif,spheroidite,38.0,38.0
+1013,,,,,2,,SE,SIS_XL.TIF,34372X,1014,500.0,90,nm,micrograph1014.jpg,quality,47.0,47.0
+1014,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,1015,5.0,129,um,micrograph1015.tif,spheroidite,2.0,2.0
+1015,,,,,2,,SE,,491x,1016,50.0,129,um,micrograph1016.tif,,,
+1016,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,982x,1017,20.0,103,um,micrograph1017.tif,spheroidite,21.0,21.0
+1017,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1018,10.0,103,um,micrograph1018.tif,spheroidite,33.0,33.0
+1018,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,98x,1019,200.0,103,um,micrograph1019.tif,network,34.0,34.0
+1019,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,1964X,1020,10.0,103,um,micrograph1020.tif,spheroidite,12.0,12.0
+1020,C,800.0,90.0,M,2,Q,BSE,AC1 800C 900C 970C 90M Q,,1021,100.0,103,um,micrograph1021.tif,,11.0,11.0
+1021,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1022,10.0,103,um,micrograph1022.png,spheroidite,40.0,40.0
+1022,,,,,2,,SE,,49X,1023,500.0,129,um,micrograph1023.tif,network,,
+1023,,,,,2,,SE,SIS_XL.TIF,98X,1024,200.0,103,um,micrograph1024.tif,quality,47.0,47.0
+1024,,,,,2,,BSE,SIS_XL.TIF,6383x,1025,2.0,67,um,micrograph1025.tif,pearlite,47.0,47.0
+1025,,,,,2,,SE,,49X,1026,500.0,129,um,micrograph1026.tif,network,,
+1026,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,1964X,1027,10.0,103,um,micrograph1027.tif,spheroidite,33.0,33.0
+1027,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1964X,1028,10.0,103,um,micrograph1028.tif,spheroidite,16.0,16.0
+1028,,,,,2,,BSE,,,1029,10.0,129,um,micrograph1029.tif,quality,,
+1029,,,,,2,,BSE,AC1 IS1010H 35X etched,786x,1030,20.0,83,um,micrograph1030.tif,martensite,41.0,41.0
+1030,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1031,5.0,129,um,micrograph1031.tif,spheroidite,7.0,7.0
+1031,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,1032,10.0,103,um,micrograph1032.png,spheroidite,37.0,37.0
+1032,,,,,2,,SE,,4910X,1033,5.0,129,um,micrograph1033.tif,pearlite+spheroidite,,
+1033,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1034,5.0,90,um,micrograph1034.tif,,40.0,40.0
+1034,C,1000.0,5.0,M,2,Q,,AC1 1000C 5M Q,49X,1035,500.0,129,um,micrograph1035.tif,network,4.0,4.0
+1035,,,,,2,,SE,SIS_XL.TIF,24551X,1036,1.0,129,um,micrograph1036.tif,quality,47.0,47.0
+1036,,,,,2,,,,246x,1037,100.0,129,um,micrograph1037.tif,,,
+1037,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,982x,1038,20.0,103,um,micrograph1038.tif,spheroidite,17.0,17.0
+1038,,,,,2,,SE,,3437x,1039,5.0,90,um,micrograph1039.tif,pearlite,,
+1039,,,,,2,,SE,AC1 + vickers mark,98x,1040,200.0,103,um,micrograph1040.tif,network,3.0,3.0
+1040,,,,,2,,BSE,,1473X,1041,20.0,154,um,micrograph1041.tif,quality,,
+1041,,,,,2,,SE,IN3 Unetched,96X,1042,200.0,101,um,micrograph1042.tif,crack,45.0,45.0
+1042,,,,,2,,SE,,,1043,100.0,103,um,micrograph1043.tif,,,
+1043,,,,,2,,SE,IN3 Unetched,,1044,100.0,103,um,micrograph1044.tif,hole,45.0,45.0
+1044,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1045,10.0,103,um,micrograph1045.png,spheroidite,36.0,36.0
+1045,,,,,2,,SE,,1473X,1046,20.0,154,um,micrograph1046.tif,pearlite+widmanstatten,,
+1046,,,,,2,,SE,,147x,1047,200.0,154,um,micrograph1047.tif,,,
+1047,,,,,2,,BSE,SIS_XL.TIF,1178X,1048,20.0,124,um,micrograph1048.tif,martensite,47.0,47.0
+1048,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98X,1049,200.0,103,um,micrograph1049.tif,network,25.0,25.0
+1049,,,,,2,,SE,,49X,1050,500.0,129,um,micrograph1050.tif,sample,,
+1050,,,,,2,,SE,IN3 Unetched,491x,1051,50.0,129,um,micrograph1051.tif,crack,45.0,45.0
+1051,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,3437X,1052,5.0,90,um,micrograph1052.tif,spheroidite,29.0,29.0
+1052,,,,,2,,SE,ET Gyro,4910x,1053,5.0,129,um,micrograph1053.tif,pearlite,42.0,42.0
+1053,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,1054,20.0,154,um,micrograph1054.tif,spheroidite,28.0,28.0
+1054,,,,,2,,SE,AC1 IS1010H 35X etched,1964X,1055,10.0,103,um,micrograph1055.tif,martensite,41.0,41.0
+1055,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1056,10.0,103,um,micrograph1056.png,spheroidite,36.0,36.0
+1056,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,4910X,1057,5.0,129,um,micrograph1057.tif,spheroidite+widmanstatten,34.0,34.0
+1057,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1058,20.0,103,um,micrograph1058.tif,spheroidite,37.0,37.0
+1058,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,1059,10.0,103,um,micrograph1059.tif,spheroidite,17.0,17.0
+1059,,,,,2,,BSE,SIS_XL.TIF,,1060,100.0,103,um,micrograph1060.tif,,47.0,47.0
+1060,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1061,20.0,103,um,micrograph1061.tif,spheroidite,37.0,37.0
+1061,,,,,2,,SE,IN1 Etched Sample,24551X,1062,1.0,129,um,micrograph1062.tif,pearlite,44.0,44.0
+1062,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,1964X,1063,10.0,103,um,micrograph1063.tif,spheroidite+widmanstatten,22.0,22.0
+1063,,,,,2,,SE,IN1 Etched Sample,102x,1064,200.0,107,um,micrograph1064.tif,network,44.0,44.0
+1064,,,,,2,,BSE,,,1065,500.0,129,um,micrograph1065.tif,,,
+1065,,,,,2,,SE,IN3 Unetched,99x,1066,200.0,104,um,micrograph1066.tif,crack,45.0,45.0
+1066,,,,,2,,BSE,,344x,1067,50.0,90,um,micrograph1067.tif,,,
+1067,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,4910X,1068,5.0,129,um,micrograph1068.tif,pearlite+spheroidite,5.0,5.0
+1068,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,246x,1069,100.0,129,um,micrograph1069.tif,sample,34.0,34.0
+1069,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,1070,20.0,124,um,micrograph1070.tif,quality,33.0,33.0
+1070,,,,,2,,SE,SIS_XL.TIF,982x,1071,20.0,103,um,micrograph1071.tif,,47.0,47.0
+1071,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98x,1072,200.0,103,um,micrograph1072.tif,network,31.0,31.0
+1072,,,,,2,,BSE,,35x,1073,500.0,92,um,micrograph1073.tif,,,
+1073,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,246x,1074,100.0,129,um,micrograph1074.tif,,12.0,12.0
+1074,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98X,1075,200.0,103,um,micrograph1075.tif,network,25.0,25.0
+1075,,,,,2,,SE,ET Gyro,,1076,2.0,103,um,micrograph1076.tif,pearlite,42.0,42.0
+1076,,,,,2,,SE,,98X,1077,200.0,103,um,micrograph1077.tif,network,,
+1077,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,491x,1078,50.0,129,um,micrograph1078.tif,pearlite+widmanstatten,8.0,8.0
+1078,,,,,2,,SE,SIS_XL.TIF,1964X,1079,10.0,103,um,micrograph1079.tif,martensite,47.0,47.0
+1079,,,,,2,,SE,,49X,1080,500.0,129,um,micrograph1080.tif,network,,
+1080,,,,,2,,BSE,,147x,1081,200.0,154,um,micrograph1081.tif,,,
+1081,,,,,2,,SE,,49X,1082,500.0,129,um,micrograph1082.tif,network,,
+1082,,,,,2,,SE,IN1 Etched Sample,,1083,2.0,103,um,micrograph1083.tif,pearlite,44.0,44.0
+1083,,,,,2,,BSE,SIS_XL.TIF,246x,1084,100.0,129,um,micrograph1084.bmp,indent,47.0,47.0
+1084,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,638x,1085,20.0,67,um,micrograph1085.tif,quality,33.0,33.0
+1085,,,,,2,,SE,SIS_XL.TIF,246x,1086,100.0,129,um,micrograph1086.tif,,47.0,47.0
+1086,,,,,2,,SE,SIS_XL.TIF,246x,1087,100.0,129,um,micrograph1087.tif,,47.0,47.0
+1087,C,970.0,24.0,H,2,FC,BSE,AC1 970C 24H FC,18x,1088,1.0,93,mm,micrograph1088.tif,sample,30.0,30.0
+1088,C,970.0,24.0,H,2,FC,BSE,AC1 970C 24H FC,,1089,500.0,129,um,micrograph1089.tif,sample,30.0,30.0
+1089,,,,,2,,SE,SIS_XL.TIF,98X,1090,200.0,103,um,micrograph1090.tif,,47.0,47.0
+1090,,,,,2,,BSE,,3437x,1091,5.0,90,um,micrograph1091.tif,quality,,
+1091,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,982x,1092,20.0,103,um,micrograph1092.tif,spheroidite,14.0,14.0
+1092,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,1964X,1093,10.0,103,um,micrograph1093.tif,spheroidite+widmanstatten,38.0,38.0
+1093,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1473X,1094,20.0,154,um,micrograph1094.tif,spheroidite,26.0,26.0
+1094,,,,,2,,BSE,SIS_XL.TIF,4910X,1095,5.0,129,um,micrograph1095.tif,,47.0,47.0
+1095,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,1096,2.0,103,um,micrograph1096.tif,spheroidite,6.0,6.0
+1096,,,,,2,,SE,,982x,1097,20.0,103,um,micrograph1097.tif,pearlite+widmanstatten,,
+1097,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,1098,10.0,103,um,micrograph1098.tif,spheroidite,23.0,23.0
+1098,,,,,2,,BSE,SIS_XL.TIF,,1099,100.0,103,um,micrograph1099.tif,,47.0,47.0
+1099,,,,,2,,SE,SIS_XL.TIF,9820X,1100,2.0,103,um,micrograph1100.tif,pearlite,47.0,47.0
+1100,,,,,2,,BSE,SIS_XL.TIF,9820X,1101,2.0,103,um,micrograph1101.tif,pearlite,47.0,47.0
+1101,,,,,2,,SE,ET Gyro,,1102,10.0,129,um,micrograph1102.tif,pearlite,42.0,42.0
+1102,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,1103,10.0,103,um,micrograph1103.tif,spheroidite,18.0,18.0
+1103,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,982x,1104,20.0,103,um,micrograph1104.tif,pearlite+widmanstatten,9.0,9.0
+1104,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1964X,1105,10.0,103,um,micrograph1105.tif,spheroidite,16.0,16.0
+1105,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,,1106,2.0,103,um,micrograph1106.tif,pearlite,9.0,9.0
+1106,,,,,2,,SE,,49X,1107,500.0,129,um,micrograph1107.tif,,,
+1107,,,,,2,,BSE,SIS_XL.TIF,98x,1108,200.0,103,um,micrograph1108.tif,,47.0,47.0
+1108,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,98x,1109,200.0,103,um,micrograph1109.tif,network,19.0,19.0
+1109,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1110,5.0,129,um,micrograph1110.tif,crack,14.0,14.0
+1110,,,,,2,,SE,IN1 Etched Sample,,1111,500.0,129,um,micrograph1111.tif,network,44.0,44.0
+1111,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,1112,10.0,103,um,micrograph1112.tif,spheroidite,2.0,2.0
+1112,,,,,2,,SE,SIS_XL.TIF,4910X,1113,5.0,129,um,micrograph1113.tif,,47.0,47.0
+1113,,,,,2,,SE,IN3 Unetched,1964X,1114,10.0,103,um,micrograph1114.tif,quality,45.0,45.0
+1114,,,,,2,,SE,SIS_XL.TIF,,1115,2.0,103,um,micrograph1115.tif,hole,47.0,47.0
+1115,,,,,2,,SE,,344x,1116,50.0,90,um,micrograph1116.tif,,,
+1116,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1117,10.0,103,um,micrograph1117.tif,spheroidite,25.0,25.0
+1117,,,,,2,,,,,1118,100.0,92,mm,micrograph1118.tif,hole,,
+1118,,,,,2,,SE,SIS_XL.TIF,,1119,2.0,103,um,micrograph1119.tif,pearlite,47.0,47.0
+1119,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,1120,2.0,83,um,micrograph1120.tif,spheroidite,6.0,6.0
+1120,,,,,2,,SE,3.1 IN1 Etched Sample 1,147307X,1121,,172,,micrograph1121.jpg,figure,1.0,1.0
+1121,,,,,2,,BSE,SIS_XL.TIF,98x,1122,200.0,103,um,micrograph1122.bmp,indent,47.0,47.0
+1122,,,,,2,,BSE,,982x,1123,20.0,103,um,micrograph1123.tif,pearlite+widmanstatten,,
+1123,,,,,2,,SE,,3437X,1124,5.0,90,um,micrograph1124.tif,hole,,
+1124,,,,,2,,BSE,SIS_XL.TIF,,1125,100.0,103,um,micrograph1125.bmp,indent,47.0,47.0
+1125,,,,,2,,SE,SIS_XL.TIF,4910X,1126,5.0,129,um,micrograph1126.tif,pearlite,47.0,47.0
+1126,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1127,5.0,129,um,micrograph1127.tif,spheroidite,7.0,7.0
+1127,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1128,200.0,103,um,micrograph1128.tif,network,37.0,37.0
+1128,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,1129,50.0,129,um,micrograph1129.tif,spheroidite+widmanstatten,33.0,33.0
+1129,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,1964X,1130,10.0,103,um,micrograph1130.tif,,22.0,22.0
+1130,,,,,2,,SE,SIS_XL.TIF,98X,1131,200.0,103,um,micrograph1131.tif,sample,47.0,47.0
+1131,,,,,2,,SE,,491x,1132,50.0,129,um,micrograph1132.tif,,,
+1132,,,,,2,,SE,IN3 Unetched,3437X,1133,5.0,90,um,micrograph1133.tif,quality,45.0,45.0
+1133,,,,,2,,SE,AC1 + vickers mark,98x,1134,200.0,103,um,micrograph1134.tif,network,3.0,3.0
+1134,,,,,2,,SE,,4910x,1135,5.0,129,um,micrograph1135.tif,,,
+1135,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,3437X,1136,5.0,90,um,micrograph1136.tif,spheroidite,28.0,28.0
+1136,,,,,2,,SE,,,1137,100.0,103,um,micrograph1137.tif,,,
+1137,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,4910x,1138,5.0,129,um,micrograph1138.tif,spheroidite,11.0,11.0
+1138,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,1139,10.0,103,um,micrograph1139.png,spheroidite,39.0,39.0
+1139,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1140,10.0,103,um,micrograph1140.png,spheroidite,36.0,36.0
+1140,,,,,2,,BSE,,982x,1141,20.0,103,um,micrograph1141.tif,,,
+1141,,,,,2,,SE,,,1142,500.0,129,um,micrograph1142.tif,network,,
+1142,,,,,2,,BSE,SIS_XL.TIF,1473X,1143,20.0,154,um,micrograph1143.tif,hole,47.0,47.0
+1143,,,,,2,,SE,,3437X,1144,5.0,90,um,micrograph1144.tif,pearlite,,
+1144,,,,,2,,SE,SIS_XL.TIF,1964X,1145,10.0,103,um,micrograph1145.tif,spheroidite,47.0,47.0
+1145,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,1146,10.0,103,um,micrograph1146.tif,spheroidite,39.0,39.0
+1146,,,,,2,,SE,SIS_XL.TIF,1964X,1147,10.0,103,um,micrograph1147.tif,hole,47.0,47.0
+1147,,,,,2,,BSE,,,1148,100.0,103,um,micrograph1148.tif,,,
+1148,,,,,2,,SE,,344x,1149,50.0,90,um,micrograph1149.tif,,,
+1149,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,1150,20.0,103,um,micrograph1150.tif,spheroidite,33.0,33.0
+1150,,,,,2,,BSE,SIS_XL.TIF,98x,1151,200.0,103,um,micrograph1151.tif,quality,47.0,47.0
+1151,,,,,2,,SE,,638x,1152,20.0,67,um,micrograph1152.tif,pearlite,,
+1152,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,,1153,10.0,129,um,micrograph1153.tif,sample,30.0,30.0
+1153,,,,,2,,SE,SIS_XL.TIF,63833X,1154,200.0,67,nm,micrograph1154.tif,,47.0,47.0
+1154,,,,,2,,BSE,SIS_XL.TIF,982x,1155,20.0,103,um,micrograph1155.tif,pearlite,47.0,47.0
+1155,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,1156,50.0,129,um,micrograph1156.tif,spheroidite+widmanstatten,32.0,32.0
+1156,,,,,2,,SE,,4910X,1157,5.0,129,um,micrograph1157.tif,pearlite,,
+1157,,,,,2,,BSE,SIS_XL.TIF,,1158,500.0,129,um,micrograph1158.tif,hole,47.0,47.0
+1158,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,1473X,1159,20.0,154,um,micrograph1159.tif,spheroidite,24.0,24.0
+1159,,,,,2,,BSE,SIS_XL.TIF,98x,1160,200.0,103,um,micrograph1160.bmp,indent,47.0,47.0
+1160,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1161,20.0,103,um,micrograph1161.tif,spheroidite,37.0,37.0
+1161,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,118x,1162,200.0,124,um,micrograph1162.tif,network,9.0,9.0
+1162,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,1473X,1163,20.0,154,um,micrograph1163.tif,spheroidite,24.0,24.0
+1163,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,982x,1164,20.0,103,um,micrograph1164.tif,spheroidite,35.0,35.0
+1164,,,,,2,,SE,,4910x,1165,5.0,129,um,micrograph1165.tif,pearlite,,
+1165,,,,,2,,BSE,SIS_XL.TIF,982x,1166,20.0,103,um,micrograph1166.bmp,crack,47.0,47.0
+1166,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,982x,1167,20.0,103,um,micrograph1167.tif,spheroidite,11.0,11.0
+1167,,,,,2,,SE,,1473X,1168,20.0,154,um,micrograph1168.tif,pearlite+spheroidite,,
+1168,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,147x,1169,200.0,154,um,micrograph1169.tif,sample,34.0,34.0
+1169,C,970.0,48.0,H,2,Q,SE,AC1 970C 48H Q,491x,1170,50.0,129,um,micrograph1170.tif,,27.0,27.0
+1170,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,982x,1171,20.0,103,um,micrograph1171.tif,,30.0,30.0
+1171,,,,,2,,SE,Gaunt - Utah 1.5 yr explant M,62x,1172,500.0,161,um,micrograph1172.tif,quality,43.0,43.0
+1172,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,19641x,1173,1.0,103,um,micrograph1173.tif,spheroidite,4.0,4.0
+1173,,,,,2,,SE,SIS_XL.TIF,,1174,10.0,129,um,micrograph1174.tif,martensite,47.0,47.0
+1174,,,,,2,,BSE,SIS_XL.TIF,638x,1175,20.0,67,um,micrograph1175.tif,hole,47.0,47.0
+1175,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1176,20.0,103,um,micrograph1176.tif,spheroidite,37.0,37.0
+1176,,,,,2,,SE,AC1 IS1010H 35X etched,1473X,1177,20.0,154,um,micrograph1177.tif,martensite,41.0,41.0
+1177,,,,,2,,SE,,246x,1178,100.0,129,um,micrograph1178.tif,,,
+1178,,,,,2,,BSE,SIS_XL.TIF,246x,1179,100.0,129,um,micrograph1179.bmp,indent,47.0,47.0
+1179,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,1180,20.0,103,um,micrograph1180.tif,spheroidite,39.0,39.0
+1180,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,1964X,1181,10.0,103,um,micrograph1181.tif,,30.0,30.0
+1181,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,118x,1182,200.0,124,um,micrograph1182.tif,network,24.0,24.0
+1182,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,3437X,1183,5.0,90,um,micrograph1183.tif,spheroidite,29.0,29.0
+1183,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,344x,1184,50.0,90,um,micrograph1184.tif,,24.0,24.0
+1184,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,1185,20.0,103,um,micrograph1185.tif,spheroidite,33.0,33.0
+1185,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1186,20.0,103,um,micrograph1186.tif,spheroidite,37.0,37.0
+1186,,,,,2,,BSE,SIS_XL.TIF,491x,1187,50.0,129,um,micrograph1187.bmp,indent,47.0,47.0
+1187,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,4910X,1188,5.0,129,um,micrograph1188.tif,spheroidite,16.0,16.0
+1188,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1189,20.0,103,um,micrograph1189.tif,spheroidite,37.0,37.0
+1189,C,900.0,5.0,M,2,Q,SE,AC1 900C 5M Q,4910X,1190,5.0,129,um,micrograph1190.tif,quality,22.0,22.0
+1190,,,,,2,,SE,,246x,1191,100.0,129,um,micrograph1191.tif,,,
+1191,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,4910X,1192,5.0,129,um,micrograph1192.tif,spheroidite,18.0,18.0
+1192,C,970.0,48.0,H,2,Q,SE,AC1 970C 48H Q,982x,1193,20.0,103,um,micrograph1193.tif,spheroidite,27.0,27.0
+1193,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,4910X,1194,5.0,129,um,micrograph1194.tif,quality,34.0,34.0
+1194,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,1195,10.0,103,um,micrograph1195.png,spheroidite,37.0,37.0
+1195,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,4910X,1196,5.0,129,um,micrograph1196.tif,spheroidite,6.0,6.0
+1196,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,,1197,2.0,83,um,micrograph1197.tif,spheroidite,6.0,6.0
+1197,,,,,2,,SE,AC1 IS1010H 35X etched,98X,1198,200.0,103,um,micrograph1198.tif,network,41.0,41.0
+1198,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1199,5.0,90,um,micrograph1199.tif,spheroidite,40.0,40.0
+1199,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1200,10.0,103,um,micrograph1200.png,spheroidite,40.0,40.0
+1200,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,3437x,1201,5.0,90,um,micrograph1201.tif,spheroidite,24.0,24.0
+1201,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1202,20.0,103,um,micrograph1202.tif,spheroidite,36.0,36.0
+1202,,,,,2,,BSE,SIS_XL.TIF,,1203,10.0,129,um,micrograph1203.tif,hole,47.0,47.0
+1203,,,,,2,,SE,,982x,1204,20.0,103,um,micrograph1204.tif,pearlite+widmanstatten,,
+1204,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,1205,10.0,103,um,micrograph1205.tif,spheroidite,23.0,23.0
+1205,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,1964X,1206,10.0,103,um,micrograph1206.tif,pearlite+spheroidite,5.0,5.0
+1206,C,970.0,90.0,M,2,FC,BSE,AC1 970C 90M FC,246x,1207,100.0,129,um,micrograph1207.tif,spheroidite,35.0,35.0
+1207,,,,,2,,BSE,IN3 Unetched,1964X,1208,10.0,103,um,micrograph1208.tif,crack,45.0,45.0
+1208,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,1473X,1209,20.0,154,um,micrograph1209.tif,,30.0,30.0
+1209,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1210,200.0,103,um,micrograph1210.tif,network,37.0,37.0
+1210,,,,,2,,SE,SIS_XL.TIF,79x,1211,200.0,83,um,micrograph1211.tif,sample,47.0,47.0
+1211,,,,,2,,BSE,,1473X,1212,20.0,154,um,micrograph1212.tif,,,
+1212,,,,,2,,SE,ET Gyro,4910x,1213,5.0,129,um,micrograph1213.tif,pearlite,42.0,42.0
+1213,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,246x,1214,100.0,129,um,micrograph1214.tif,pearlite+widmanstatten,8.0,8.0
+1214,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,982x,1215,20.0,103,um,micrograph1215.tif,pearlite+widmanstatten,8.0,8.0
+1215,,,,,2,,SE,SIS_XL.TIF,24551X,1216,1.0,129,um,micrograph1216.tif,pearlite,47.0,47.0
+1216,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,98x,1217,200.0,103,um,micrograph1217.png,network,37.0,37.0
+1217,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,1178X,1218,20.0,124,um,micrograph1218.tif,spheroidite+widmanstatten,35.0,35.0
+1218,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,982x,1219,20.0,103,um,micrograph1219.tif,spheroidite+widmanstatten,37.0,37.0
+1219,,,,,2,,BSE,ET Gyro,982x,1220,20.0,103,um,micrograph1220.tif,quality,42.0,42.0
+1220,,,,,2,,BSE,,491x,1221,50.0,129,um,micrograph1221.tif,quality,,
+1221,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,491x,1222,50.0,129,um,micrograph1222.tif,quality,34.0,34.0
+1222,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1223,10.0,103,um,micrograph1223.tif,spheroidite,40.0,40.0
+1223,,,,,2,,SE,,344x,1224,50.0,90,um,micrograph1224.tif,,,
+1224,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,147x,1225,200.0,154,um,micrograph1225.tif,,25.0,25.0
+1225,,,,,2,,SE,IN1 Etched Sample,491x,1226,50.0,129,um,micrograph1226.tif,pearlite+spheroidite,44.0,44.0
+1226,,,,,2,,SE,,1964X,1227,10.0,103,um,micrograph1227.tif,pearlite+spheroidite,,
+1227,,,,,2,,SE,,49X,1228,500.0,129,um,micrograph1228.tif,network,,
+1228,,,,,2,,BSE,,,1229,500.0,129,um,micrograph1229.tif,,,
+1229,,,,,2,,SE,,1473X,1230,20.0,154,um,micrograph1230.tif,,,
+1230,,,,,2,,SE,,638x,1231,20.0,67,um,micrograph1231.tif,,,
+1231,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,1232,10.0,103,um,micrograph1232.tif,spheroidite,23.0,23.0
+1232,,,,,2,,SE,SIS_XL.TIF,147x,1233,200.0,154,um,micrograph1233.bmp,indent,47.0,47.0
+1233,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1234,5.0,129,um,micrograph1234.tif,spheroidite,7.0,7.0
+1234,,,,,2,,BSE,SIS_XL.TIF,,1235,500.0,129,um,micrograph1235.tif,crack,47.0,47.0
+1235,,,,,2,,SE,IN3 Unetched,35x,1236,500.0,92,um,micrograph1236.tif,quality,45.0,45.0
+1236,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,1237,50.0,90,um,micrograph1237.tif,,30.0,30.0
+1237,,,,,2,,SE,AC1 + vickers mark,98x,1238,200.0,103,um,micrograph1238.tif,network,3.0,3.0
+1238,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,1964X,1239,10.0,103,um,micrograph1239.tif,spheroidite,38.0,38.0
+1239,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,98x,1240,200.0,103,um,micrograph1240.tif,network,34.0,34.0
+1240,,,,,2,,SE,,4910x,1241,5.0,129,um,micrograph1241.tif,pearlite+spheroidite,,
+1241,,,,,2,,SE,IN1 Etched Sample,49102x,1242,500.0,129,nm,micrograph1242.tif,quality,44.0,44.0
+1242,C,1100.0,1.0,H,2,650-1H,SE,AC1 1100C 1H 650C 1H,491x,1243,50.0,129,um,micrograph1243.tif,pearlite+spheroidite,5.0,5.0
+1243,,,,,2,,SE,SIS_XL.TIF,4910X,1244,5.0,129,um,micrograph1244.tif,,47.0,47.0
+1244,,,,,2,,SE,,246x,1245,100.0,129,um,micrograph1245.tif,,,
+1245,,,,,2,,SE,AC1 + vickers mark,246x,1246,100.0,129,um,micrograph1246.tif,,3.0,3.0
+1246,,,,,2,,SE,IN1 Etched Sample,786x,1247,20.0,83,um,micrograph1247.tif,pearlite+spheroidite,44.0,44.0
+1247,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1248,5.0,129,um,micrograph1248.tif,spheroidite,7.0,7.0
+1248,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,1964X,1249,10.0,103,um,micrograph1249.tif,spheroidite,29.0,29.0
+1249,,,,,2,,SE,ET Gyro,3437X,1250,5.0,90,um,micrograph1250.tif,quality,42.0,42.0
+1250,,,,,2,,SE,AC1 + vickers mark,638x,1251,20.0,67,um,micrograph1251.tif,indent,3.0,3.0
+1251,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,3437X,1252,5.0,90,um,micrograph1252.tif,spheroidite+widmanstatten,34.0,34.0
+1252,,,,,2,,SE,,491x,1253,50.0,129,um,micrograph1253.tif,hole,,
+1253,,,,,2,,SE,,49X,1254,500.0,129,um,micrograph1254.tif,network,,
+1254,,,,,2,,SE,,1473X,1255,20.0,154,um,micrograph1255.tif,pearlite+widmanstatten,,
+1255,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1256,10.0,103,um,micrograph1256.tif,spheroidite,33.0,33.0
+1256,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1178X,1257,20.0,124,um,micrograph1257.tif,spheroidite,21.0,21.0
+1257,,,,,2,,SE,,982x,1258,20.0,103,um,micrograph1258.tif,,,
+1258,,,,,2,,SE,,49X,1259,500.0,129,um,micrograph1259.tif,network,,
+1259,,,,,2,,SE,AC1 + vickers mark,11785x,1260,2.0,124,um,micrograph1260.tif,pearlite,3.0,3.0
+1260,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,1261,20.0,103,um,micrograph1261.tif,spheroidite+widmanstatten,20.0,20.0
+1261,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,,1262,10.0,129,um,micrograph1262.tif,spheroidite,4.0,4.0
+1262,,,,,2,,SE,ET Gyro,982x,1263,20.0,103,um,micrograph1263.tif,quality,42.0,42.0
+1263,,,,,2,,SE,IN3 Unetched,98X,1264,200.0,103,um,micrograph1264.tif,quality,45.0,45.0
+1264,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,1265,5.0,129,um,micrograph1265.tif,spheroidite,2.0,2.0
+1265,C,800.0,90.0,M,2,Q,SE,AC1 800C 90M Q,246x,1266,100.0,129,um,micrograph1266.tif,network,12.0,12.0
+1266,,,,,2,,BSE,,,1267,10.0,129,um,micrograph1267.tif,pearlite+widmanstatten,,
+1267,,,,,2,,SE,,1178X,1268,20.0,124,um,micrograph1268.tif,pearlite+spheroidite,,
+1268,,,,,2,,BSE,,,1269,500.0,129,um,micrograph1269.tif,,,
+1269,,,,,2,,BSE,SIS_XL.TIF,98x,1270,200.0,103,um,micrograph1270.bmp,indent,47.0,47.0
+1270,,,,,2,,SE,,,1271,10.0,129,um,micrograph1271.tif,pearlite+spheroidite,,
+1271,C,800.0,3.0,H,2,Q,BSE,AC1 800C 3H Q,98x,1272,200.0,103,um,micrograph1272.tif,network,7.0,7.0
+1272,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,786x,1273,20.0,83,um,micrograph1273.tif,spheroidite,33.0,33.0
+1273,,,,,2,,SE,,49X,1274,500.0,129,um,micrograph1274.tif,network,,
+1274,,,,,2,,SE,SIS_XL.TIF,,1275,10.0,129,um,micrograph1275.tif,hole,47.0,47.0
+1275,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,246x,1276,100.0,129,um,micrograph1276.tif,,33.0,33.0
+1276,,,,,2,,BSE,SIS_XL.TIF,98x,1277,200.0,103,um,micrograph1277.tif,,47.0,47.0
+1277,,,,,2,,SE,IN3 Unetched,36x,1278,500.0,95,um,micrograph1278.tif,crack,45.0,45.0
+1278,,,,,2,,SE,,9820X,1279,2.0,103,um,micrograph1279.tif,pearlite,,
+1279,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,1280,20.0,103,um,micrograph1280.tif,spheroidite,32.0,32.0
+1280,,,,,2,,BSE,AC1 IS1010H 35X etched,786x,1281,20.0,83,um,micrograph1281.tif,martensite,41.0,41.0
+1281,,,,,2,,SE,SIS_XL.TIF,98X,1282,200.0,103,um,micrograph1282.bmp,indent,47.0,47.0
+1282,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1283,200.0,103,um,micrograph1283.tif,network,37.0,37.0
+1283,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1284,20.0,103,um,micrograph1284.tif,spheroidite,36.0,36.0
+1284,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,982x,1285,20.0,103,um,micrograph1285.tif,spheroidite,17.0,17.0
+1285,,,,,2,,BSE,,,1286,500.0,129,um,micrograph1286.tif,sample,,
+1286,,,,,2,,SE,,982x,1287,20.0,103,um,micrograph1287.tif,pearlite+widmanstatten,,
+1287,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,786x,1288,20.0,83,um,micrograph1288.tif,spheroidite,24.0,24.0
+1288,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1289,10.0,103,um,micrograph1289.tif,spheroidite,40.0,40.0
+1289,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,786x,1290,20.0,83,um,micrograph1290.tif,,24.0,24.0
+1290,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98x,1291,200.0,103,um,micrograph1291.tif,network,33.0,33.0
+1291,,,,,2,,SE,SIS_XL.TIF,98x,1292,200.0,103,um,micrograph1292.bmp,indent,47.0,47.0
+1292,,,,,2,,SE,IN1 Etched Sample,11785x,1293,2.0,124,um,micrograph1293.tif,quality,44.0,44.0
+1293,,,,,2,,SE,SIS_XL.TIF,3437x,1294,5.0,90,um,micrograph1294.tif,pearlite,47.0,47.0
+1294,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1295,10.0,103,um,micrograph1295.png,spheroidite,36.0,36.0
+1295,,,,,2,,SE,,14731x,1296,2.0,154,um,micrograph1296.tif,hole,,
+1296,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,62x,1297,500.0,161,um,micrograph1297.tif,quality,43.0,43.0
+1297,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1178X,1298,20.0,124,um,micrograph1298.tif,spheroidite+widmanstatten,34.0,34.0
+1298,,,,,2,,SE,IN3 Unetched,35x,1299,500.0,92,um,micrograph1299.tif,sample,45.0,45.0
+1299,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,7856X,1300,2.0,83,um,micrograph1300.tif,pearlite,8.0,8.0
+1300,,,,,2,,SE,IN3 Unetched,,1301,2.0,103,um,micrograph1301.tif,quality,45.0,45.0
+1301,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98X,1302,200.0,103,um,micrograph1302.tif,network,35.0,35.0
+1302,,,,,2,,SE,,982x,1303,20.0,103,um,micrograph1303.tif,pearlite+spheroidite,,
+1303,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1178X,1304,20.0,124,um,micrograph1304.tif,spheroidite,24.0,24.0
+1304,,,,,2,,SE,ET Gyro,,1305,500.0,129,um,micrograph1305.tif,network,42.0,42.0
+1305,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,1306,10.0,103,um,micrograph1306.tif,spheroidite,21.0,21.0
+1306,,,,,2,,SE,IN3 Unetched,982x,1307,20.0,103,um,micrograph1307.tif,crack,45.0,45.0
+1307,,,,,2,,SE,,491x,1308,50.0,129,um,micrograph1308.tif,hole,,
+1308,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,98X,1309,200.0,103,um,micrograph1309.png,network,39.0,39.0
+1309,,,,,2,,BSE,Midrex DRI,98x,1310,200.0,103,um,micrograph1310.tif,sample,46.0,46.0
+1310,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,491x,1311,50.0,129,um,micrograph1311.tif,spheroidite+widmanstatten,32.0,32.0
+1311,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,1312,5.0,129,um,micrograph1312.tif,crack,38.0,38.0
+1312,,,,,2,,SE,,4910X,1313,5.0,129,um,micrograph1313.tif,quality,,
+1313,,,,,2,,SE,IN3 Unetched,98X,1314,200.0,103,um,micrograph1314.tif,crack,45.0,45.0
+1314,,,,,2,,BSE,SIS_XL.TIF,246x,1315,100.0,129,um,micrograph1315.bmp,indent,47.0,47.0
+1315,,,,,2,,SE,SIS_XL.TIF,491x,1316,50.0,129,um,micrograph1316.tif,martensite,47.0,47.0
+1316,,,,,2,,SE,,63833X,1317,200.0,67,nm,micrograph1317.tif,quality,,
+1317,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,1318,5.0,129,um,micrograph1318.tif,spheroidite,2.0,2.0
+1318,,,,,2,,BSE,,4910X,1319,5.0,129,um,micrograph1319.tif,quality,,
+1319,,,,,2,,,,786x,1320,20.0,83,um,micrograph1320.tif,,,
+1320,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,98x,1321,200.0,103,um,micrograph1321.tif,network,24.0,24.0
+1321,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,1322,10.0,103,um,micrograph1322.tif,spheroidite,6.0,6.0
+1322,,,,,2,,SE,,49X,1323,500.0,129,um,micrograph1323.tif,,,
+1323,,,,,2,,SE,SIS_XL.TIF,32X,1324,500.0,85,um,micrograph1324.tif,network,47.0,47.0
+1324,,,,,2,,BSE,,4910x,1325,5.0,129,um,micrograph1325.tif,,,
+1325,,,,,2,,BSE,SIS_XL.TIF,,1326,2.0,103,um,micrograph1326.tif,pearlite,47.0,47.0
+1326,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,3437X,1327,5.0,90,um,micrograph1327.tif,spheroidite,26.0,26.0
+1327,,,,,2,,SE,,147x,1328,200.0,154,um,micrograph1328.tif,,,
+1328,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,1329,10.0,103,um,micrograph1329.tif,spheroidite,2.0,2.0
+1329,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1473X,1330,20.0,154,um,micrograph1330.tif,spheroidite,32.0,32.0
+1330,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1473X,1331,20.0,154,um,micrograph1331.tif,spheroidite+widmanstatten,39.0,39.0
+1331,,,,,2,,SE,IN1 Etched Sample,,1332,2.0,103,um,micrograph1332.tif,pearlite,44.0,44.0
+1332,,,,,2,,SE,SIS_XL.TIF,6383X,1333,2.0,67,um,micrograph1333.tif,pearlite,47.0,47.0
+1333,C,970.0,24.0,H,2,FC,,AC1 970C 24H FC,18X,1334,1.0,93,mm,micrograph1334.tif,sample,30.0,30.0
+1334,,,,,2,,BSE,,35x,1335,500.0,92,um,micrograph1335.tif,crack,,
+1335,,,,,2,,SE,,1964X,1336,10.0,103,um,micrograph1336.tif,hole,,
+1336,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,4910X,1337,5.0,129,um,micrograph1337.tif,spheroidite,18.0,18.0
+1337,,,,,2,,SE,SIS_XL.TIF,9820X,1338,2.0,103,um,micrograph1338.tif,pearlite,47.0,47.0
+1338,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,,1339,2.0,67,um,micrograph1339.tif,spheroidite,14.0,14.0
+1339,,,,,2,,SE,,24551X,1340,1.0,129,um,micrograph1340.tif,quality,,
+1340,,,,,2,,BSE,,491x,1341,50.0,129,um,micrograph1341.tif,quality,,
+1341,,,,,2,,BSE,Midrex DRI,98x,1342,200.0,103,um,micrograph1342.tif,sample,46.0,46.0
+1342,,,,,2,,SE,Gaunt - Utah 1.5 yr explant M,3437X,1343,5.0,90,um,micrograph1343.tif,quality,43.0,43.0
+1343,C,800.0,3.0,H,2,Q,BSE,AC1 800C 3H Q,98X,1344,200.0,103,um,micrograph1344.tif,network,7.0,7.0
+1344,,,,,2,,SE,SIS_XL.TIF,,1345,100.0,103,um,micrograph1345.tif,,47.0,47.0
+1345,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,1346,5.0,129,um,micrograph1346.tif,crack,38.0,38.0
+1346,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,98x,1347,200.0,103,um,micrograph1347.tif,network,34.0,34.0
+1347,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,982x,1348,20.0,103,um,micrograph1348.tif,spheroidite,21.0,21.0
+1348,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1349,10.0,103,um,micrograph1349.tif,spheroidite,40.0,40.0
+1349,,,,,2,,BSE,ET Gyro,94x,1350,200.0,99,um,micrograph1350.tif,quality,42.0,42.0
+1350,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98x,1351,200.0,103,um,micrograph1351.tif,network,32.0,32.0
+1351,,,,,2,,BSE,SIS_XL.TIF,246x,1352,100.0,129,um,micrograph1352.bmp,indent,47.0,47.0
+1352,,,,,2,,SE,,11785x,1353,2.0,124,um,micrograph1353.tif,quality,,
+1353,,,,,2,,SE,,491x,1354,50.0,129,um,micrograph1354.tif,,,
+1354,,,,,2,,BSE,SIS_XL.TIF,,1355,10.0,129,um,micrograph1355.tif,hole,47.0,47.0
+1355,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,1964X,1356,10.0,103,um,micrograph1356.tif,spheroidite,16.0,16.0
+1356,,,,,2,,SE,,982x,1357,20.0,103,um,micrograph1357.tif,pearlite+spheroidite,,
+1357,,,,,2,,SE,IN1 Etched Sample,,1358,2.0,103,um,micrograph1358.tif,pearlite,44.0,44.0
+1358,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,982x,1359,20.0,103,um,micrograph1359.tif,spheroidite,13.0,13.0
+1359,,,,,2,,BSE,Midrex DRI,98x,1360,200.0,103,um,micrograph1360.tif,sample,46.0,46.0
+1360,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,4910X,1361,5.0,129,um,micrograph1361.tif,spheroidite,26.0,26.0
+1361,,,,,2,,BSE,SIS_XL.TIF,1473X,1362,20.0,154,um,micrograph1362.bmp,crack,47.0,47.0
+1362,,,,,2,,SE,IN3 Unetched,246x,1363,100.0,129,um,micrograph1363.tif,hole,45.0,45.0
+1363,,,,,2,,SE,,49102x,1364,500.0,129,nm,micrograph1364.tif,pearlite,,
+1364,,,,,2,,BSE,SIS_XL.TIF,246x,1365,100.0,129,um,micrograph1365.bmp,indent,47.0,47.0
+1365,,,,,2,,SE,,982x,1366,20.0,103,um,micrograph1366.tif,pearlite+spheroidite,,
+1366,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,1964X,1367,10.0,103,um,micrograph1367.tif,spheroidite+widmanstatten,34.0,34.0
+1367,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,1964X,1368,10.0,103,um,micrograph1368.tif,spheroidite,28.0,28.0
+1368,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,1369,50.0,90,um,micrograph1369.tif,sample,30.0,30.0
+1369,,,,,2,,SE,SIS_XL.TIF,982x,1370,20.0,103,um,micrograph1370.tif,pearlite+widmanstatten,47.0,47.0
+1370,,,,,2,,SE,ET Gyro,,1371,500.0,128,um,micrograph1371.tif,network,42.0,42.0
+1371,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,1372,10.0,103,um,micrograph1372.tif,spheroidite,2.0,2.0
+1372,,,,,2,,BSE,SIS_XL.TIF,98x,1373,200.0,103,um,micrograph1373.bmp,indent,47.0,47.0
+1373,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,98X,1374,200.0,103,um,micrograph1374.png,network,39.0,39.0
+1374,,,,,2,,SE,,4910X,1375,5.0,129,um,micrograph1375.tif,quality,,
+1375,,,,,2,,SE,,49102x,1376,500.0,129,nm,micrograph1376.tif,pearlite,,
+1376,,,,,2,,SE,SIS_XL.TIF,246x,1377,100.0,129,um,micrograph1377.tif,sample,47.0,47.0
+1377,,,,,2,,SE,,3437x,1378,5.0,90,um,micrograph1378.tif,pearlite,,
+1378,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1379,20.0,103,um,micrograph1379.tif,spheroidite,25.0,25.0
+1379,,,,,2,,SE,IN1 Etched Sample,14731x,1380,2.0,154,um,micrograph1380.tif,hole,44.0,44.0
+1380,,,,,2,,BSE,SIS_XL.TIF,3437x,1381,5.0,90,um,micrograph1381.tif,,47.0,47.0
+1381,,,,,2,,BSE,SIS_XL.TIF,98x,1382,200.0,103,um,micrograph1382.bmp,indent,47.0,47.0
+1382,,,,,2,,SE,IN3 Unetched,982x,1383,20.0,103,um,micrograph1383.tif,crack,45.0,45.0
+1383,,,,,2,,SE,SIS_XL.TIF,34372X,1384,500.0,90,nm,micrograph1384.tif,pearlite,47.0,47.0
+1384,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,1385,2.0,83,um,micrograph1385.tif,spheroidite,33.0,33.0
+1385,,,,,2,,SE,SIS_XL.TIF,246x,1386,100.0,129,um,micrograph1386.bmp,indent,47.0,47.0
+1386,,,,,2,,SE,SIS_XL.TIF,4910X,1387,5.0,129,um,micrograph1387.tif,,47.0,47.0
+1387,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,,1388,2.0,103,um,micrograph1388.tif,spheroidite,18.0,18.0
+1388,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1389,10.0,103,um,micrograph1389.png,spheroidite,40.0,40.0
+1389,,,,,2,,SE,,3437x,1390,5.0,90,um,micrograph1390.tif,pearlite+spheroidite,,
+1390,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,1391,10.0,103,um,micrograph1391.tif,spheroidite,13.0,13.0
+1391,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1392,20.0,103,um,micrograph1392.tif,spheroidite,36.0,36.0
+1392,,,,,2,,SE,SIS_XL.TIF,3437x,1393,5.0,90,um,micrograph1393.tif,pearlite,47.0,47.0
+1393,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1394,200.0,103,um,micrograph1394.tif,network,37.0,37.0
+1394,,,,,2,,SE,,786x,1395,20.0,83,um,micrograph1395.tif,pearlite+widmanstatten,,
+1395,,,,,2,,BSE,SIS_XL.TIF,1178X,1396,20.0,124,um,micrograph1396.tif,martensite,47.0,47.0
+1396,,,,,2,,SE,SIS_XL.TIF,34372X,1397,500.0,90,nm,micrograph1397.tif,pearlite,47.0,47.0
+1397,,,,,2,,SE,,982x,1398,20.0,103,um,micrograph1398.tif,pearlite+spheroidite,,
+1398,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98X,1399,200.0,103,um,micrograph1399.tif,network,31.0,31.0
+1399,,,,,2,,SE,AC1 + vickers mark,2455X,1400,10.0,129,um,micrograph1400.tif,pearlite,3.0,3.0
+1400,,,,,2,,SE,AC1 + vickers mark,6383X,1401,2.0,67,um,micrograph1401.tif,sample,3.0,3.0
+1401,,,,,2,,SE,SIS_XL.TIF,1964X,1402,10.0,103,um,micrograph1402.tif,,47.0,47.0
+1402,,,,,2,,BSE,SIS_XL.TIF,491x,1403,50.0,129,um,micrograph1403.tif,crack,47.0,47.0
+1403,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,1404,10.0,103,um,micrograph1404.tif,spheroidite,13.0,13.0
+1404,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,,1405,100.0,103,um,micrograph1405.tif,network,11.0,11.0
+1405,,,,,2,,SE,SIS_XL.TIF,24551X,1406,1.0,129,um,micrograph1406.tif,pearlite,47.0,47.0
+1406,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,1407,5.0,129,um,micrograph1407.tif,spheroidite,32.0,32.0
+1407,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,98x,1408,200.0,103,um,micrograph1408.tif,network,6.0,6.0
+1408,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1409,200.0,103,um,micrograph1409.tif,network,37.0,37.0
+1409,,,,,2,,SE,,,1410,2.0,103,um,micrograph1410.tif,quality,,
+1410,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,982x,1411,20.0,103,um,micrograph1411.tif,spheroidite,13.0,13.0
+1411,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98x,1412,200.0,103,um,micrograph1412.png,network,36.0,36.0
+1412,,,,,2,,SE,SIS_XL.TIF,491x,1413,50.0,129,um,micrograph1413.tif,hole,47.0,47.0
+1413,,,,,2,,SE,,4910X,1414,5.0,129,um,micrograph1414.tif,pearlite+spheroidite,,
+1414,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,1415,10.0,103,um,micrograph1415.tif,spheroidite+widmanstatten,21.0,21.0
+1415,,,,,2,,BSE,,638x,1416,20.0,67,um,micrograph1416.tif,,,
+1416,,,,,2,,SE,,786x,1417,20.0,83,um,micrograph1417.tif,pearlite+widmanstatten,,
+1417,,,,,2,,BSE,,4910X,1418,5.0,129,um,micrograph1418.tif,hole,,
+1418,,,,,2,,SE,,49X,1419,500.0,129,um,micrograph1419.tif,sample,,
+1419,,,,,2,,SE,AC1 + vickers mark,98x,1420,200.0,103,um,micrograph1420.tif,network,3.0,3.0
+1420,,,,,2,,BSE,,982x,1421,20.0,103,um,micrograph1421.tif,quality,,
+1421,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1422,5.0,90,um,micrograph1422.tif,spheroidite,40.0,40.0
+1422,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,982x,1423,20.0,103,um,micrograph1423.tif,spheroidite,13.0,13.0
+1423,,,,,2,,SE,AC1 IS1010H 35X etched,1473X,1424,20.0,154,um,micrograph1424.tif,martensite,41.0,41.0
+1424,C,800.0,8.0,H,2,Q,SE,AC1 800C 8H Q,4910X,1425,5.0,129,um,micrograph1425.tif,,16.0,16.0
+1425,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,1426,20.0,103,um,micrograph1426.tif,spheroidite,20.0,20.0
+1426,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1427,20.0,103,um,micrograph1427.tif,spheroidite,36.0,36.0
+1427,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98X,1428,200.0,103,um,micrograph1428.tif,,25.0,25.0
+1428,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,246x,1429,100.0,129,um,micrograph1429.tif,,24.0,24.0
+1429,,,,,2,,SE,,491x,1430,50.0,129,um,micrograph1430.tif,,,
+1430,,,,,2,,SE,SIS_XL.TIF,491x,1431,50.0,129,um,micrograph1431.tif,spheroidite+widmanstatten,47.0,47.0
+1431,,,,,2,,SE,,3437X,1432,5.0,90,um,micrograph1432.tif,pearlite+spheroidite,,
+1432,,,,,2,,SE,,4910X,1433,5.0,129,um,micrograph1433.tif,pearlite+spheroidite,,
+1433,,,,,2,,SE,SIS_XL.TIF,344x,1434,50.0,90,um,micrograph1434.tif,,47.0,47.0
+1434,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,4910X,1435,5.0,129,um,micrograph1435.tif,spheroidite+widmanstatten,34.0,34.0
+1435,,,,,2,,SE,AC1 + vickers mark,98x,1436,200.0,103,um,micrograph1436.tif,network,3.0,3.0
+1436,,,,,2,,BSE,SIS_XL.TIF,,1437,2.0,103,um,micrograph1437.tif,,47.0,47.0
+1437,,,,,2,,BSE,,1964X,1438,10.0,103,um,micrograph1438.tif,,,
+1438,C,970.0,24.0,H,2,FC,BSE,AC1 970C 24H FC,1473X,1439,20.0,154,um,micrograph1439.tif,sample,30.0,30.0
+1439,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,638x,1440,20.0,67,um,micrograph1440.tif,spheroidite,25.0,25.0
+1440,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,3437X,1441,5.0,90,um,micrograph1441.tif,pearlite+spheroidite,31.0,31.0
+1441,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1442,5.0,129,um,micrograph1442.tif,crack,14.0,14.0
+1442,,,,,2,,BSE,SIS_XL.TIF,98x,1443,200.0,103,um,micrograph1443.tif,crack,47.0,47.0
+1443,,,,,2,,SE,SIS_XL.TIF,98X,1444,200.0,103,um,micrograph1444.tif,network,47.0,47.0
+1444,,,,,2,,BSE,,4910X,1445,5.0,129,um,micrograph1445.tif,hole,,
+1445,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,49X,1446,500.0,129,um,micrograph1446.tif,network,33.0,33.0
+1446,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910X,1447,5.0,129,um,micrograph1447.tif,spheroidite,23.0,23.0
+1447,,,,,2,,SE,,49X,1448,500.0,129,um,micrograph1448.tif,sample,,
+1448,,,,,2,,SE,AC1 IS1010H 35X etched,,1449,10.0,129,um,micrograph1449.tif,martensite,41.0,41.0
+1449,,,,,2,,SE,,11785x,1450,2.0,124,um,micrograph1450.tif,pearlite+spheroidite,,
+1450,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,,1451,200.0,105,um,micrograph1451.tif,network,43.0,43.0
+1451,,,,,2,,SE,SIS_XL.TIF,4910X,1452,5.0,129,um,micrograph1452.tif,pearlite,47.0,47.0
+1452,,,,,2,,SE,IN3 Unetched,4910X,1453,5.0,129,um,micrograph1453.tif,hole,45.0,45.0
+1453,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1454,200.0,103,um,micrograph1454.tif,network,37.0,37.0
+1454,,,,,2,,SE,,3437X,1455,5.0,90,um,micrograph1455.tif,pearlite+spheroidite,,
+1455,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1456,5.0,90,um,micrograph1456.tif,spheroidite,40.0,40.0
+1456,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,491x,1457,50.0,129,um,micrograph1457.tif,spheroidite,29.0,29.0
+1457,,,,,2,,SE,,6383X,1458,2.0,67,um,micrograph1458.tif,pearlite+spheroidite,,
+1458,,,,,2,,BSE,,491x,1459,50.0,129,um,micrograph1459.tif,,,
+1459,,,,,2,,SE,,49X,1460,500.0,129,um,micrograph1460.tif,,,
+1460,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,344x,1461,50.0,90,um,micrograph1461.tif,quality,24.0,24.0
+1461,,,,,2,,BSE,SIS_XL.TIF,,1462,500.0,129,um,micrograph1462.tif,crack,47.0,47.0
+1462,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,344x,1463,50.0,90,um,micrograph1463.tif,,24.0,24.0
+1463,,,,,2,,SE,SIS_XL.TIF,98X,1464,200.0,103,um,micrograph1464.tif,crack,47.0,47.0
+1464,,,,,2,,SE,SIS_XL.TIF,98X,1465,200.0,103,um,micrograph1465.bmp,indent,47.0,47.0
+1465,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1466,10.0,103,um,micrograph1466.tif,spheroidite,36.0,36.0
+1466,,,,,2,,SE,SIS_XL.TIF,63833X,1467,200.0,67,nm,micrograph1467.tif,pearlite,47.0,47.0
+1467,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98x,1468,200.0,103,um,micrograph1468.tif,network,26.0,26.0
+1468,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,982x,1469,20.0,103,um,micrograph1469.tif,spheroidite,21.0,21.0
+1469,,,,,2,,BSE,SIS_XL.TIF,1473X,1470,20.0,154,um,micrograph1470.tif,hole,47.0,47.0
+1470,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,,1471,10.0,129,um,micrograph1471.tif,sample,30.0,30.0
+1471,,,,,2,,SE,IN1 Etched Sample,49102x,1472,500.0,129,nm,micrograph1472.tif,quality,44.0,44.0
+1472,,,,,2,,SE,IN1 Etched Sample,,1473,2.0,103,um,micrograph1473.tif,pearlite,44.0,44.0
+1473,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1474,5.0,90,um,micrograph1474.tif,spheroidite,40.0,40.0
+1474,,,,,2,,BSE,AC1 + vickers mark,,1475,100.0,103,um,micrograph1475.tif,indent,3.0,3.0
+1475,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,35x,1476,500.0,92,um,micrograph1476.tif,sample,30.0,30.0
+1476,,,,,2,,SE,SIS_XL.TIF,491x,1477,50.0,129,um,micrograph1477.bmp,indent,47.0,47.0
+1477,,,,,2,,BSE,,,1478,2.0,103,um,micrograph1478.tif,quality,,
+1478,,,,,2,,SE,ET Gyro,,1479,500.0,129,um,micrograph1479.tif,network,42.0,42.0
+1479,,,,,2,,SE,,4910X,1480,5.0,129,um,micrograph1480.tif,quality,,
+1480,,,,,2,,SE,SIS_XL.TIF,98X,1481,200.0,103,um,micrograph1481.tif,,47.0,47.0
+1481,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,,1482,2.0,103,um,micrograph1482.tif,spheroidite,14.0,14.0
+1482,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,1483,20.0,103,um,micrograph1483.tif,spheroidite,39.0,39.0
+1483,,,,,2,,SE,IN3 Unetched,4910x,1484,5.0,129,um,micrograph1484.tif,crack,45.0,45.0
+1484,,,,,2,,SE,SIS_XL.TIF,98X,1485,200.0,103,um,micrograph1485.tif,network,47.0,47.0
+1485,,,,,2,,SE,,98X,1486,200.0,103,um,micrograph1486.tif,quality,,
+1486,,,,,2,,SE,,49X,1487,500.0,129,um,micrograph1487.tif,network,,
+1487,,,,,2,,BSE,SIS_XL.TIF,1473X,1488,20.0,154,um,micrograph1488.bmp,crack,47.0,47.0
+1488,,,,,2,,BSE,,1964X,1489,10.0,103,um,micrograph1489.tif,pearlite+spheroidite,,
+1489,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,98x,1490,200.0,103,um,micrograph1490.png,network,37.0,37.0
+1490,,,,,2,,SE,SIS_XL.TIF,49X,1491,500.0,129,um,micrograph1491.tif,crack,47.0,47.0
+1491,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,638x,1492,20.0,67,um,micrograph1492.tif,spheroidite+widmanstatten,35.0,35.0
+1492,,,,,2,,BSE,IN3 Unetched,3437x,1493,5.0,90,um,micrograph1493.tif,crack,45.0,45.0
+1493,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,246x,1494,100.0,129,um,micrograph1494.tif,sample,31.0,31.0
+1494,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,,1495,100.0,103,um,micrograph1495.tif,sample,31.0,31.0
+1495,,,,,2,,BSE,Midrex DRI,98x,1496,200.0,103,um,micrograph1496.tif,sample,46.0,46.0
+1496,,,,,2,,BSE,,3437x,1497,5.0,90,um,micrograph1497.tif,pearlite,,
+1497,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,,1498,100.0,103,um,micrograph1498.tif,sample,35.0,35.0
+1498,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,6383X,1499,2.0,67,um,micrograph1499.tif,quality,35.0,35.0
+1499,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,7856X,1500,2.0,83,um,micrograph1500.tif,spheroidite+widmanstatten,34.0,34.0
+1500,,,,,2,,SE,ET Gyro,,1501,2.0,103,um,micrograph1501.tif,pearlite,42.0,42.0
+1501,,,,,2,,SE,,3437x,1502,5.0,90,um,micrograph1502.tif,pearlite+spheroidite,,
+1502,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,,1503,2.0,103,um,micrograph1503.tif,pearlite+spheroidite,35.0,35.0
+1503,,,,,2,,SE,,49X,1504,500.0,129,um,micrograph1504.tif,network,,
+1504,,,,,2,,SE,IN3 Unetched,638x,1505,20.0,67,um,micrograph1505.tif,crack,45.0,45.0
+1505,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1506,10.0,103,um,micrograph1506.tif,spheroidite,25.0,25.0
+1506,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910X,1507,5.0,129,um,micrograph1507.tif,spheroidite,23.0,23.0
+1507,,,,,2,,SE,,49X,1508,500.0,129,um,micrograph1508.tif,sample,,
+1508,,,,,2,,BSE,SIS_XL.TIF,4910X,1509,5.0,129,um,micrograph1509.tif,pearlite,47.0,47.0
+1509,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,,1510,100.0,103,um,micrograph1510.tif,network,26.0,26.0
+1510,,,,,2,,BSE,SIS_XL.TIF,491x,1511,50.0,129,um,micrograph1511.tif,crack,47.0,47.0
+1511,,,,,2,,SE,,,1512,100.0,103,um,micrograph1512.tif,,,
+1512,,,,,2,,BSE,,,1513,10.0,129,um,micrograph1513.tif,pearlite+spheroidite,,
+1513,,,,,2,,SE,,19641x,1514,1.0,103,um,micrograph1514.tif,pearlite+spheroidite,,
+1514,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,4910X,1515,5.0,129,um,micrograph1515.tif,spheroidite,6.0,6.0
+1515,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,1516,20.0,103,um,micrograph1516.tif,spheroidite,39.0,39.0
+1516,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1517,5.0,90,um,micrograph1517.tif,spheroidite,33.0,33.0
+1517,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1518,20.0,103,um,micrograph1518.tif,spheroidite,24.0,24.0
+1518,,,,,2,,SE,SIS_XL.TIF,47X,1519,500.0,123,um,micrograph1519.tif,network,47.0,47.0
+1519,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,1964X,1520,10.0,103,um,micrograph1520.tif,spheroidite,20.0,20.0
+1520,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,491x,1521,50.0,129,um,micrograph1521.tif,spheroidite,24.0,24.0
+1521,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,4910X,1522,5.0,129,um,micrograph1522.tif,spheroidite,34.0,34.0
+1522,,,,,2,,SE,IN1 Etched Sample,,1523,10.0,129,um,micrograph1523.tif,,44.0,44.0
+1523,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,982x,1524,20.0,103,um,micrograph1524.tif,spheroidite,14.0,14.0
+1524,,,,,2,,SE,,4910X,1525,5.0,129,um,micrograph1525.tif,pearlite+spheroidite,,
+1525,,,,,2,,SE,,,1526,10.0,129,um,micrograph1526.tif,pearlite+spheroidite,,
+1526,,,,,2,,SE,,982x,1527,20.0,103,um,micrograph1527.tif,pearlite+spheroidite,,
+1527,,,,,2,,SE,SIS_XL.TIF,982x,1528,20.0,103,um,micrograph1528.tif,spheroidite+widmanstatten,47.0,47.0
+1528,,,,,2,,BSE,,,1529,500.0,129,um,micrograph1529.tif,,,
+1529,,,,,2,,BSE,,,1530,500.0,129,um,micrograph1530.tif,,,
+1530,,,,,2,,BSE,AC1 IS1010H 35X etched,1178X,1531,20.0,124,um,micrograph1531.tif,martensite,41.0,41.0
+1531,,,,,2,,SE,,3437X,1532,5.0,90,um,micrograph1532.tif,pearlite+spheroidite,,
+1532,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,147x,1533,200.0,154,um,micrograph1533.tif,sample,31.0,31.0
+1533,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,638x,1534,20.0,67,um,micrograph1534.tif,sample,40.0,40.0
+1534,,,,,2,,SE,,982x,1535,20.0,103,um,micrograph1535.tif,,,
+1535,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,4910X,1536,5.0,129,um,micrograph1536.tif,spheroidite,2.0,2.0
+1536,,,,,2,,SE,ET Gyro,19641x,1537,1.0,103,um,micrograph1537.tif,quality,42.0,42.0
+1537,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,982x,1538,20.0,103,um,micrograph1538.tif,spheroidite,17.0,17.0
+1538,,,,,2,,SE,,49X,1539,500.0,129,um,micrograph1539.tif,network,,
+1539,,,,,2,,SE,,14731x,1540,2.0,154,um,micrograph1540.tif,pearlite,,
+1540,,,,,2,,BSE,SIS_XL.TIF,786x,1541,20.0,83,um,micrograph1541.tif,hole,47.0,47.0
+1541,,,,,2,,SE,,11785x,1542,2.0,124,um,micrograph1542.tif,pearlite,,
+1542,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,19641X,1543,1.0,103,um,micrograph1543.tif,spheroidite,34.0,34.0
+1543,,,,,2,,SE,,3437X,1544,5.0,90,um,micrograph1544.tif,pearlite,,
+1544,,,,,2,,SE,SIS_XL.TIF,4910x,1545,5.0,129,um,micrograph1545.tif,quality,47.0,47.0
+1545,,,,,2,,SE,ET Gyro,46X,1546,500.0,120,um,micrograph1546.tif,quality,42.0,42.0
+1546,,,,,2,,SE,IN3 Unetched,34372X,1547,500.0,90,nm,micrograph1547.tif,quality,45.0,45.0
+1547,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98X,1548,200.0,103,um,micrograph1548.tif,sample,35.0,35.0
+1548,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,3437X,1549,5.0,90,um,micrograph1549.tif,spheroidite+widmanstatten,34.0,34.0
+1549,,,,,2,,SE,,49102x,1550,500.0,129,nm,micrograph1550.tif,quality,,
+1550,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,1178X,1551,20.0,124,um,micrograph1551.tif,spheroidite+widmanstatten,38.0,38.0
+1551,,,,,2,,BSE,AC1 IS1010H 35X etched,98x,1552,200.0,103,um,micrograph1552.tif,martensite,41.0,41.0
+1552,,,,,2,,SE,IN3 Unetched,246x,1553,100.0,129,um,micrograph1553.tif,crack,45.0,45.0
+1553,,,,,2,,SE,ET Gyro,19641x,1554,1.0,103,um,micrograph1554.tif,pearlite,42.0,42.0
+1554,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1473X,1555,20.0,154,um,micrograph1555.tif,spheroidite,26.0,26.0
+1555,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,,1556,10.0,129,um,micrograph1556.tif,spheroidite,32.0,32.0
+1556,,,,,2,,SE,SIS_XL.TIF,982x,1557,20.0,103,um,micrograph1557.tif,,47.0,47.0
+1557,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,98X,1558,200.0,103,um,micrograph1558.tif,network,37.0,37.0
+1558,,,,,2,,BSE,ET Gyro,491x,1559,50.0,129,um,micrograph1559.tif,quality,42.0,42.0
+1559,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,2455X,1560,10.0,129,um,micrograph1560.tif,spheroidite+widmanstatten,34.0,34.0
+1560,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,98X,1561,200.0,103,um,micrograph1561.tif,network,25.0,25.0
+1561,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,4910X,1562,5.0,129,um,micrograph1562.tif,spheroidite,32.0,32.0
+1562,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,3437X,1563,5.0,90,um,micrograph1563.tif,,24.0,24.0
+1563,,,,,2,,SE,SIS_XL.TIF,3437X,1564,5.0,90,um,micrograph1564.tif,,47.0,47.0
+1564,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,79x,1565,200.0,83,um,micrograph1565.tif,network,29.0,29.0
+1565,,,,,2,,BSE,SIS_XL.TIF,98x,1566,200.0,103,um,micrograph1566.bmp,indent,47.0,47.0
+1566,,,,,2,,BSE,,491x,1567,50.0,129,um,micrograph1567.tif,,,
+1567,,,,,2,,BSE,,,1568,2.0,103,um,micrograph1568.tif,crack,,
+1568,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1569,10.0,103,um,micrograph1569.png,spheroidite,36.0,36.0
+1569,,,,,2,,BSE,,1178X,1570,20.0,124,um,micrograph1570.tif,pearlite+spheroidite,,
+1570,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1964X,1571,10.0,103,um,micrograph1571.png,spheroidite,36.0,36.0
+1571,C,900.0,3.0,H,2,Q,SE,AC1 900C 3H Q,1964X,1572,10.0,103,um,micrograph1572.tif,spheroidite,21.0,21.0
+1572,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,638x,1573,20.0,67,um,micrograph1573.tif,spheroidite+widmanstatten,34.0,34.0
+1573,,,,,2,,SE,,982x,1574,20.0,103,um,micrograph1574.tif,pearlite+spheroidite,,
+1574,,,,,2,,SE,,49X,1575,500.0,129,um,micrograph1575.tif,network,,
+1575,,,,,2,,SE,SIS_XL.TIF,,1576,500.0,129,um,micrograph1576.tif,crack,47.0,47.0
+1576,,,,,2,,SE,SIS_XL.TIF,,1577,100.0,103,um,micrograph1577.tif,crack,47.0,47.0
+1577,,,,,2,,SE,,344x,1578,50.0,90,um,micrograph1578.tif,,,
+1578,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,1964X,1579,10.0,103,um,micrograph1579.tif,spheroidite,23.0,23.0
+1579,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,1580,10.0,103,um,micrograph1580.tif,spheroidite,18.0,18.0
+1580,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,982x,1581,20.0,103,um,micrograph1581.tif,spheroidite,32.0,32.0
+1581,,,,,2,,SE,,786x,1582,20.0,83,um,micrograph1582.tif,pearlite+spheroidite,,
+1582,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98X,1583,200.0,103,um,micrograph1583.tif,network,31.0,31.0
+1583,,,,,2,,SE,IN1 Etched Sample,,1584,500.0,129,um,micrograph1584.tif,network,44.0,44.0
+1584,,,,,2,,BSE,SIS_XL.TIF,246x,1585,100.0,129,um,micrograph1585.bmp,indent,47.0,47.0
+1585,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,982x,1586,20.0,103,um,micrograph1586.tif,spheroidite+widmanstatten,38.0,38.0
+1586,,,,,2,,BSE,,,1587,2.0,83,um,micrograph1587.tif,pearlite,,
+1587,,,,,2,,SE,ET Gyro,19641x,1588,1.0,103,um,micrograph1588.tif,pearlite,42.0,42.0
+1588,,,,,2,,SE,SIS_XL.TIF,9820X,1589,2.0,103,um,micrograph1589.tif,pearlite,47.0,47.0
+1589,,,,,2,,SE,,246x,1590,100.0,129,um,micrograph1590.tif,,,
+1590,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,344x,1591,50.0,90,um,micrograph1591.tif,sample,30.0,30.0
+1591,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,344x,1592,50.0,90,um,micrograph1592.tif,,31.0,31.0
+1592,,,,,2,,SE,,49X,1593,500.0,129,um,micrograph1593.tif,network,,
+1593,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,98x,1594,200.0,103,um,micrograph1594.tif,,40.0,40.0
+1594,,,,,2,,SE,,4910x,1595,5.0,129,um,micrograph1595.tif,pearlite+spheroidite,,
+1595,,,,,2,,SE,IN1 Etched Sample,147307x,1596,200.0,154,nm,micrograph1596.tif,quality,44.0,44.0
+1596,,,,,2,,SE,ET Gyro,,1597,2.0,103,um,micrograph1597.tif,pearlite,42.0,42.0
+1597,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,491x,1598,50.0,129,um,micrograph1598.tif,,31.0,31.0
+1598,,,,,2,,SE,SIS_XL.TIF,,1599,100.0,103,um,micrograph1599.tif,martensite,47.0,47.0
+1599,,,,,2,,BSE,SIS_XL.TIF,982x,1600,20.0,103,um,micrograph1600.tif,,47.0,47.0
+1600,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,491x,1601,50.0,129,um,micrograph1601.tif,spheroidite+widmanstatten,26.0,26.0
+1601,,,,,2,,SE,SIS_XL.TIF,3437X,1602,5.0,90,um,micrograph1602.tif,crack,47.0,47.0
+1602,C,970.0,3.0,H,2,Q,BSE,AC1 970C 3H Q,98x,1603,200.0,103,um,micrograph1603.tif,network,37.0,37.0
+1603,,,,,2,,BSE,SIS_XL.TIF,98x,1604,200.0,103,um,micrograph1604.bmp,indent,47.0,47.0
+1604,C,800.0,5.0,M,2,Q,SE,AC1 800C 5M Q,7856X,1605,2.0,83,um,micrograph1605.tif,pearlite,8.0,8.0
+1605,C,970.0,90.0,M,2,Q,BSE,AC1 970C 90M Q,638x,1606,20.0,67,um,micrograph1606.tif,sample,40.0,40.0
+1606,C,970.0,90.0,M,2,AR,SE,AC1 970C 90M AR,1964X,1607,10.0,103,um,micrograph1607.tif,spheroidite,29.0,29.0
+1607,C,900.0,24.0,H,2,Q,SE,AC1 900C 24H Q,982x,1608,20.0,103,um,micrograph1608.tif,spheroidite,20.0,20.0
+1608,,,,,2,,SE,IN3 Unetched,3437x,1609,5.0,90,um,micrograph1609.tif,crack,45.0,45.0
+1609,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,638x,1610,20.0,67,um,micrograph1610.tif,spheroidite+widmanstatten,26.0,26.0
+1610,C,970.0,3.0,H,2,Q,SE,AC1 970C 3H Q,1964X,1611,10.0,103,um,micrograph1611.tif,spheroidite,37.0,37.0
+1611,,,,,2,,BSE,,786x,1612,20.0,83,um,micrograph1612.tif,crack,,
+1612,C,1000.0,5.0,M,2,Q,SE,AC1 1000C 5M Q,1964X,1613,10.0,103,um,micrograph1613.tif,spheroidite,4.0,4.0
+1613,,,,,2,,SE,,491x,1614,50.0,129,um,micrograph1614.tif,,,
+1614,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,,1615,200.0,105,um,micrograph1615.tif,network,43.0,43.0
+1615,,,,,2,,BSE,SIS_XL.TIF,,1616,500.0,129,um,micrograph1616.tif,crack,47.0,47.0
+1616,,,,,2,,BSE,,3437x,1617,5.0,90,um,micrograph1617.tif,,,
+1617,,,,,2,,SE,,491x,1618,50.0,129,um,micrograph1618.tif,,,
+1618,,,,,2,,SE,SIS_XL.TIF,982x,1619,20.0,103,um,micrograph1619.tif,,47.0,47.0
+1619,,,,,2,,SE,IN3 Unetched,1964X,1620,10.0,103,um,micrograph1620.tif,hole,45.0,45.0
+1620,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,35x,1621,500.0,92,um,micrograph1621.tif,sample,30.0,30.0
+1621,,,,,2,,SE,,2455X,1622,10.0,129,um,micrograph1622.tif,quality,,
+1622,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1623,5.0,129,um,micrograph1623.tif,spheroidite,7.0,7.0
+1623,C,800.0,3.0,H,2,Q,SE,AC1 800C 3H Q,4910X,1624,5.0,129,um,micrograph1624.tif,spheroidite,14.0,14.0
+1624,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,62x,1625,500.0,161,um,micrograph1625.tif,network,43.0,43.0
+1625,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,4910X,1626,5.0,129,um,micrograph1626.tif,spheroidite,18.0,18.0
+1626,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,98X,1627,200.0,103,um,micrograph1627.tif,network,31.0,31.0
+1627,,,,,2,,SE,,49X,1628,500.0,129,um,micrograph1628.tif,hole,,
+1628,,,,,2,,BSE,SIS_XL.TIF,491x,1629,50.0,129,um,micrograph1629.bmp,indent,47.0,47.0
+1629,C,970.0,24.0,H,2,Q,BSE,AC1 970C 24H Q,98x,1630,200.0,103,um,micrograph1630.tif,,24.0,24.0
+1630,,,,,2,,SE,SIS_XL.TIF,98x,1631,200.0,103,um,micrograph1631.bmp,indent,47.0,47.0
+1631,,,,,2,,SE,IN3 Unetched,35x,1632,500.0,92,um,micrograph1632.tif,quality,45.0,45.0
+1632,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,1633,10.0,103,um,micrograph1633.png,spheroidite,37.0,37.0
+1633,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,1634,10.0,103,um,micrograph1634.tif,spheroidite,17.0,17.0
+1634,,,,,2,,BSE,,982x,1635,20.0,103,um,micrograph1635.tif,pearlite+spheroidite,,
+1635,,,,,2,,SE,SIS_XL.TIF,35x,1636,500.0,92,um,micrograph1636.bmp,indent,47.0,47.0
+1636,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1637,20.0,103,um,micrograph1637.tif,spheroidite,36.0,36.0
+1637,,,,,2,,SE,SIS_XL.TIF,24551X,1638,1.0,129,um,micrograph1638.tif,pearlite,47.0,47.0
+1638,,,,,2,,SE,,4910x,1639,5.0,129,um,micrograph1639.tif,pearlite,,
+1639,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,1473X,1640,20.0,154,um,micrograph1640.tif,spheroidite,31.0,31.0
+1640,,,,,2,,BSE,SIS_XL.TIF,491x,1641,50.0,129,um,micrograph1641.bmp,indent,47.0,47.0
+1641,,,,,2,,SE,,63833X,1642,200.0,67,nm,micrograph1642.tif,pearlite,,
+1642,,,,,2,,SE,,4910X,1643,5.0,129,um,micrograph1643.tif,pearlite+spheroidite,,
+1643,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,1964X,1644,10.0,103,um,micrograph1644.tif,pearlite+spheroidite,31.0,31.0
+1644,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,1964X,1645,10.0,103,um,micrograph1645.tif,spheroidite,6.0,6.0
+1645,,,,,2,,SE,,19641x,1646,1.0,103,um,micrograph1646.tif,quality,,
+1646,,,,,2,,BSE,SIS_XL.TIF,491x,1647,50.0,129,um,micrograph1647.bmp,indent,47.0,47.0
+1647,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,982x,1648,20.0,103,um,micrograph1648.tif,spheroidite,13.0,13.0
+1648,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,246x,1649,100.0,129,um,micrograph1649.tif,sample,30.0,30.0
+1649,,,,,2,,BSE,SIS_XL.TIF,982x,1650,20.0,103,um,micrograph1650.tif,crack,47.0,47.0
+1650,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,982x,1651,20.0,103,um,micrograph1651.tif,spheroidite,26.0,26.0
+1651,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,3437X,1652,5.0,90,um,micrograph1652.tif,sample,30.0,30.0
+1652,,,,,2,,SE,,786x,1653,20.0,83,um,micrograph1653.tif,,,
+1653,,,,,2,,SE,IN1 Etched Sample,4910x,1654,5.0,129,um,micrograph1654.tif,pearlite,44.0,44.0
+1654,,,,,2,,SE,ET Gyro,,1655,2.0,103,um,micrograph1655.tif,pearlite,42.0,42.0
+1655,,,,,2,,SE,,4910x,1656,5.0,129,um,micrograph1656.tif,pearlite+spheroidite,,
+1656,,,,,2,,BSE,,,1657,10.0,129,um,micrograph1657.tif,pearlite+spheroidite,,
+1657,,,,,2,,BSE,,1178X,1658,20.0,124,um,micrograph1658.tif,,,
+1658,,,,,2,,SE,AC1 IS1010H 35X etched,98X,1659,200.0,103,um,micrograph1659.tif,,41.0,41.0
+1659,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,1964X,1660,10.0,103,um,micrograph1660.tif,crack,38.0,38.0
+1660,,,,,2,,BSE,Gaunt - Utah 1.5 yr explant M,,1661,200.0,105,um,micrograph1661.tif,network,43.0,43.0
+1661,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M 65C 4H FC,3437X,1662,5.0,90,um,micrograph1662.tif,pearlite+spheroidite,31.0,31.0
+1662,,,,,2,,SE,SIS_XL.TIF,98X,1663,200.0,103,um,micrograph1663.bmp,indent,47.0,47.0
+1663,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,196x,1664,100.0,103,um,micrograph1664.tif,,34.0,34.0
+1664,,,,,2,,SE,SIS_XL.TIF,982x,1665,20.0,103,um,micrograph1665.tif,,47.0,47.0
+1665,,,,,2,,BSE,SIS_XL.TIF,,1666,500.0,129,um,micrograph1666.tif,network,47.0,47.0
+1666,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,3437X,1667,5.0,90,um,micrograph1667.tif,spheroidite,40.0,40.0
+1667,,,,,2,,SE,,982x,1668,20.0,103,um,micrograph1668.tif,pearlite+spheroidite,,
+1668,,,,,2,,BSE,,491x,1669,50.0,129,um,micrograph1669.tif,hole,,
+1669,,,,,2,,BSE,,,1670,2.0,83,um,micrograph1670.tif,quality,,
+1670,,,,,2,,SE,ET Gyro,19641x,1671,1.0,103,um,micrograph1671.tif,pearlite,42.0,42.0
+1671,C,800.0,90.0,M,2,Q,SE,AC1 800C 900C 970C 90M Q,4910x,1672,5.0,129,um,micrograph1672.tif,spheroidite,11.0,11.0
+1672,C,970.0,24.0,H,2,FC,SE,AC1 970C 24H FC,246x,1673,100.0,129,um,micrograph1673.tif,sample,30.0,30.0
+1673,,,,,2,,SE,,98x,1674,200.0,103,um,micrograph1674.tif,,,
+1674,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,7856X,1675,2.0,83,um,micrograph1675.tif,spheroidite+widmanstatten,34.0,34.0
+1675,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,1676,10.0,103,um,micrograph1676.png,spheroidite,37.0,37.0
+1676,C,970.0,3.0,H,2,Q,,AC1 970C 3H Q,1964X,1677,10.0,103,um,micrograph1677.tif,spheroidite,26.0,26.0
+1677,,,,,2,,SE,,786x,1678,20.0,83,um,micrograph1678.tif,crack,,
+1678,,,,,2,,SE,IN3 Unetched,3437X,1679,5.0,90,um,micrograph1679.tif,quality,45.0,45.0
+1679,,,,,2,,BSE,,1178X,1680,20.0,124,um,micrograph1680.tif,crack,,
+1680,,,,,2,,BSE,,3437x,1681,5.0,90,um,micrograph1681.tif,hole,,
+1681,C,970.0,8.0,H,2,Q,SE,AC1 970C 8H Q,982x,1682,20.0,103,um,micrograph1682.tif,spheroidite,39.0,39.0
+1682,,,,,2,,SE,,49X,1683,500.0,129,um,micrograph1683.tif,network,,
+1683,,,,,2,,SE,,1964X,1684,10.0,103,um,micrograph1684.tif,pearlite+widmanstatten,,
+1684,,,,,2,,SE,IN3 Unetched,19641x,1685,1.0,103,um,micrograph1685.tif,quality,45.0,45.0
+1685,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,4910X,1686,5.0,129,um,micrograph1686.tif,spheroidite,34.0,34.0
+1686,,,,,2,,SE,,3437x,1687,5.0,90,um,micrograph1687.tif,hole,,
+1687,,,,,2,,BSE,SIS_XL.TIF,98x,1688,200.0,103,um,micrograph1688.bmp,indent,47.0,47.0
+1688,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,1689,10.0,103,um,micrograph1689.tif,spheroidite,18.0,18.0
+1689,,,,,2,,SE,IN3 Unetched,98X,1690,200.0,103,um,micrograph1690.tif,quality,45.0,45.0
+1690,,,,,2,,SE,IN1 Etched Sample,982x,1691,20.0,103,um,micrograph1691.tif,,44.0,44.0
+1691,,,,,2,,SE,IN3 Unetched,98x,1692,200.0,103,um,micrograph1692.tif,quality,45.0,45.0
+1692,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,982x,1693,20.0,103,um,micrograph1693.tif,spheroidite,36.0,36.0
+1693,C,970.0,5.0,M,2,Q,SE,AC1 970C 5M Q,4910X,1694,5.0,129,um,micrograph1694.tif,spheroidite,38.0,38.0
+1694,,,,,2,,SE,ET Gyro,94X,1695,200.0,99,um,micrograph1695.tif,quality,42.0,42.0
+1695,,,,,2,,SE,SIS_XL.TIF,,1696,2.0,103,um,micrograph1696.tif,pearlite,47.0,47.0
+1696,,,,,2,,SE,SIS_XL.TIF,246x,1697,100.0,129,um,micrograph1697.tif,martensite,47.0,47.0
+1697,,,,,2,,SE,ET Gyro,19641x,1698,1.0,103,um,micrograph1698.tif,pearlite,42.0,42.0
+1698,,,,,2,,,,,1699,100.0,92,mm,micrograph1699.tif,hole,,
+1699,,,,,2,,SE,SIS_XL.TIF,982x,1700,20.0,103,um,micrograph1700.tif,martensite,47.0,47.0
+1700,,,,,2,,SE,SIS_XL.TIF,14731x,1701,2.0,154,um,micrograph1701.tif,quality,47.0,47.0
+1701,,,,,2,,BSE,SIS_XL.TIF,98X,1702,200.0,103,um,micrograph1702.tif,network,47.0,47.0
+1702,C,900.0,90.0,M,2,Q,SE,AC1 900C 90M Q,4910x,1703,5.0,129,um,micrograph1703.tif,spheroidite,19.0,19.0
+1703,,,,,2,,BSE,,3437x,1704,5.0,90,um,micrograph1704.tif,hole,,
+1704,,,,,2,,SE,SIS_XL.TIF,49X,1705,500.0,129,um,micrograph1705.tif,quality,47.0,47.0
+1705,,,,,2,,SE,,9820X,1706,2.0,103,um,micrograph1706.tif,crack,,
+1706,C,800.0,8.0,H,2,Q,SE,AC 800C 8H Q,1964X,1707,10.0,103,um,micrograph1707.tif,spheroidite,2.0,2.0
+1707,,,,,2,,SE,,49102x,1708,500.0,129,nm,micrograph1708.tif,quality,,
+1708,,,,,2,,SE,SIS_XL.TIF,49X,1709,500.0,129,um,micrograph1709.tif,quality,47.0,47.0
+1709,C,970.0,90.0,M,2,FC,SE,AC1 970C 90M FC,98x,1710,200.0,103,um,micrograph1710.tif,network,35.0,35.0
+1710,,,,,2,,BSE,,246x,1711,100.0,129,um,micrograph1711.tif,,,
+1711,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1473X,1712,20.0,154,um,micrograph1712.tif,spheroidite,24.0,24.0
+1712,,,,,2,,SE,IN3 Unetched,491x,1713,50.0,129,um,micrograph1713.tif,hole,45.0,45.0
+1713,,,,,2,,BSE,,1964X,1714,10.0,103,um,micrograph1714.tif,crack,,
+1714,,,,,2,,SE,,49X,1715,500.0,129,um,micrograph1715.tif,,,
+1715,C,800.0,85.0,H,2,Q,SE,AC1 800C 85H Q,1964X,1716,10.0,103,um,micrograph1716.tif,spheroidite,17.0,17.0
+1716,,,,,2,,SE,IN3 Unetched,4910X,1717,5.0,129,um,micrograph1717.tif,hole,45.0,45.0
+1717,,,,,2,,SE,SIS_XL.TIF,98X,1718,200.0,103,um,micrograph1718.tif,network,47.0,47.0
+1718,,,,,2,,SE,AC1 IS1010H 35X etched,98X,1719,200.0,103,um,micrograph1719.tif,network,41.0,41.0
+1719,C,800.0,24.0,H,2,Q,SE,AC1 800C 24H Q,4910X,1720,5.0,129,um,micrograph1720.tif,spheroidite,6.0,6.0
+1720,,,,,2,,SE,IN1 Etched Sample,,1721,2.0,103,um,micrograph1721.tif,pearlite,44.0,44.0
+1721,C,970.0,24.0,H,2,Q,SE,AC1 970C 24H Q,1473X,1722,20.0,154,um,micrograph1722.tif,spheroidite,24.0,24.0
+1722,,,,,2,,BSE,AC1 IS1010H 35X etched,1964X,1723,10.0,103,um,micrograph1723.tif,martensite,41.0,41.0
+1723,,,,,2,,BSE,SIS_XL.TIF,246x,1724,100.0,129,um,micrograph1724.bmp,indent,47.0,47.0
+1724,,,,,2,,BSE,,,1725,2.0,103,um,micrograph1725.tif,,,
+1725,C,970.0,5.0,M,2,FC,SE,AC1 970 5M FC,3437X,1726,5.0,90,um,micrograph1726.tif,spheroidite+widmanstatten,34.0,34.0
+1726,,,,,2,,SE,SIS_XL.TIF,,1727,500.0,129,um,micrograph1727.tif,crack,47.0,47.0
+1727,,,,,2,,SE,,638x,1728,20.0,67,um,micrograph1728.tif,,,
+1728,,,,,2,,BSE,SIS_XL.TIF,98x,1729,200.0,103,um,micrograph1729.bmp,indent,47.0,47.0
+1729,C,970.0,90.0,M,2,Q,SE,AC1 970C 90M Q,1964X,1730,10.0,103,um,micrograph1730.png,spheroidite,40.0,40.0
+1730,,,,,2,,SE,SIS_XL.TIF,24551X,1731,1.0,129,um,micrograph1731.tif,pearlite,47.0,47.0
+1731,C,700.0,5.0,M,2,Q,SE,AC1 700C 5M Q,,1732,2.0,67,um,micrograph1732.tif,pearlite,9.0,9.0
