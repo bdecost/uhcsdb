@@ -11,7 +11,7 @@ Please cite use of the UHCS microstructure data as:
   author={Hecht, Matthew D. and DeCost, Brian L. and Francis, Toby and Holm, Elizabeth A. and Picard, Yoosuf N. and Webler, Bryan A.},
   howpublished={\url{https://hdl.handle.net/11256/940}}
 }
-```	
+```
 
 The UHCS dataset is documented by a data descriptor published in *Integrating Materials and Manufacturing Innovation* (doi: [10.1007/s40192-017-0097-0](https://dx.doi.org/10.1007/s40192-017-0097-0)).
 You can find our preprint version of the accepted manuscript [here (pdf)](https://holmgroup.github.io/publications/uhcs-data.pdf).
@@ -24,7 +24,7 @@ For work that builds on these data visualization tools, please cite our forthcom
   journal={Accepted for publication in IMMI},
   doi={10.1007/s40192-017-0097-0}
 }
-```	
+```
 
 ## Check out the data
 
@@ -38,7 +38,7 @@ Store microstructure metadata in uhcsdb/microstructures.sqlite
 # get data from NIST for this project
 # http://hdl.handle.net/11256/940
 NIST_DATASET=11256/940
-NIST_DATASET_URL=https://materialsdata.nist.gov/dspace/xmlui/bitstream/handle/${NIST_DATASET}
+NIST_DATASET=$(curl -I http://hdl.handle.net/11256/940 | grep "^Location:" | cut -d' ' -f2)
 
 DATADIR=uhcsdata
 
@@ -66,5 +66,3 @@ Link data files into web app /static
 curl ${NIST_DATASET_URL}/setup.sh -o ${DATADIR}/setup.sh
 bash setup.sh
 ```
-
-
